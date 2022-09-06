@@ -1,0 +1,12 @@
+Add object into menu
+
+menu = NewMenu()
+slider = menu:addSlider()
+text = menu:addText()
+input = menu:addInput()
+
+
+Equalizer settings saving and loader
+Theme color chooser, and theme color creator
+
+Make rendering thing (Using canvas picture saving)
