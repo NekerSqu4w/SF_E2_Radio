@@ -10,7 +10,8 @@
         {"link": "http://radiofg.impek.com/fge","title":"Radio FG"},
         {"link": "http://hhuk.netmindz.net:8000/listen.pls","title":"Hardhouse UK"},
         {"link": "https://stream.realhardstyle.nl","title":"Real Hardstyle"},
-        {"link": "http://trace.dnbradio.com:8000/dnbradio_darkstep.mp3","title":"Lovednb FM"}
+        {"link": "http://trace.dnbradio.com:8000/dnbradio_darkstep.mp3","title":"Lovednb FM"},
+        {"link": "http://s1.onweb.gr:8800/stream?type=http&nocache=299454","title": "StarFM 888"}
     ],
  
     "mp3": [
