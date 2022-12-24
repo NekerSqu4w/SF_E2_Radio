@@ -13,7 +13,7 @@
         {"link": "http://trace.dnbradio.com:8000/dnbradio_darkstep.mp3","title":"Lovednb FM"},
         {"link": "http://s1.onweb.gr:8800/stream?type=http&nocache=299454","title": "StarFM 888"}
     ],
- 
+
     "mp3": [
         {"link": "https://raw.githubusercontent.com/kaisermustard/-SF-E2-MEDIA_Player/master/ressource/mp3/Timmy%20Trumpet%20-%20Oracle.mp3","title": "Timmy Trumpet - Orcale","background": "https://i.imgur.com/NTAArbS.jpg?1"},
         {"link": "https://raw.githubusercontent.com/kaisermustard/-SF-E2-MEDIA_Player/master/ressource/mp3/Timmy%20Trumpet%20-%20Mantra.mp3","title": "Timmy Trumpet - Mantra","background": "https://i.imgur.com/UJmJnLo.jpg?1"},
@@ -73,6 +73,7 @@
         {"link": "https://github.com/NekerSqu4w/SF_E2_Radio/blob/main/music/dont-let-me-go-gon-haziri-remix.mp3?raw=true","title": "KANITA - Don't Let Me Go (Gon Haziri Remix)"},
         {"link": "https://github.com/NekerSqu4w/SF_E2_Radio/blob/main/music/hippie-dreams-movetown-remix.mp3?raw=true","title": "Andrew Spencer - Hippie Dreams (MoveTown Remix)"},
         {"link": "https://github.com/NekerSqu4w/SF_E2_Radio/blob/main/music/dont-be-so-shy.mp3?raw=true","title": "Extreme Mix - Don't Be So Shy"},
-        {"link": "https://github.com/NekerSqu4w/SF_E2_Radio/blob/main/music/andrew-spencer-hippie-dreams-dj-tht-ced-tecknoboy-remix.mp3?raw=true","title": "Andrew Spencer - Hippie Dreams (DJ THT & Ced Tecknoboy Remix)"}
+        {"link": "https://github.com/NekerSqu4w/SF_E2_Radio/blob/main/music/andrew-spencer-hippie-dreams-dj-tht-ced-tecknoboy-remix.mp3?raw=true","title": "Andrew Spencer - Hippie Dreams (DJ THT & Ced Tecknoboy Remix)"},
+        {"link": "https://github.com/NekerSqu4w/SF_E2_Radio/blob/main/music/tom-gregory-forget-somebody-official-lyric-video.mp3?raw=true","title": "Tom Gregory - Forget Somebody"}
     ]
 }
