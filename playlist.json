@@ -4,6 +4,12 @@
         "https://raw.githubusercontent.com/kaisermustard/-SF-E2-MEDIA_Player/master/ressource/texture/synthwave.png"
     ],
 
+    "menu_list": ["radio","mp3"],
+    "menu_name": {
+        "radio": "Online Radio",
+        "mp3": "My Music"
+    },
+
     "radio": [
         {"link": "http://radiomonaco.ice.infomaniak.ch/radiomonaco-128.mp3","title": "Radio Monaco"},
         {"link": "https://play.sas-media.ru/play_256","title": "Noisefm","background": "https://i.imgur.com/kJ8EWiB.png?1"},
