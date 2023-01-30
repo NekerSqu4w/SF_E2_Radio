@@ -1,4 +1,4 @@
-#title #author #song_url #background_url
+##title author song_url background_url#
 Orcale, Timmy Trumpet, https://raw.githubusercontent.com/kaisermustard/-SF-E2-MEDIA_Player/master/ressource/mp3/Timmy%20Trumpet%20-%20Oracle.mp3, https://i.imgur.com/NTAArbS.jpg?1
 Mantra, Timmy Trumpet, https://raw.githubusercontent.com/kaisermustard/-SF-E2-MEDIA_Player/master/ressource/mp3/Timmy%20Trumpet%20-%20Mantra.mp3, https://i.imgur.com/UJmJnLo.jpg?1
 Chapters, , https://raw.githubusercontent.com/kaisermustard/-SF-E2-MEDIA_Player/master/ressource/mp3/Chapters.mp3, https://raw.githubusercontent.com/kaisermustard/-SF-E2-MEDIA_Player/master/ressource/texture/madeon.png
