@@ -13,10 +13,19 @@ function check_version(use_version)
     return false
 end
 
-function load(use_version)
+function get_list(list)
+    http.get("https://github.com/NekerSqu4w/SF_E2_Radio/blob/main/playlist.json?raw=true",function(response)
+        return current_track = json.decode(response)[list]
+    end)
+end
+
+function get_url(use_version,list,id)
     if check_version(use_version) then
-        print("Loading from version: " .. use_version)
+        if use_version == "v1" then
+            return get_list(list)[id]
+        elseif use_version == "v2" then
+        end
     end
 end
 
-return {load=load}
+return {get_url=get_url,get_list=get_list}
