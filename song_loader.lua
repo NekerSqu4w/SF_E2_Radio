@@ -2,6 +2,7 @@
 local default_list_url = "https://github.com/NekerSqu4w/SF_E2_Radio/blob/main/playlist.json?raw=true"
 local last_request = {data={},playlist={}}
 
+-- // this function is unused for the moment
 function check_version(use_version)
     if use_version == "v1" then
         return true
@@ -13,6 +14,7 @@ function check_version(use_version)
     print("It looks like you're using a version that doesn't exist. Be sure to use v1 or v2.")
     return false
 end
+-- //
 
 function is_url(url)
     return (string.sub(url,0,8) == "https://" or string.sub(url,0,7) == "http://")
