@@ -1,5 +1,4 @@
 ##title author link background is_radio
-
 Orcale, Timmy Trumpet, https://raw.githubusercontent.com/kaisermustard/-SF-E2-MEDIA_Player/master/ressource/mp3/Timmy%20Trumpet%20-%20Oracle.mp3, https://i.imgur.com/NTAArbS.jpg?1, false
 Mantra, Timmy Trumpet, https://raw.githubusercontent.com/kaisermustard/-SF-E2-MEDIA_Player/master/ressource/mp3/Timmy%20Trumpet%20-%20Mantra.mp3, https://i.imgur.com/UJmJnLo.jpg?, false
 Chapters, nil, https://raw.githubusercontent.com/kaisermustard/-SF-E2-MEDIA_Player/master/ressource/mp3/Chapters.mp3, https://raw.githubusercontent.com/kaisermustard/-SF-E2-MEDIA_Player/master/ressource/texture/madeon.png, false
