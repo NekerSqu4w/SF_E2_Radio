@@ -15,7 +15,7 @@ function check_version(use_version)
 end
 
 function is_url(url)
-    return string.sub(url,0,5) == "https" or string.sub(url,0,4) == "http"
+    return (string.sub(url,0,8) == "https://" or string.sub(url,0,7) == "http://")
 end
 
 function handle_request(url,exec)
