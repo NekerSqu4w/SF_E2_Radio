@@ -1,4 +1,7 @@
 
+local default_list_url = "https://github.com/NekerSqu4w/SF_E2_Radio/blob/main/playlist.json?raw=true"
+local last_request = {data=nil,playlist=nil}
+
 function check_version(use_version)
     if use_version == "v1" then
         return true
@@ -9,6 +12,10 @@ function check_version(use_version)
 
     print("It looks like you're using a version that doesn't exist. Be sure to use v1 or v2.")
     return false
+end
+
+function is_url(url)
+    return string.sub(url,0,5) == "https" or string.sub(url,0,4) == "http"
 end
 
 function handle_request(url,exec)
@@ -23,18 +30,24 @@ function handle_request(url,exec)
     end
 end
 
-function get_data(exec)
-    handle_request("https://github.com/NekerSqu4w/SF_E2_Radio/blob/main/playlist.json?raw=true",function(response)
+function get_data(exec,use_own_playlist_url)
+    if is_url(use_own_playlist_url) then default_list_url = use_own_playlist_url end
+    handle_request(default_list_url,function(response)
         local ld = json.decode(response)
+        last_request.data = ld.data
         exec(ld.data)
     end)
 end
 
-function get_list(exec)
-    handle_request("https://github.com/NekerSqu4w/SF_E2_Radio/blob/main/playlist.json?raw=true",function(response)
+function get_list(exec,use_own_playlist_url)
+    if is_url(use_own_playlist_url) then default_list_url = use_own_playlist_url end
+    handle_request(default_list_url,function(response)
         local ld = json.decode(response)
+        last_request.playlist = ld.playlist
         exec(ld.playlist)
     end)
 end
 
-return {get_list=get_list,get_data=get_data}
+function last_request_data() return last_request end
+
+return {get_list=get_list,get_data=get_data,last_request=last_request}
