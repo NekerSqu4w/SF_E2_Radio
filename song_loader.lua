@@ -48,4 +48,4 @@ end
 
 function last_request_data() return last_request end
 
-return {get_list=get_list,get_data=get_data,last_request=last_request_data}
+return {get_list=get_list,get_data=get_data,last_request_data=last_request_data}
