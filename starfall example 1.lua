@@ -24,7 +24,10 @@ if CLIENT then
         print("Current song: " .. playlist[list][load_id].title)
         print("Playlist name: " .. playlist.list_name[list])
 
-        bass.loadURL(playlist[list][load_id].link, "noblock", function(snd,error)
+        -- reformat_link() will work only after data was loaded
+        print("Song link: " .. reformat_link(playlist[list][load_id].link))
+
+        bass.loadURL(reformat_link(playlist[list][load_id].link), "noblock", function(snd,error)
             if not error then
                 snd:setVolume(1)
                 if not snd:isOnline() then
@@ -37,6 +40,7 @@ if CLIENT then
     
     --Get last request data
     timer.simple(3,function()
+        -- last_request_data() will only return something only when you loaded the selected data by using get_list() or get_data()
         print("Current list data: " .. table.toString(song_loader.last_request_data().data))
     end)
 end
