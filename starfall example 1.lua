@@ -1,4 +1,4 @@
---@name Use own url
+--@name Starfall example 1
 --@author AstalNeker
 
 --Include loader as song_loader.lua
