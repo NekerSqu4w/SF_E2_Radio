@@ -18,13 +18,13 @@ end
 
 function get_data(list,exec)
     handle_request("https://github.com/NekerSqu4w/SF_E2_Radio/blob/main/playlist.json?raw=true",function(response)
-        exec(json.decode(reponse).data)
+        exec(json.decode(response).data)
     end)
 end
 
 function get_list(list,exec)
     handle_request("https://github.com/NekerSqu4w/SF_E2_Radio/blob/main/playlist.json?raw=true",function(response)
-        exec(json.decode(reponse).playlist[list])
+        exec(json.decode(response).playlist[list])
     end)
 end
 
