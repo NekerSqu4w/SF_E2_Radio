@@ -1,6 +1,4 @@
 
---Some code will go here later..
-
 function check_version(use_version)
     if use_version == "v1" then
         return true
@@ -13,16 +11,11 @@ function check_version(use_version)
     return false
 end
 
-function get_list(use_version,list,exec)
-    if check_version(use_version) then
-        if use_version == "v1" then
-            http.get("https://github.com/NekerSqu4w/SF_E2_Radio/blob/main/playlist.json?raw=true",function(response)
-                local pl_list = json.decode(response)
-                exec(pl_list[list])
-            end)
-        elseif use_version == "v2" then
-        end
-    end
+function get_list(list,exec)
+    http.get("https://github.com/NekerSqu4w/SF_E2_Radio/blob/main/playlist.json?raw=true",function(response)
+        local pl_list = json.decode(response)[list]
+        exec(pl_list)
+    end)
 end
 
 return {get_list=get_list}
