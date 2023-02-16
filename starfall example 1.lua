@@ -34,4 +34,9 @@ if CLIENT then
         end)
 
     end,"https://github.com/NekerSqu4w/SF_E2_Radio/blob/main/playlist.json?raw=true")
+    
+    --Get last request data
+    timer.simple(3,function()
+        print("Current list data: " .. table.toString(song_loader.last_request_data().data))
+    end)
 end
