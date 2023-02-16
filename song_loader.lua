@@ -13,16 +13,14 @@ function check_version(use_version)
     return false
 end
 
-function get_list(list)
-    http.get("https://github.com/NekerSqu4w/SF_E2_Radio/blob/main/playlist.json?raw=true",function(response)
-        return json.decode(response)[list]
-    end)
+function get_list(list,exec)
+    http.get("https://github.com/NekerSqu4w/SF_E2_Radio/blob/main/playlist.json?raw=true",function(response) exec(json.decode(response)[list]) end)
 end
 
-function get_url(use_version,list,id)
+function get_url(use_version,list,id,exec)
     if check_version(use_version) then
         if use_version == "v1" then
-            return get_list(list)[id]
+            exec(function(url) return url end)
         elseif use_version == "v2" then
         end
     end
