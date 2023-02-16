@@ -12,8 +12,15 @@ function check_version(use_version)
 end
 
 function handle_request(url,exec)
-    if http.canRequest() then http.get(url,function(response) exec(reponse) end)
-    else timer.simple(2,function() handle_request(url) end) end
+    if http.canRequest() then
+        http.get(url,function(response)
+            exec(response)
+        end)
+    else
+        timer.simple(2,function()
+            handle_request(url)
+        end)
+    end
 end
 
 function get_data(exec)
