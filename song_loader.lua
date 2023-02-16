@@ -20,7 +20,7 @@ end
 function get_url(use_version,list,id,exec)
     if check_version(use_version) then
         if use_version == "v1" then
-            exec(function(url) return url end)
+            exec(get_list(list,function(url) return url end))
         elseif use_version == "v2" then
         end
     end
