@@ -13,9 +13,10 @@ if CLIENT then
     local load_id = 31
     
     --Used to get data information
+    -- song_loader.get_data(function,use_own_url or nil)
     song_loader.get_data(function(data)
         print("Playlist data version: " .. data.version)
-    end)
+    end,"https://github.com/NekerSqu4w/SF_E2_Radio/blob/main/playlist.json?raw=true")
 
     --Used to load playlist data
     -- song_loader.get_list(function,use_own_url or nil)
