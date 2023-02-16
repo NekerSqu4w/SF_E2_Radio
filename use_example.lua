@@ -1,4 +1,4 @@
---@name Song loader example
+--@name Use own url
 --@author AstalNeker
 
 --Include loader as song_loader.lua
@@ -13,12 +13,13 @@ if CLIENT then
     local load_id = 15
     
     --Used to get data information
-    song_loader.get_data(function(data,error)
+    song_loader.get_data(function(data)
         print("Playlist data version: " .. data.version)
     end)
 
     --Used to load playlist data
-    song_loader.get_list(function(playlist,error)
+    -- song_loader.get_list(function,use_own_url or nil)
+    song_loader.get_list(function(playlist)
         print("Current list as " .. #playlist[list] .. " file")
         print("Current song: " .. playlist[list][load_id].title)
         print("Playlist name: " .. playlist.list_name[list])
@@ -32,5 +33,5 @@ if CLIENT then
             end
         end)
 
-    end)
+    end,"https://github.com/NekerSqu4w/SF_E2_Radio/blob/main/playlist.json?raw=true")
 end
