@@ -11,11 +11,21 @@ function check_version(use_version)
     return false
 end
 
-function get_list(list,exec)
-    http.get("https://github.com/NekerSqu4w/SF_E2_Radio/blob/main/playlist.json?raw=true",function(response)
-        local pl_list = json.decode(response)
-        exec(pl_list)
+function handle_request(url,exec)
+    if http.canRequest() then http.get(url,function(response) exec(reponse) end)
+    else timer.simple(2,function() handle_request(url) end) end
+end
+
+function get_data(list,exec)
+    handle_request("https://github.com/NekerSqu4w/SF_E2_Radio/blob/main/playlist.json?raw=true",function(response)
+        exec(json.decode(reponse).data)
     end)
 end
 
-return {get_list=get_list}
+function get_list(list,exec)
+    handle_request("https://github.com/NekerSqu4w/SF_E2_Radio/blob/main/playlist.json?raw=true",function(response)
+        exec(json.decode(reponse).playlist[list])
+    end)
+end
+
+return {get_list=get_list,get_data=get_data}
