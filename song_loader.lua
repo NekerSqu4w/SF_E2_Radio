@@ -13,7 +13,7 @@ end
 
 function get_list(list,exec)
     http.get("https://github.com/NekerSqu4w/SF_E2_Radio/blob/main/playlist.json?raw=true",function(response)
-        local pl_list = json.decode(response)[list]
+        local pl_list = json.decode(response)
         exec(pl_list)
     end)
 end
