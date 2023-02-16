@@ -19,4 +19,4 @@ function load(use_version)
     end
 end
 
-return load
+return {load=load}
