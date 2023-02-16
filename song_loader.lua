@@ -29,10 +29,11 @@ function handle_request(url,exec)
 end
 
 function reformat_link(url)
-    if url then
-        for id, link_start in pairs(last_request.playlist.reformat_link) do url = string.replace(url,id,link_start) end
-        return url
-    else return nil end
+    for id, link_start in pairs(last_request.playlist.reformat_link) do
+        if url then url = string.replace(url,id,link_start)
+        else url = nil end
+    end
+    return url
 end
 
 function get_data(exec,use_own_playlist_url)
