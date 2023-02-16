@@ -10,7 +10,7 @@ if CLIENT then
     
     --Some value to choose your song
     local list = "mp3" --Two list exist
-    local load_id = 15
+    local load_id = 31
     
     --Used to get data information
     song_loader.get_data(function(data)
@@ -25,9 +25,9 @@ if CLIENT then
         print("Playlist name: " .. playlist.list_name[list])
 
         -- reformat_link() will work only after data was loaded
-        print("Song link: " .. reformat_link(playlist[list][load_id].link))
+        print("Song link: " .. song_load.reformat_link(playlist[list][load_id].link))
 
-        bass.loadURL(reformat_link(playlist[list][load_id].link), "noblock", function(snd,error)
+        bass.loadURL(song_load.reformat_link(playlist[list][load_id].link), "noblock", function(snd,error)
             if not error then
                 snd:setVolume(1)
                 if not snd:isOnline() then
