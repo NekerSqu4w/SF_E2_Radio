@@ -28,7 +28,7 @@ end
 
 function get_data(exec,use_own_playlist_url)
     local use_url = default_list_url
-    if use_own_playlist_url then use_url = use_own_playlist_url end
+    if use_own_playlist_url and is_url(use_own_playlist_url) then use_url = use_own_playlist_url end
     handle_request(use_url,function(response,has_error)
         local ld = json.decode(response)
         last_request.data = ld.data
@@ -38,7 +38,7 @@ end
 
 function get_list(exec,use_own_playlist_url)
     local use_url = default_list_url
-    if use_own_playlist_url then use_url = use_own_playlist_url end
+    if use_own_playlist_url and is_url(use_own_playlist_url) then use_url = use_own_playlist_url end
     handle_request(use_url,function(response,has_error)
         local ld = json.decode(response)
         last_request.playlist = ld.playlist
