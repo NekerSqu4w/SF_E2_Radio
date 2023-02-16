@@ -25,9 +25,9 @@ if CLIENT then
         print("Playlist name: " .. playlist.list_name[list])
 
         -- reformat_link() will work only after data was loaded
-        print("Song link: " .. song_load.reformat_link(playlist[list][load_id].link))
+        print("Song link: " .. song_loader.reformat_link(playlist[list][load_id].link))
 
-        bass.loadURL(song_load.reformat_link(playlist[list][load_id].link), "noblock", function(snd,error)
+        bass.loadURL(song_loader.reformat_link(playlist[list][load_id].link), "noblock", function(snd,error)
             if not error then
                 snd:setVolume(1)
                 if not snd:isOnline() then
