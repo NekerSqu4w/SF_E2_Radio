@@ -7,8 +7,8 @@
         ]
     },
     "playlist": {
-        "menu_list": ["radio","mp3"],
-        "menu_name": {
+        "list_id": {"radio": true,"mp3": true},
+        "list_name": {
             "radio": "Online Radio",
             "mp3": "My Music"
         },

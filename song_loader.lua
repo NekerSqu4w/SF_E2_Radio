@@ -16,15 +16,19 @@ function handle_request(url,exec)
     else timer.simple(2,function() handle_request(url) end) end
 end
 
-function get_data(list,exec)
+function get_data(exec)
     handle_request("https://github.com/NekerSqu4w/SF_E2_Radio/blob/main/playlist.json?raw=true",function(response)
-        exec(json.decode(response).data)
+        local ld = json.decode(response)
+        exec(ld.data)
     end)
 end
 
 function get_list(list,exec)
     handle_request("https://github.com/NekerSqu4w/SF_E2_Radio/blob/main/playlist.json?raw=true",function(response)
-        exec(json.decode(response).playlist[list])
+        local ld = json.decode(response)
+        if ld.playlist.list_id[list] then
+            exec(ld.playlist[list])
+        end
     end)
 end
 
