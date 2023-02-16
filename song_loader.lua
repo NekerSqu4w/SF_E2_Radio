@@ -17,7 +17,7 @@ function handle_request(url,exec)
             exec(response)
         end)
     else
-        timer.simple(2,function()
+        timer.simple(0.4,function()
             handle_request(url,exec)
         end)
     end
