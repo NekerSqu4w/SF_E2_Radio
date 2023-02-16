@@ -1,4 +1,2 @@
 ##title author link background is_radio
-Orcale, Timmy Trumpet, https://raw.githubusercontent.com/kaisermustard/-SF-E2-MEDIA_Player/master/ressource/mp3/Timmy%20Trumpet%20-%20Oracle.mp3, https://i.imgur.com/NTAArbS.jpg?1, false
-Mantra, Timmy Trumpet, https://raw.githubusercontent.com/kaisermustard/-SF-E2-MEDIA_Player/master/ressource/mp3/Timmy%20Trumpet%20-%20Mantra.mp3, https://i.imgur.com/UJmJnLo.jpg?, false
-Chapters, nil, https://raw.githubusercontent.com/kaisermustard/-SF-E2-MEDIA_Player/master/ressource/mp3/Chapters.mp3, https://raw.githubusercontent.com/kaisermustard/-SF-E2-MEDIA_Player/master/ressource/texture/madeon.png, false
+Trying Too Hard, Over Easy ft. Leondis & Britt Lari, https://github.com/NekerSqu4w/SF_E2_Radio/blob/main/file/music/over-easy-trying-too-hard-ft-leondis-britt-lari-official-lyric-video.mp3?raw=true, https://i.imgur.com/4G0OFJC.jpg
