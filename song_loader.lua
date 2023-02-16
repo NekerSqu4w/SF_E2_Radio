@@ -20,13 +20,9 @@ end
 
 function handle_request(url,exec)
     if http.canRequest() then
-        http.get(url,function(response,error)
-            exec(response,error)
-        end)
+        http.get(url,function(response,error) exec(response,error) end)
     else
-        timer.simple(0.4,function()
-            handle_request(url,exec)
-        end)
+        timer.simple(0.4,function() handle_request(url,exec) end)
     end
 end
 
