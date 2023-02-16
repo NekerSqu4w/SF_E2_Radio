@@ -15,7 +15,7 @@ end
 
 function get_list(list)
     http.get("https://github.com/NekerSqu4w/SF_E2_Radio/blob/main/playlist.json?raw=true",function(response)
-        return current_track = json.decode(response)[list]
+        return json.decode(response)[list]
     end)
 end
 
