@@ -1,6 +1,6 @@
 
 local default_list_url = "https://github.com/NekerSqu4w/SF_E2_Radio/blob/main/playlist.json?raw=true"
-local last_request = {data=nil,playlist=nil}
+local last_request = {data={},playlist={}}
 
 function check_version(use_version)
     if use_version == "v1" then
