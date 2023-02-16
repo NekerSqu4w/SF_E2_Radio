@@ -13,7 +13,7 @@ function check_version(use_version)
     return false
 end
 
-function get_list(list,exec)
+function get_list(use_version,list,exec)
     if check_version(use_version) then
         if use_version == "v1" then
             http.get("https://github.com/NekerSqu4w/SF_E2_Radio/blob/main/playlist.json?raw=true",function(response)
