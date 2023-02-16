@@ -17,7 +17,8 @@ function get_list(list,exec)
     if check_version(use_version) then
         if use_version == "v1" then
             http.get("https://github.com/NekerSqu4w/SF_E2_Radio/blob/main/playlist.json?raw=true",function(response)
-                exec(json.decode(response)[list])
+                local pl_list = json.decode(response)
+                exec(pl_list[list])
             end)
         elseif use_version == "v2" then
         end
