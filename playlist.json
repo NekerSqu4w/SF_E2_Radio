@@ -7,7 +7,7 @@
         ]
     },
     "playlist": {
-        "list_parser": {"%M%": "https://github.com/NekerSqu4w/SF_E2_Radio/blob/main/file/music","%B%": "https://github.com/NekerSqu4w/SF_E2_Radio/blob/main/file/background"},
+        "reformat_link": {"%M%": "https://github.com/NekerSqu4w/SF_E2_Radio/blob/main/file/music","%B%": "https://github.com/NekerSqu4w/SF_E2_Radio/blob/main/file/background"},
         "list_id": {"radio": true,"mp3": true},
         "list_name": {
             "radio": "Online Radio",

@@ -26,6 +26,11 @@ function handle_request(url,exec)
     end
 end
 
+function reformat_link(url)
+    for id, link_start in pairs(last_request.playlist.reformat_link) do url = string.replace(url,id,link_start) end
+    return url
+end
+
 function get_data(exec,use_own_playlist_url)
     local use_url = default_list_url
     if use_own_playlist_url and is_url(use_own_playlist_url) then use_url = use_own_playlist_url end
@@ -48,4 +53,4 @@ end
 
 function last_request_data() return last_request end
 
-return {get_list=get_list,get_data=get_data,last_request_data=last_request_data}
+return {get_list=get_list,get_data=get_data,last_request_data=last_request_data,parse_link=parse_link}
