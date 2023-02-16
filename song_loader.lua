@@ -20,8 +20,8 @@ end
 
 function handle_request(url,exec)
     if http.canRequest() then
-        http.get(url,function(response)
-            exec(response)
+        http.get(url,function(response,error)
+            exec(response,error)
         end)
     else
         timer.simple(0.4,function()
@@ -42,7 +42,6 @@ end
 
 function get_list(exec,use_own_playlist_url)
     local use_url = default_list_url
-    print(use_own_playlist_url)
     if use_own_playlist_url and is_url(use_own_playlist_url) then use_url = use_own_playlist_url end
     handle_request(use_url,function(response,has_error)
         local ld = json.decode(response)
