@@ -13,12 +13,12 @@ if CLIENT then
     local load_id = 15
     
     --Used to get data information
-    song_loader.get_data(function(data)
+    song_loader.get_data(function(data,error)
         print("Playlist data version: " .. data.version)
     end)
 
     --Used to load playlist data
-    song_loader.get_list(function(playlist)
+    song_loader.get_list(function(playlist,error)
         print("Current list as " .. #playlist[list] .. " file")
         print("Current song: " .. playlist[list][load_id].title)
         print("Playlist name: " .. playlist.list_name[list])
