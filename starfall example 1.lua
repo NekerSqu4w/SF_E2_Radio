@@ -10,19 +10,20 @@ if CLIENT then
     
     --Some value to choose your song
     local list = "mp3" --Two list exist
-    local load_id = 31
+    local load_id = 48
 
     --Used to load playlist data
     -- song_loader.load(use_own_url or nil,function)
-    song_loader.load("https://github.com/NekerSqu4w/SF_E2_Radio/blob/main/playlist.json?raw=true",function(playlist)
-        print("Current list as " .. #playlist[list] .. " file")
-        print("Current song: " .. playlist[list][load_id].title)
-        print("Playlist name: " .. playlist.list_name[list])
+    song_loader.load("https://github.com/NekerSqu4w/SF_E2_Radio/blob/main/playlist_v2.json?raw=true",function(data,error)
+        print(table.toString(error))
+        print("Current list as " .. #data.playlist[list] .. " file")
+        print("Current song: " .. data.playlist[list][load_id].title)
+        print("Playlist name: " .. data.playlist.list_name[list])
 
         -- reformat_link() will work only after data was loaded
-        print("Song link: " .. playlist[list][load_id].link)
+        print("Song link: " .. data.playlist[list][load_id].link)
 
-        bass.loadURL(playlist[list][load_id].link, "noblock", function(snd,error)
+        bass.loadURL(data.playlist[list][load_id].link, "noblock", function(snd,error)
             if not error then
                 snd:setVolume(1)
                 if not snd:isOnline() then
