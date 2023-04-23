@@ -38,8 +38,8 @@ local function load(use_own_playlist_url,exec)
     if use_own_playlist_url and is_url(use_own_playlist_url) then use_url = use_own_playlist_url end
     handle_request(use_url,function(response,has_error)
         local ld = json.decode(response)
-        if(check_version(ld.data.version).error == false) {
-            if(ld.data.version == "v1" || ld.data.version == "v2") {
+        if check_version(ld.data.version).error == false then
+            if ld.data.version == "v1" or ld.data.version == "v2" then
                 --Reformat link
                 for id, data in pairs(ld) do
                     data.link = reformat_link(data.link)
@@ -47,14 +47,12 @@ local function load(use_own_playlist_url,exec)
                 end
 
                 exec(ld,{msg=has_error})
-            }
-            else{
+            else
                 exec({},{error=true,msg="Cannot find version"})
-            }
-        }
-        else{
+            end
+        else
             exec({},check_version(ld.data.version))
-        }
+        end
     end)
 end
 

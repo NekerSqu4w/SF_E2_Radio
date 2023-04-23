@@ -13,7 +13,7 @@ if CLIENT then
     local load_id = 31
 
     --Used to load playlist data
-    -- song_loader.get_list(function,use_own_url or nil)
+    -- song_loader.load(use_own_url or nil,function)
     song_loader.load("https://github.com/NekerSqu4w/SF_E2_Radio/blob/main/playlist.json?raw=true",function(playlist)
         print("Current list as " .. #playlist[list] .. " file")
         print("Current song: " .. playlist[list][load_id].title)
@@ -31,11 +31,5 @@ if CLIENT then
             end
         end)
 
-    end)
-    
-    --Get last request data
-    timer.simple(3,function()
-        -- last_request_data() will only return something only when you loaded the selected data by using get_list() or get_data()
-        print("Current list data: " .. table.toString(song_loader.last_request_data().data))
     end)
 end
