@@ -1,18 +1,15 @@
 
 local default_list_url = "https://github.com/NekerSqu4w/SF_E2_Radio/blob/main/playlist.json?raw=true"
-local last_request = {data={},playlist={}}
 
 -- // this function is unused for the moment
 function check_version(use_version)
     if use_version == "v1" then
-        return true
+        return {error=false,msg="No error"}
     elseif use_version == "v2" then
-        print("/!\\ WARNING, v2 is still in development so it doesn't fully work, so please use v1 if you encounter any issues!")
-        return true
+        return {error=false,warning=true,msg="/!\\ WARNING, v2 is still in development so it doesn't fully work, so please use v1 if you encounter any issues!"}
     end
 
-    print("It looks like you're using a version that doesn't exist. Be sure to use v1 or v2.")
-    return false
+    return {error=true,msg="It looks like you're using a version that doesn't exist. Be sure to use v1 or v2."}
 end
 -- //
 
@@ -28,34 +25,37 @@ function handle_request(url,exec)
     end
 end
 
-function reformat_link(url)
-    for id, link_start in pairs(last_request.playlist.reformat_link) do
+function reformat_link(data)
+    for id, link_start in pairs(data.playlist.reformat_link) do
         if url then url = string.replace(url,id,link_start)
         else url = nil end
     end
     return url
 end
 
-function get_data(exec,use_own_playlist_url)
+function load(exec,use_own_playlist_url)
     local use_url = default_list_url
     if use_own_playlist_url and is_url(use_own_playlist_url) then use_url = use_own_playlist_url end
     handle_request(use_url,function(response,has_error)
         local ld = json.decode(response)
-        last_request.data = ld.data
-        exec(ld.data,has_error)
+        if(check_version(ld.data.version).error == false) {
+            if(ld.data.version == "v1" || ld.data.version == "v2") {
+                --Reformat link
+                for id, data in pairs(ld) do
+                    data.link = reformat_link(data.link)
+                    data.cover = reformat_link(data.cover)
+                end
+
+                exec(ld,{msg=has_error})
+            }
+            else{
+                exec({},{error=true,msg="Cannot find version"})
+            }
+        }
+        else{
+            exec({},check_version(ld.data.version))
+        }
     end)
 end
 
-function get_list(exec,use_own_playlist_url)
-    local use_url = default_list_url
-    if use_own_playlist_url and is_url(use_own_playlist_url) then use_url = use_own_playlist_url end
-    handle_request(use_url,function(response,has_error)
-        local ld = json.decode(response)
-        last_request.playlist = ld.playlist
-        exec(ld.playlist,has_error)
-    end)
-end
-
-function last_request_data() return last_request end
-
-return {get_list=get_list,get_data=get_data,last_request_data=last_request_data,reformat_link=reformat_link}
+return {get_list=get_list,get_data=get_data}

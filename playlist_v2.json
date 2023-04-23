@@ -1,0 +1,329 @@
+{
+    "data": {
+        "version": "v2",
+        "no_background": [
+            "https://raw.githubusercontent.com/kaisermustard/-SF-E2-MEDIA_Player/master/ressource/texture/madeon.png",
+            "https://raw.githubusercontent.com/kaisermustard/-SF-E2-MEDIA_Player/master/ressource/texture/synthwave.png"
+        ]
+    },
+    "playlist": {
+        "reformat_link": {
+            "%M%": "https://github.com/NekerSqu4w/SF_E2_Radio/blob/main/file/music",
+            "%B%": "https://github.com/NekerSqu4w/SF_E2_Radio/blob/main/file/background"
+        },
+        "list_id": {
+            "radio": true,
+            "mp3": true
+        },
+        "list_name": {
+            "radio": "Online Radio",
+            "mp3": "My Music"
+        },
+        "radio": [
+            {
+                "link": "http://radiomonaco.ice.infomaniak.ch/radiomonaco-128.mp3",
+                "title": "Radio Monaco"
+            },
+            {
+                "link": "https://play.sas-media.ru/play_256",
+                "title": "Noisefm"
+            },
+            {
+                "link": "http://radiofg.impek.com/fge",
+                "title": "Radio FG"
+            },
+            {
+                "link": "http://hhuk.netmindz.net:8000/listen.pls",
+                "title": "Hardhouse UK"
+            },
+            {
+                "link": "https://stream.realhardstyle.nl",
+                "title": "Real Hardstyle"
+            },
+            {
+                "link": "http://trace.dnbradio.com:8000/dnbradio_darkstep.mp3",
+                "title": "Lovednb FM"
+            },
+            {
+                "link": "http://s1.onweb.gr:8800/stream?type=http&nocache=299454",
+                "title": "StarFM 888"
+            }
+        ],
+        "mp3": [
+            {
+                "title": "5FDP - Hard to See (Official Music Video)",
+                "cover": "%B%/5FDP - Hard to See (Official Music Video).mp3",
+                "link": "%M%/5FDP - Hard to See (Official Music Video).mp3"
+            },
+            {
+                "title": "All These Nights",
+                "album": "All These Nights",
+                "cover": "%B%/all-these-nights.mp3",
+                "link": "%M%/all-these-nights.mp3"
+            },
+            {
+                "title": "Andrew Spencer - Hippie Dreams (DJ THT & Ced Tecknoboy Remix)",
+                "cover": "%B%/andrew-spencer-hippie-dreams-dj-tht-ced-tecknoboy-remix.mp3",
+                "link": "%M%/andrew-spencer-hippie-dreams-dj-tht-ced-tecknoboy-remix.mp3"
+            },
+            {
+                "title": "B3nte & B3VA - Boombox (Official Audio)",
+                "cover": "%B%/B3nte & B3VA - Boombox (Official Audio).mp3",
+                "link": "%M%/B3nte & B3VA - Boombox (Official Audio).mp3"
+            },
+            {
+                "title": "[Bass Boosted] Gigi D'agostino & Luca Noise - Contemplation",
+                "cover": "%B%/bass-boosted-gigi-dagostino-luca-noise-contemplation.mp3",
+                "link": "%M%/bass-boosted-gigi-dagostino-luca-noise-contemplation.mp3"
+            },
+            {
+                "title": "[Bass Boosted] LUNAX & Marc Blou - Satellites",
+                "cover": "%B%/bass-boosted-lunax-marc-blou-satellites.mp3",
+                "link": "%M%/bass-boosted-lunax-marc-blou-satellites.mp3"
+            },
+            {
+                "title": "[Bass Boosted] Sweepz & NOIXES - Confession",
+                "cover": "%B%/bass-boosted-sweepz-noixes-confession.mp3",
+                "link": "%M%/bass-boosted-sweepz-noixes-confession.mp3"
+            },
+            {
+                "title": "[Bass Boosted] The Ninetys - All Saints",
+                "cover": "%B%/bass-boosted-the-ninetys-all-saints.mp3",
+                "link": "%M%/bass-boosted-the-ninetys-all-saints.mp3"
+            },
+            {
+                "title": "[Bass Boosted] X Pander & KEL - Rise & Fight",
+                "cover": "%B%/bass-boosted-x-pander-kel-rise-fight.mp3",
+                "link": "%M%/bass-boosted-x-pander-kel-rise-fight.mp3"
+            },
+            {
+                "title": "BASSTON & STROBE - FORMULA (TECHNO MIX)",
+                "cover": "%B%/basston-strobe-formula-techno-mix.mp3",
+                "link": "%M%/basston-strobe-formula-techno-mix.mp3"
+            },
+            {
+                "title": "BEATSMASH - Eclypse",
+                "cover": "%B%/BEATSMASH - Eclypse.mp3",
+                "link": "%M%/BEATSMASH - Eclypse.mp3"
+            },
+            {
+                "title": "Boface - Heart Out (ft. Sean) ♪",
+                "cover": "%B%/Boface - Heart Out (ft. Sean).mp3",
+                "link": "%M%/Boface - Heart Out (ft. Sean).mp3"
+            },
+            {
+                "title": "Cher - Believe [Official Music Video]",
+                "cover": "%B%/Cher - Believe [Official Music Video].mp3",
+                "link": "%M%/Cher - Believe [Official Music Video].mp3"
+            },
+            {
+                "title": "Come Alive (feat. Anna Moore)",
+                "cover": "%B%/Come Alive (feat. Anna Moore).mp3",
+                "link": "%M%/Come Alive (feat. Anna Moore).mp3"
+            },
+            {
+                "title": "Consoul Trainin - Obsession (feat. Steven Aderinto & DuoViolins) (Radio Edit)",
+                "cover": "%B%/consoul-trainin-obsession-feat-steven-aderinto-duoviolins-radio-edit.mp3",
+                "link": "%M%/consoul-trainin-obsession-feat-steven-aderinto-duoviolins-radio-edit.mp3"
+            },
+            {
+                "title": "Corticus - Once In A While (ft. Alina Renae)",
+                "cover": "%B%/Corticus - Once In A While (ft. Alina Renae).mp3",
+                "link": "%M%/Corticus - Once In A While (ft. Alina Renae).mp3"
+            },
+            {
+                "title": "CRW - I Feel Love (Extended Mix) (HD)",
+                "cover": "%B%/crw-i-feel-love-extended-mix-hd.mp3",
+                "link": "%M%/crw-i-feel-love-extended-mix-hd.mp3"
+            },
+            {
+                "title": "Culture Code - Feel Again (feat. Harley Bird) [NCS Release]",
+                "cover": "%B%/culture-code-feel-again-feat-harley-bird-ncs-release.mp3",
+                "link": "%M%/culture-code-feel-again-feat-harley-bird-ncs-release.mp3"
+            },
+            {
+                "title": "Disco Lines - BABY GIRL (Extended Airport Mix)",
+                "cover": "%B%/disco-lines-baby-girl-extended-airport-mix.mp3",
+                "link": "%M%/disco-lines-baby-girl-extended-airport-mix.mp3"
+            },
+            {
+                "title": "Don't Be So Shy",
+                "album": "Don't Be So Shy",
+                "cover": "%B%/dont-be-so-shy.mp3",
+                "link": "%M%/dont-be-so-shy.mp3"
+            },
+            {
+                "title": "Don't Let Me Go (Gon Haziri Remix)",
+                "album": "Don't Let Me Go",
+                "cover": "%B%/dont-let-me-go-gon-haziri-remix.mp3",
+                "link": "%M%/dont-let-me-go-gon-haziri-remix.mp3"
+            },
+            {
+                "title": "Draper ft. Laura Brehm - Pressure",
+                "cover": "%B%/draper-ft-laura-brehm-pressure.mp3",
+                "link": "%M%/draper-ft-laura-brehm-pressure.mp3"
+            },
+            {
+                "title": "Dreamkid - Street Lights (Official Lyric Video)",
+                "cover": "%B%/Dreamkid - Street Lights (Official Lyric Video).mp3",
+                "link": "%M%/Dreamkid - Street Lights (Official Lyric Video).mp3"
+            },
+            {
+                "title": "EmiSphere - Beyond The Skies ♪",
+                "cover": "%B%/EmiSphere - Beyond The Skies.mp3",
+                "link": "%M%/EmiSphere - Beyond The Skies.mp3"
+            },
+            {
+                "title": "Far Out - Overdrive",
+                "cover": "%B%/Far Out - Overdrive.mp3",
+                "link": "%M%/Far Out - Overdrive.mp3"
+            },
+            {
+                "title": "forget me",
+                "album": "forget me",
+                "cover": "%B%/forget-me.mp3",
+                "link": "%M%/forget-me.mp3"
+            },
+            {
+                "title": "Gabrielle Aplin - Anyway (Official Audio)",
+                "cover": "%B%/gabrielle-aplin-anyway-official-audio.mp3",
+                "link": "%M%/gabrielle-aplin-anyway-official-audio.mp3"
+            },
+            {
+                "title": "GAMBO - You",
+                "cover": "%B%/GAMBO - You.mp3",
+                "link": "%M%/GAMBO - You.mp3"
+            },
+            {
+                "title": "Hippie Dreams (MoveTown Remix)",
+                "album": "Hippie Dreams",
+                "cover": "%B%/hippie-dreams-movetown-remix.mp3",
+                "link": "%M%/hippie-dreams-movetown-remix.mp3"
+            },
+            {
+                "title": "Hot N Cold",
+                "album": "Hot N Cold",
+                "cover": "%B%/hot-n-cold.mp3",
+                "link": "%M%/hot-n-cold.mp3"
+            },
+            {
+                "title": "Imagine Dragons - Bones (Official Music Video)",
+                "cover": "%B%/Imagine Dragons - Bones (Official Music Video).mp3",
+                "link": "%M%/Imagine Dragons - Bones (Official Music Video).mp3"
+            },
+            {
+                "title": "Its Alright",
+                "album": "Radio Indie",
+                "cover": "%B%/its-alright.mp3",
+                "link": "%M%/its-alright.mp3"
+            },
+            {
+                "title": "Jim Yosef - Ghost (ft. Scarlett) [Official Lyric Video]",
+                "cover": "%B%/Jim Yosef - Ghost (ft. Scarlett) [Official Lyric Video].mp3",
+                "link": "%M%/Jim Yosef - Ghost (ft. Scarlett) [Official Lyric Video].mp3"
+            },
+            {
+                "title": "Waiting For A Lifetime",
+                "album": "Waiting For A Lifetime",
+                "cover": "%B%/john-newman-waiting-for-a-lifetime-official-lyric-video.mp3",
+                "link": "%M%/john-newman-waiting-for-a-lifetime-official-lyric-video.mp3"
+            },
+            {
+                "title": "Lefa - Mauvais (Clip officiel)",
+                "cover": "%B%/Lefa - Mauvais (Clip officiel).mp3",
+                "link": "%M%/Lefa - Mauvais (Clip officiel).mp3"
+            },
+            {
+                "title": "Lorenzo - La Kush ft. Tony Corrida (Clip Officiel)",
+                "cover": "%B%/lorenzo-la-kush-ft-tony-corrida-clip-officiel.mp3",
+                "link": "%M%/lorenzo-la-kush-ft-tony-corrida-clip-officiel.mp3"
+            },
+            {
+                "title": "NEFFEX - All These Thoughts [Copyright Free] No.68",
+                "cover": "%B%/NEFFEX - All These Thoughts [Copyright Free] No.68.mp3",
+                "link": "%M%/NEFFEX - All These Thoughts [Copyright Free] No.68.mp3"
+            },
+            {
+                "title": "NEFFEX - Chance [Copyright Free] No.65",
+                "cover": "%B%/NEFFEX - Chance [Copyright Free] No.65.mp3",
+                "link": "%M%/NEFFEX - Chance [Copyright Free] No.65.mp3"
+            },
+            {
+                "title": "Nightcall",
+                "cover": "%B%/Nightcall.mp3",
+                "link": "%M%/Nightcall.mp3"
+            },
+            {
+                "title": "Noizu - Summer 91 (Looking Back)",
+                "cover": "%B%/noizu-summer-91-looking-back.mp3",
+                "link": "%M%/noizu-summer-91-looking-back.mp3"
+            },
+            {
+                "title": "Over Easy - Trying Too Hard ft. Leondis & Britt Lari (Official Lyric Video)",
+                "cover": "%B%/over-easy-trying-too-hard-ft-leondis-britt-lari-official-lyric-video.mp3",
+                "link": "%M%/over-easy-trying-too-hard-ft-leondis-britt-lari-official-lyric-video.mp3"
+            },
+            {
+                "title": "Porter Robinson - Everything Goes On (Lyrics)",
+                "cover": "%B%/porter-robinson-everything-goes-on-lyrics.mp3",
+                "link": "%M%/porter-robinson-everything-goes-on-lyrics.mp3"
+            },
+            {
+                "title": "Rico & Miella x TELYKast - Worth Fighting For",
+                "cover": "%B%/Rico & Miella x TELYKast - Worth Fighting For.mp3",
+                "link": "%M%/Rico & Miella x TELYKast - Worth Fighting For.mp3"
+            },
+            {
+                "title": "Sayan - Shi-Fu-Mi (Clip Officiel)",
+                "cover": "%B%/sayan-shi-fu-mi-clip-officiel.mp3",
+                "link": "%M%/sayan-shi-fu-mi-clip-officiel.mp3"
+            },
+            {
+                "title": "Shane Codd - It Ain't Right (Official Audio)",
+                "cover": "%B%/shane-codd-it-aint-right-official-audio.mp3",
+                "link": "%M%/shane-codd-it-aint-right-official-audio.mp3"
+            },
+            {
+                "title": "She Change My Life",
+                "cover": "%B%/She Change My Life.mp3",
+                "link": "%M%/She Change My Life.mp3"
+            },
+            {
+                "title": "Shift K3Y - I Know",
+                "cover": "%B%/shift-k3y-i-know.mp3",
+                "link": "%M%/shift-k3y-i-know.mp3"
+            },
+            {
+                "title": "stage7 - 8 bit mentality",
+                "cover": "%B%/stage7 - 8 bit mentality.mp3",
+                "link": "%M%/stage7 - 8 bit mentality.mp3"
+            },
+            {
+                "title": "The 1975 - Me & You Together Song",
+                "cover": "%B%/The 1975 - Me & You Together Song.mp3",
+                "link": "%M%/The 1975 - Me & You Together Song.mp3"
+            },
+            {
+                "title": "TheFatRat & Maisy Kay - The Storm",
+                "cover": "%B%/TheFatRat & Maisy Kay - The Storm.mp3",
+                "link": "%M%/TheFatRat & Maisy Kay - The Storm.mp3"
+            },
+            {
+                "title": "TOM GREGORY - FORGET SOMEBODY (Official Lyric Video)",
+                "cover": "%B%/tom-gregory-forget-somebody-official-lyric-video.mp3",
+                "link": "%M%/tom-gregory-forget-somebody-official-lyric-video.mp3"
+            },
+            {
+                "title": "Ultrabeat - Pretty Green Eyes (Paul Gannon Remix)(Bass Boosted)(HD)",
+                "cover": "%B%/ultrabeat-pretty-green-eyes-paul-gannon-remixbass-boostedhd.mp3",
+                "link": "%M%/ultrabeat-pretty-green-eyes-paul-gannon-remixbass-boostedhd.mp3"
+            },
+            {
+                "title": "When I'm Down",
+                "album": "Whethan, Oliver Tree - When I'm Down (Single)",
+                "cover": "%B%/whethan-vs-oliver-tree-when-im-down-instrumental-remake.mp3",
+                "link": "%M%/whethan-vs-oliver-tree-when-im-down-instrumental-remake.mp3"
+            }
+        ]
+    }
+}

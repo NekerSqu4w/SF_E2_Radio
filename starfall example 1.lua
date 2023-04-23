@@ -11,24 +11,18 @@ if CLIENT then
     --Some value to choose your song
     local list = "mp3" --Two list exist
     local load_id = 31
-    
-    --Used to get data information
-    -- song_loader.get_data(function,use_own_url or nil)
-    song_loader.get_data(function(data)
-        print("Playlist data version: " .. data.version)
-    end,"https://github.com/NekerSqu4w/SF_E2_Radio/blob/main/playlist.json?raw=true")
 
     --Used to load playlist data
     -- song_loader.get_list(function,use_own_url or nil)
-    song_loader.get_list(function(playlist)
+    song_loader.load("https://github.com/NekerSqu4w/SF_E2_Radio/blob/main/playlist.json?raw=true",function(playlist)
         print("Current list as " .. #playlist[list] .. " file")
         print("Current song: " .. playlist[list][load_id].title)
         print("Playlist name: " .. playlist.list_name[list])
 
         -- reformat_link() will work only after data was loaded
-        print("Song link: " .. song_loader.reformat_link(playlist[list][load_id].link))
+        print("Song link: " .. playlist[list][load_id].link)
 
-        bass.loadURL(song_loader.reformat_link(playlist[list][load_id].link), "noblock", function(snd,error)
+        bass.loadURL(playlist[list][load_id].link, "noblock", function(snd,error)
             if not error then
                 snd:setVolume(1)
                 if not snd:isOnline() then
@@ -37,7 +31,7 @@ if CLIENT then
             end
         end)
 
-    end,"https://github.com/NekerSqu4w/SF_E2_Radio/blob/main/playlist.json?raw=true")
+    end)
     
     --Get last request data
     timer.simple(3,function()
