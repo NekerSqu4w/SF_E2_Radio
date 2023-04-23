@@ -8,7 +8,7 @@
     },
     "playlist": {
         "reformat_link": {
-            "%M%": "https://github.com/NekerSqu4w/SF_E2_Radio/blob/main/file/music",
+            "%M%": "https://raw.githubusercontent.com/NekerSqu4w/SF_E2_Radio/main/file/music",
             "%B%": "https://github.com/NekerSqu4w/SF_E2_Radio/blob/main/file/background"
         },
         "list_id": {
