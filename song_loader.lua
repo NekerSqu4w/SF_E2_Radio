@@ -43,7 +43,7 @@ local function load(use_own_playlist_url,exec)
                 --Reformat link
                 for id, data in pairs(ld.playlist.mp3) do
                     data.link = reformat_link(data.link,ld.playlist)
-                    data.cover = reformat_link(data.link,ld.playlist)
+                    data.cover = reformat_link(data.cover,ld.playlist)
                 end
 
                 exec(ld,{warning=check_version(ld.data.version).msg})
