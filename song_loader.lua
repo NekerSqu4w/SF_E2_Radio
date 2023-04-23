@@ -2,7 +2,7 @@
 local default_list_url = "https://github.com/NekerSqu4w/SF_E2_Radio/blob/main/playlist.json?raw=true"
 
 -- // this function is unused for the moment
-function check_version(use_version)
+local function check_version(use_version)
     if use_version == "v1" then
         return {error=false,msg="No error"}
     elseif use_version == "v2" then
@@ -13,11 +13,11 @@ function check_version(use_version)
 end
 -- //
 
-function is_url(url)
+local function is_url(url)
     return (string.sub(url,0,8) == "https://" or string.sub(url,0,7) == "http://")
 end
 
-function handle_request(url,exec)
+local function handle_request(url,exec)
     if http.canRequest() then
         http.get(url,function(response,error) exec(response,error) end)
     else
@@ -25,7 +25,7 @@ function handle_request(url,exec)
     end
 end
 
-function reformat_link(data)
+local function reformat_link(data)
     for id, link_start in pairs(data.playlist.reformat_link) do
         if url then url = string.replace(url,id,link_start)
         else url = nil end
@@ -33,7 +33,7 @@ function reformat_link(data)
     return url
 end
 
-function load(use_own_playlist_url,exec)
+local function load(use_own_playlist_url,exec)
     local use_url = default_list_url
     if use_own_playlist_url and is_url(use_own_playlist_url) then use_url = use_own_playlist_url end
     handle_request(use_url,function(response,has_error)
