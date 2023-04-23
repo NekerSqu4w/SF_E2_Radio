@@ -26,7 +26,7 @@ local function handle_request(url,exec)
 end
 
 local function reformat_link(data)
-    for id, link_start in pairs(data.playlist.reformat_link) do
+    for id, link_start in pairs(data.reformat_link) do
         if url then url = string.replace(url,id,link_start)
         else url = nil end
     end
