@@ -33,7 +33,7 @@ function reformat_link(data)
     return url
 end
 
-function load(exec,use_own_playlist_url)
+function load(use_own_playlist_url,exec)
     local use_url = default_list_url
     if use_own_playlist_url and is_url(use_own_playlist_url) then use_url = use_own_playlist_url end
     handle_request(use_url,function(response,has_error)
@@ -58,4 +58,4 @@ function load(exec,use_own_playlist_url)
     end)
 end
 
-return {get_list=get_list,get_data=get_data}
+return {load=load}
