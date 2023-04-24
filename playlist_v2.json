@@ -70,6 +70,18 @@
                 "cover": "%B%/andrew-spencer-hippie-dreams-dj-tht-ced-tecknoboy-remix.jpeg"
             },
             {
+                "title": "Anna Yvette - Red Line [NCS Release] - Synthwave",
+                "author": "Anna Yvette",
+                "link": "%M%/Anna Yvette - Red Line [NCS Release] - Synthwave.mp3",
+                "cover": "%B%/Anna Yvette - Red Line [NCS Release] - Synthwave.jpeg"
+            },
+            {
+                "title": "Anna Yvette - Shooting Star [Forza Horizon 4 Pulse] - Synthwave, Retrowave, Synthpop",
+                "author": "Anna Yvette",
+                "link": "%M%/Anna Yvette - Shooting Star [Forza Horizon 4 Pulse] - Synthwave, Retrowave, Synthpop.mp3",
+                "cover": "%B%/Anna Yvette - Shooting Star [Forza Horizon 4 Pulse] - Synthwave, Retrowave, Synthpop.jpeg"
+            },
+            {
                 "title": "B3nte & B3VA - Boombox (Official Audio)",
                 "author": "Spinnin' Records",
                 "link": "%M%/B3nte & B3VA - Boombox (Official Audio).mp3",
@@ -160,6 +172,12 @@
                 "cover": "%B%/culture-code-feel-again-feat-harley-bird-ncs-release.png"
             },
             {
+                "title": "Des Rocs - Used to the Darkness (Audio)",
+                "author": "Des Rocs",
+                "link": "%M%/Des Rocs - Used to the Darkness (Audio).mp3",
+                "cover": "%B%/Des Rocs - Used to the Darkness (Audio).jpeg"
+            },
+            {
                 "title": "Disco Lines - BABY GIRL (Extended Airport Mix)",
                 "author": "Disco Lines",
                 "link": "%M%/disco-lines-baby-girl-extended-airport-mix.mp3",
@@ -184,6 +202,24 @@
                 "author": "Laura Brehm",
                 "link": "%M%/draper-ft-laura-brehm-pressure.mp3",
                 "cover": "%B%/draper-ft-laura-brehm-pressure.png"
+            },
+            {
+                "title": "DREAMERS - Black & White (Visualizer Video)",
+                "author": "dreamersVEVO",
+                "link": "%M%/DREAMERS - Black & White (Visualizer Video).mp3",
+                "cover": "%B%/DREAMERS - Black & White (Visualizer Video).jpeg"
+            },
+            {
+                "title": "DREAMERS - The Last Love Song (Visualizer Video)",
+                "author": "dreamersVEVO",
+                "link": "%M%/DREAMERS - The Last Love Song (Visualizer Video).mp3",
+                "cover": "%B%/DREAMERS - The Last Love Song (Visualizer Video).jpeg"
+            },
+            {
+                "title": "Dreamkid - Hearts Don't Beat the Same When They're Hurting (Official Audio)",
+                "author": "Dreamkid",
+                "link": "%M%/Dreamkid - Hearts Don't Beat the Same When They're Hurting (Official Audio).mp3",
+                "cover": "%B%/Dreamkid - Hearts Don't Beat the Same When They're Hurting (Official Audio).jpeg"
             },
             {
                 "title": "Dreamkid - Street Lights (Official Lyric Video)",
@@ -243,6 +279,12 @@
                 "cover": "%B%/Imagine Dragons - Bones (Official Music Video).jpeg"
             },
             {
+                "title": "ItaloBrothers - Stamp On The Ground (DOPEDROP Bootleg)",
+                "author": "Bounce United",
+                "link": "%M%/ItaloBrothers - Stamp On The Ground (DOPEDROP Bootleg).mp3",
+                "cover": "%B%/ItaloBrothers - Stamp On The Ground (DOPEDROP Bootleg).jpeg"
+            },
+            {
                 "title": "Its Alright",
                 "author": "The Funshiners",
                 "album": "Radio Indie",
@@ -285,6 +327,12 @@
                 "author": "NEFFEX",
                 "link": "%M%/NEFFEX - Chance [Copyright Free] No.65.mp3",
                 "cover": "%B%/NEFFEX - Chance [Copyright Free] No.65.jpeg"
+            },
+            {
+                "title": "Netrum & Halvorsen - Phoenix [NCS10 Release]",
+                "author": "NoCopyrightSounds",
+                "link": "%M%/Netrum & Halvorsen - Phoenix [NCS10 Release].mp3",
+                "cover": "%B%/Netrum & Halvorsen - Phoenix [NCS10 Release].jpeg"
             },
             {
                 "title": "Nightcall",
@@ -376,6 +424,12 @@
                 "album": "Whethan, Oliver Tree - When I'm Down (Single)",
                 "link": "%M%/whethan-vs-oliver-tree-when-im-down-instrumental-remake.mp3",
                 "cover": "%B%/whethan-vs-oliver-tree-when-im-down-instrumental-remake.png"
+            },
+            {
+                "title": "Younger Hunger - Dead Inside (Official Audio)",
+                "author": "Younger Hunger",
+                "link": "%M%/Younger Hunger - Dead Inside (Official Audio).mp3",
+                "cover": "%B%/Younger Hunger - Dead Inside (Official Audio).jpeg"
             }
         ]
     }
