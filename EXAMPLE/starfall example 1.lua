@@ -1,8 +1,7 @@
 --@name Starfall example 1
 --@author AstalNeker
 
---Include loader as song_loader.lua
---@include https://github.com/NekerSqu4w/SF_E2_Radio/blob/main/loader.lua?raw=true as loader.lua
+--@include https://raw.githubusercontent.com/NekerSqu4w/SF_E2_Radio/main/loader.lua as loader.lua
 
 if CLIENT then
     --Import the loader
