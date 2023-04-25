@@ -22,6 +22,7 @@ local song_loader = require("loader.lua")
 Than call the library to load the playlist by using song_loader.load(playlist url or nil,function on execution)
 ```lua
 song_loader.load("https://raw.githubusercontent.com/NekerSqu4w/SF_E2_Radio/main/LIST/playlist.json",function(data,error)
+    --Execute something on receive data
 end
 ```
 
