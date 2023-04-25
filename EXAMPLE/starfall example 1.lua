@@ -14,7 +14,7 @@ if CLIENT then
 
     --Used to load playlist data
     -- song_loader.load(use_own_url or nil,function)
-    song_loader.load("https://github.com/NekerSqu4w/SF_E2_Radio/blob/main/playlist_v2.json?raw=true",function(data,error)
+    song_loader.load("https://raw.githubusercontent.com/NekerSqu4w/SF_E2_Radio/main/VISUALISER/playlist_v2.json",function(data,error)
         print(table.toString(error))
         print("Current list as " .. #data.playlist[list] .. " file")
         print("Current song: " .. data.playlist[list][load_id].title)
