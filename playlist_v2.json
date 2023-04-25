@@ -292,6 +292,12 @@
                 "cover": "%B%/its-alright.png"
             },
             {
+                "title": "Jason",
+                "author": "The Midnight - Topic",
+                "link": "%M%/Jason.mp3",
+                "cover": "%B%/Jason.jpeg"
+            },
+            {
                 "title": "Jim Yosef - Ghost (ft. Scarlett) [Official Lyric Video]",
                 "author": "Jim Yosef",
                 "link": "%M%/Jim Yosef - Ghost (ft. Scarlett) [Official Lyric Video].mp3",
@@ -333,6 +339,12 @@
                 "author": "NoCopyrightSounds",
                 "link": "%M%/Netrum & Halvorsen - Phoenix [NCS10 Release].mp3",
                 "cover": "%B%/Netrum & Halvorsen - Phoenix [NCS10 Release].jpeg"
+            },
+            {
+                "title": "Netrum & Halvorsen - Shivers [NCS Release]",
+                "author": "NoCopyrightSounds",
+                "link": "%M%/Netrum & Halvorsen - Shivers [NCS Release].mp3",
+                "cover": "%B%/Netrum & Halvorsen - Shivers [NCS Release].jpeg"
             },
             {
                 "title": "Nightcall",
@@ -399,6 +411,12 @@
                 "author": "The1975VEVO",
                 "link": "%M%/The 1975 - Me & You Together Song.mp3",
                 "cover": "%B%/The 1975 - Me & You Together Song.jpeg"
+            },
+            {
+                "title": "The Midnight - 'Seventeen' (Official Audio)",
+                "author": "The Midnight",
+                "link": "%M%/The Midnight - 'Seventeen' (Official Audio).mp3",
+                "cover": "%B%/The Midnight - 'Seventeen' (Official Audio).jpeg"
             },
             {
                 "title": "TheFatRat & Maisy Kay - The Storm",
