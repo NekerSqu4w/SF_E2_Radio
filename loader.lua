@@ -34,8 +34,10 @@ local function load(use_own_playlist_url,exec)
             end
 
             exec(ld,"No error")
+            return
         end
         exec({},has_error)
+        return
     end)
 end
 
