@@ -10,7 +10,7 @@ if CLIENT then
     
     --Some value to choose your song
     local list = "mp3" --Two list exist
-    local load_id = 48
+    local load_id = 1
 
     --Used to load playlist data
     -- song_loader.load(use_own_url or nil,function)
@@ -19,7 +19,6 @@ if CLIENT then
         print("Current song: " .. data.playlist[list][load_id].title)
         print("Playlist name: " .. data.playlist.list_name[list])
 
-        -- reformat_link() will work only after data was loaded
         print("Song link: " .. data.playlist[list][load_id].link)
 
         bass.loadURL(data.playlist[list][load_id].link, "noblock", function(snd,error)
