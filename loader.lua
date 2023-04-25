@@ -1,5 +1,5 @@
 
-local default_list_url = "https://raw.githubusercontent.com/NekerSqu4w/SF_E2_Radio/main/VISUALISER/playlist.json"
+local default_list_url = "https://raw.githubusercontent.com/NekerSqu4w/SF_E2_Radio/main/LIST/playlist.json"
 
 local function is_url(url)
     return (string.sub(url,0,8) == "https://" or string.sub(url,0,7) == "http://")
@@ -33,7 +33,7 @@ local function load(use_own_playlist_url,exec)
                 data.cover = reformat_link(data.cover,ld.playlist)
             end
 
-            exec(ld)
+            exec(ld,"No error")
         end
         exec({},has_error)
     end)
