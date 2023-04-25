@@ -51,6 +51,12 @@
         ],
         "mp3": [
             {
+                "title": "44phantom - don't sleep, repeat (Official Video) ft. Machine Gun Kelly",
+                "author": "44phantomVEVO",
+                "link": "%M%/44phantom - don't sleep, repeat (Official Video) ft. Machine Gun Kelly.mp3",
+                "cover": "%B%/44phantom - don't sleep, repeat (Official Video) ft. Machine Gun Kelly.jpeg"
+            },
+            {
                 "title": "5FDP - Hard to See (Official Music Video)",
                 "author": "SpinefarmRec",
                 "link": "%M%/5FDP - Hard to See (Official Music Video).mp3",
@@ -128,6 +134,12 @@
                 "author": "Trap Nation",
                 "link": "%M%/BEATSMASH - Eclypse.mp3",
                 "cover": "%B%/BEATSMASH - Eclypse.jpeg"
+            },
+            {
+                "title": "blackbear, Machine Gun Kelly - gfy (Official Video)",
+                "author": "blackbearVEVO",
+                "link": "%M%/blackbear, Machine Gun Kelly - gfy (Official Video).mp3",
+                "cover": "%B%/blackbear, Machine Gun Kelly - gfy (Official Video).jpeg"
             },
             {
                 "title": "Boface - Heart Out (ft. Sean) ♪",
@@ -259,6 +271,12 @@
                 "cover": "%B%/GAMBO - You.jpeg"
             },
             {
+                "title": "Headhunterz ft. Malukah - Reignite (Bass Boosted)(HD)",
+                "author": "Mr. Bass Boost",
+                "link": "%M%/Headhunterz ft. Malukah - Reignite (Bass Boosted)(HD).mp3",
+                "cover": "%B%/Headhunterz ft. Malukah - Reignite (Bass Boosted)(HD).jpeg"
+            },
+            {
                 "title": "Hippie Dreams (MoveTown Remix)",
                 "author": "Andrew Spencer",
                 "album": "Hippie Dreams",
@@ -292,6 +310,12 @@
                 "cover": "%B%/its-alright.png"
             },
             {
+                "title": "I’ll Make It Up To You",
+                "author": "Imagine Dragons - Topic",
+                "link": "%M%/I’ll Make It Up To You.mp3",
+                "cover": "%B%/I’ll Make It Up To You.jpeg"
+            },
+            {
                 "title": "Jason",
                 "author": "The Midnight - Topic",
                 "link": "%M%/Jason.mp3",
@@ -321,6 +345,24 @@
                 "author": "Lorenzo",
                 "link": "%M%/lorenzo-la-kush-ft-tony-corrida-clip-officiel.mp3",
                 "cover": "%B%/lorenzo-la-kush-ft-tony-corrida-clip-officiel.png"
+            },
+            {
+                "title": "Machine Gun Kelly - Bloody Valentine [Official Video]",
+                "author": "MGKVEVO",
+                "link": "%M%/Machine Gun Kelly - Bloody Valentine [Official Video].mp3",
+                "cover": "%B%/Machine Gun Kelly - Bloody Valentine [Official Video].jpeg"
+            },
+            {
+                "title": "Machine Gun Kelly - love race (feat Kellin Quinn)",
+                "author": "Machine Gun Kelly",
+                "link": "%M%/Machine Gun Kelly - love race (feat Kellin Quinn).mp3",
+                "cover": "%B%/Machine Gun Kelly - love race (feat Kellin Quinn).jpeg"
+            },
+            {
+                "title": "Machine Gun Kelly - The Break Up (Official Music Video)",
+                "author": "MGKVEVO",
+                "link": "%M%/Machine Gun Kelly - The Break Up (Official Music Video).mp3",
+                "cover": "%B%/Machine Gun Kelly - The Break Up (Official Music Video).jpeg"
             },
             {
                 "title": "NEFFEX - All These Thoughts [Copyright Free] No.68",
@@ -353,6 +395,12 @@
                 "cover": "%B%/Nightcall.jpeg"
             },
             {
+                "title": "No Money",
+                "author": "Galantis - Topic",
+                "link": "%M%/No Money.mp3",
+                "cover": "%B%/No Money.jpeg"
+            },
+            {
                 "title": "Noizu - Summer 91 (Looking Back)",
                 "author": "Noizu",
                 "link": "%M%/noizu-summer-91-looking-back.mp3",
@@ -375,6 +423,12 @@
                 "author": "Trap Nation",
                 "link": "%M%/Rico & Miella x TELYKast - Worth Fighting For.mp3",
                 "cover": "%B%/Rico & Miella x TELYKast - Worth Fighting For.jpeg"
+            },
+            {
+                "title": "Rise Up",
+                "author": "Imagine Dragons - Topic",
+                "link": "%M%/Rise Up.mp3",
+                "cover": "%B%/Rise Up.jpeg"
             },
             {
                 "title": "Sayan - Shi-Fu-Mi (Clip Officiel)",
