@@ -1,4 +1,3 @@
-
 local default_list_url = "https://raw.githubusercontent.com/NekerSqu4w/SF_E2_Radio/main/LIST/playlist.json"
 
 local function is_url(url)
@@ -7,7 +6,7 @@ end
 
 local function handle_request(url,exec)
     if http.canRequest() then
-        http.get(url,function(response,error) exec(response,error) end)
+        http.get(url,function(response) exec(response,{error=false,msg="No error occured"}) end,function(error) exec("",{error=true,msg=error}) end)
     else
         timer.simple(0.4,function() handle_request(url,exec) end)
     end
@@ -25,19 +24,32 @@ local function load(use_own_playlist_url,exec)
     local use_url = default_list_url
     if use_own_playlist_url and is_url(use_own_playlist_url) then use_url = use_own_playlist_url end
     handle_request(use_url,function(response,has_error)
+        if has_error.error then
+            exec({},has_error)
+            return
+        end
+
         local ld = json.decode(response)
         if ld.data.version == "v1" then
             --Reformat link
-            for id, data in pairs(ld.playlist.mp3) do
-                data.link = reformat_link(data.link,ld.playlist)
-                data.cover = reformat_link(data.cover,ld.playlist)
-            end
 
-            exec(ld,"No error")
-            return
+            local rewriteSpeed = 15 //number of link rewrite at once, high value can increase lag
+            local as_write = 1
+            local id = timer.curtime()
+            timer.create("SLOW_LOAD"..id,0,0,function()
+                for i=1, rewriteSpeed do
+                    if as_write < #ld.playlist.mp3 then else
+                        exec(ld,{error=false,"No error occured"})
+                        timer.remove("SLOW_LOAD"..id)
+                        break
+                    end
+                    local to_write = ld.playlist.mp3[as_write]
+                    to_write.link = reformat_link(to_write.link,ld.playlist)
+                    to_write.cover = reformat_link(to_write.cover,ld.playlist)
+                    as_write = as_write + 1
+                end
+            end)
         end
-        exec({},has_error)
-        return
     end)
 end
 
