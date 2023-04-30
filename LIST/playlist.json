@@ -51,6 +51,29 @@
         ],
         "mp3": [
             {
+                "title": "3LAU - Walk Away (feat. Luna Aura) (Hibell Remix)(Bass Boosted)(HD)",
+                "author": "Mr. Bass Boost",
+                "link": "%M%/3LAU - Walk Away (feat. Luna Aura) (Hibell Remix)(Bass Boosted)(HD).mp3",
+                "cover": "%B%/3LAU - Walk Away (feat. Luna Aura) (Hibell Remix)(Bass Boosted)(HD).jpeg"
+            },
+            {
+                "title": "3LAU feat. Yeah Boy - Is It Love (Official Lyric Video)",
+                "author": "3LAU",
+                "link": "%M%/3LAU feat. Yeah Boy - Is It Love (Official Lyric Video).mp3",
+                "cover": "%B%/3LAU feat. Yeah Boy - Is It Love (Official Lyric Video).jpeg",
+                "moreDetail": {
+                    "IMPORTANT": "ALL DETAIL IS NOT 100% ACCURATE !",
+                    "explicit": false,
+                    "album": {
+                        "covers": "https://i.scdn.co/image/ab67616d0000b273db3595215a885f0953a8dd55",
+                        "name": "IRIDESCENT"
+                    },
+                    "artists": [
+                        "3LAU"
+                    ]
+                }
+            },
+            {
                 "title": "44phantom - don't sleep, repeat (Official Video) ft. Machine Gun Kelly",
                 "author": "44phantomVEVO",
                 "link": "%M%/44phantom - don't sleep, repeat (Official Video) ft. Machine Gun Kelly.mp3",
@@ -61,6 +84,30 @@
                 "author": "SpinefarmRec",
                 "link": "%M%/5FDP - Hard to See (Official Music Video).mp3",
                 "cover": "%B%/5FDP - Hard to See (Official Music Video).jpeg"
+            },
+            {
+                "title": "Aguava - If I",
+                "author": "Majestic Casual",
+                "link": "%M%/Aguava - If I.mp3",
+                "cover": "%B%/Aguava - If I.jpeg"
+            },
+            {
+                "title": "Alan Walker & Ruben – Heading Home (Official Music Video)",
+                "author": "Alan Walker",
+                "link": "%M%/Alan Walker & Ruben – Heading Home (Official Music Video).mp3",
+                "cover": "%B%/Alan Walker & Ruben – Heading Home (Official Music Video).jpeg",
+                "moreDetail": {
+                    "IMPORTANT": "ALL DETAIL IS NOT 100% ACCURATE !",
+                    "explicit": false,
+                    "album": {
+                        "covers": "https://i.scdn.co/image/ab67616d0000b273a152de6438e748b4c0cddff7",
+                        "name": "Walkerverse Pt. I & II"
+                    },
+                    "artists": [
+                        "Alan Walker",
+                        "Au/Ra"
+                    ]
+                }
             },
             {
                 "title": "All These Nights",
@@ -98,6 +145,18 @@
                 "author": "Anna Yvette",
                 "link": "%M%/Anna Yvette - Shooting Star [Forza Horizon 4 Pulse] - Synthwave, Retrowave, Synthpop.mp3",
                 "cover": "%B%/Anna Yvette - Shooting Star [Forza Horizon 4 Pulse] - Synthwave, Retrowave, Synthpop.jpeg"
+            },
+            {
+                "title": "Annaland - Tokyo (Popeska Remix)",
+                "author": "xKito Music",
+                "link": "%M%/Annaland - Tokyo (Popeska Remix).mp3",
+                "cover": "%B%/Annaland - Tokyo (Popeska Remix).jpeg"
+            },
+            {
+                "title": "Audio Dope - Unconditional (feat. Emilia Anastazja)",
+                "author": "Majestic Casual",
+                "link": "%M%/Audio Dope - Unconditional (feat. Emilia Anastazja).mp3",
+                "cover": "%B%/Audio Dope - Unconditional (feat. Emilia Anastazja).jpeg"
             },
             {
                 "title": "B3nte & B3VA - Boombox (Official Audio)",
@@ -148,16 +207,46 @@
                 "cover": "%B%/BEATSMASH - Eclypse.jpeg"
             },
             {
+                "title": "blackbear - fashion week (it's different remix)",
+                "author": "Trap Nation",
+                "link": "%M%/blackbear - fashion week (it_s different remix).mp3",
+                "cover": "%B%/blackbear - fashion week (it_s different remix).jpeg"
+            },
+            {
                 "title": "blackbear, Machine Gun Kelly - gfy (Official Video)",
                 "author": "blackbearVEVO",
                 "link": "%M%/blackbear, Machine Gun Kelly - gfy (Official Video).mp3",
                 "cover": "%B%/blackbear, Machine Gun Kelly - gfy (Official Video).jpeg"
             },
             {
+                "title": "Blasterjaxx x Harris & Ford - Bassman (Official Music Video)",
+                "author": "Spinnin' Records",
+                "link": "%M%/Blasterjaxx x Harris & Ford - Bassman (Official Music Video).mp3",
+                "cover": "%B%/Blasterjaxx x Harris & Ford - Bassman (Official Music Video).jpeg"
+            },
+            {
                 "title": "Boface - Heart Out (ft. Sean) ♪",
                 "author": "StarlingEDM",
                 "link": "%M%/Boface - Heart Out (ft. Sean).mp3",
                 "cover": "%B%/Boface - Heart Out (ft. Sean).jpeg"
+            },
+            {
+                "title": "Bondax - All I See (Darius Remix)",
+                "author": "Majestic Casual",
+                "link": "%M%/Bondax - All I See (Darius Remix).mp3",
+                "cover": "%B%/Bondax - All I See (Darius Remix).jpeg"
+            },
+            {
+                "title": "Bondax - Gold (Snakehips Bootleg)",
+                "author": "Majestic Casual",
+                "link": "%M%/Bondax - Gold (Snakehips Bootleg).mp3",
+                "cover": "%B%/Bondax - Gold (Snakehips Bootleg).jpeg"
+            },
+            {
+                "title": "Celeda - Music Is The Answer (Danny Tenaglia)",
+                "author": "davepeo77",
+                "link": "%M%/Celeda - Music Is The Answer (Danny Tenaglia).mp3",
+                "cover": "%B%/Celeda - Music Is The Answer (Danny Tenaglia).jpeg"
             },
             {
                 "title": "Cher - Believe [Official Music Video]",
@@ -168,13 +257,19 @@
                     "IMPORTANT": "ALL DETAIL IS NOT 100% ACCURATE !",
                     "explicit": false,
                     "album": {
-                        "covers": "https://i.scdn.co/image/ab67616d0000b273a1b8e3e06a1469f0e47c384a",
-                        "name": "100 Uplifting Songs"
+                        "covers": "https://i.scdn.co/image/ab67616d0000b27390f12a0e2c1f36cf05a09ca0",
+                        "name": "90's Mixtape"
                     },
                     "artists": [
                         "Cher"
                     ]
                 }
+            },
+            {
+                "title": "Chris Lake feat Alexis Roberts - Turn Off The Lights",
+                "author": "ChillYourMind",
+                "link": "%M%/Chris Lake feat Alexis Roberts - Turn Off The Lights.mp3",
+                "cover": "%B%/Chris Lake feat Alexis Roberts - Turn Off The Lights.jpeg"
             },
             {
                 "title": "Come Alive (feat. Anna Moore)",
@@ -207,10 +302,75 @@
                 "cover": "%B%/culture-code-feel-again-feat-harley-bird-ncs-release.png"
             },
             {
+                "title": "Dabin - Feel Like (feat. CAPPA)",
+                "author": "MrSuicideSheep",
+                "link": "%M%/Dabin - Feel Like (feat. CAPPA).mp3",
+                "cover": "%B%/Dabin - Feel Like (feat. CAPPA).jpeg"
+            },
+            {
+                "title": "Damaui - Lighthouse (Original Mix)",
+                "author": "Zero Claim Records",
+                "link": "%M%/Damaui - Lighthouse (Original Mix).mp3",
+                "cover": "%B%/Damaui - Lighthouse (Original Mix).jpeg"
+            },
+            {
+                "title": "Darius - Hot Hands",
+                "author": "Majestic Casual",
+                "link": "%M%/Darius - Hot Hands.mp3",
+                "cover": "%B%/Darius - Hot Hands.jpeg"
+            },
+            {
                 "title": "Des Rocs - Used to the Darkness (Audio)",
                 "author": "Des Rocs",
                 "link": "%M%/Des Rocs - Used to the Darkness (Audio).mp3",
                 "cover": "%B%/Des Rocs - Used to the Darkness (Audio).jpeg"
+            },
+            {
+                "title": "DESERT STAR - Carissa [Monstercat Release]",
+                "author": "Monstercat Instinct",
+                "link": "%M%/DESERT STAR - Carissa [Monstercat Release].mp3",
+                "cover": "%B%/DESERT STAR - Carissa [Monstercat Release].jpeg"
+            },
+            {
+                "title": "DESERT STAR - Empty Sky [Monstercat Release]",
+                "author": "Monstercat Instinct",
+                "link": "%M%/DESERT STAR - Empty Sky [Monstercat Release].mp3",
+                "cover": "%B%/DESERT STAR - Empty Sky [Monstercat Release].jpeg"
+            },
+            {
+                "title": "Disciples - On My Mind (Official Video)",
+                "author": "Disciples",
+                "link": "%M%/Disciples - On My Mind (Official Video).mp3",
+                "cover": "%B%/Disciples - On My Mind (Official Video).jpeg",
+                "moreDetail": {
+                    "IMPORTANT": "ALL DETAIL IS NOT 100% ACCURATE !",
+                    "explicit": false,
+                    "album": {
+                        "covers": "https://i.scdn.co/image/ab67616d0000b273f213951c13a6cc088ffd900f",
+                        "name": "Southern Hospitality"
+                    },
+                    "artists": [
+                        "Disciple"
+                    ]
+                }
+            },
+            {
+                "title": "Disclosure - White Noise ft. AlunaGeorge (Official Video)",
+                "author": "Disclosure",
+                "link": "%M%/Disclosure - White Noise ft. AlunaGeorge (Official Video).mp3",
+                "cover": "%B%/Disclosure - White Noise ft. AlunaGeorge (Official Video).jpeg",
+                "moreDetail": {
+                    "IMPORTANT": "ALL DETAIL IS NOT 100% ACCURATE !",
+                    "explicit": false,
+                    "album": {
+                        "covers": "https://i.scdn.co/image/ab67616d0000b273f23789ae07046cb71d4fb7f1",
+                        "name": "Ultimatum"
+                    },
+                    "artists": [
+                        "Disclosure",
+                        "Fatoumata Diawara"
+                    ]
+                }
             },
             {
                 "title": "Disco Lines - BABY GIRL (Extended Airport Mix)",
@@ -252,11 +412,11 @@
                     "IMPORTANT": "ALL DETAIL IS NOT 100% ACCURATE !",
                     "explicit": false,
                     "album": {
-                        "covers": "https://i.scdn.co/image/ab67616d0000b273e5fcc64d12baea349c9fe5f0",
-                        "name": "Monstercat - Best of 2015"
+                        "covers": "https://i.scdn.co/image/ab67616d0000b273a6dbfd2e2b55f0a755ba83de",
+                        "name": "Monody (Radio Edit)"
                     },
                     "artists": [
-                        "Draper",
+                        "TheFatRat",
                         "Laura Brehm"
                     ]
                 }
@@ -297,10 +457,10 @@
                 "cover": "%B%/Dreamkid - Street Lights (Official Lyric Video).jpeg",
                 "moreDetail": {
                     "IMPORTANT": "ALL DETAIL IS NOT 100% ACCURATE !",
-                    "explicit": true,
+                    "explicit": false,
                     "album": {
-                        "covers": "https://i.scdn.co/image/ab67616d0000b2739e87b16573bb7a8894994af7",
-                        "name": "Hearts Don't Beat the Same When They're Hurting"
+                        "covers": "https://i.scdn.co/image/ab67616d0000b273564a1adf19d8f7438fa2f3ee",
+                        "name": "Dreamkid"
                     },
                     "artists": [
                         "Dreamkid"
@@ -308,10 +468,28 @@
                 }
             },
             {
+                "title": "DubRocca - Heart And Soul",
+                "author": "Selected.",
+                "link": "%M%/DubRocca - Heart And Soul.mp3",
+                "cover": "%B%/DubRocca - Heart And Soul.jpeg"
+            },
+            {
+                "title": "EDX feat. Amba Shepherd - Off The Grid (Extended Club Mix)",
+                "author": "house calls",
+                "link": "%M%/EDX feat. Amba Shepherd - Off The Grid (Extended Club Mix).mp3",
+                "cover": "%B%/EDX feat. Amba Shepherd - Off The Grid (Extended Club Mix).jpeg"
+            },
+            {
                 "title": "EmiSphere - Beyond The Skies ♪",
                 "author": "StarlingEDM",
                 "link": "%M%/EmiSphere - Beyond The Skies.mp3",
                 "cover": "%B%/EmiSphere - Beyond The Skies.jpeg"
+            },
+            {
+                "title": "Far Out - New Beginning",
+                "author": "Trap Nation",
+                "link": "%M%/Far Out - New Beginning.mp3",
+                "cover": "%B%/Far Out - New Beginning.jpeg"
             },
             {
                 "title": "Far Out - Overdrive",
@@ -338,28 +516,45 @@
                 }
             },
             {
-                "title": "Gabrielle Aplin - Anyway (Official Audio)",
-                "author": "Gabrielle Aplin",
-                "link": "%M%/gabrielle-aplin-anyway-official-audio.mp3",
-                "cover": "%B%/gabrielle-aplin-anyway-official-audio.png",
+                "title": "French 79 - Hometown [Official Video]",
+                "author": "French 79",
+                "link": "%M%/French 79 - Hometown [Official Video].mp3",
+                "cover": "%B%/French 79 - Hometown [Official Video].jpeg",
                 "moreDetail": {
                     "IMPORTANT": "ALL DETAIL IS NOT 100% ACCURATE !",
                     "explicit": false,
                     "album": {
-                        "covers": "https://i.scdn.co/image/ab67616d0000b273676879489f7c71b3e9fddcad",
-                        "name": "Panic Cord - EP"
+                        "covers": "https://i.scdn.co/image/ab67616d0000b2738eb4ed91d0ea3ed0ebd04f8f",
+                        "name": "Hometown"
                     },
                     "artists": [
-                        "Gabrielle Aplin",
-                        "Bastille"
+                        "French 79"
                     ]
                 }
+            },
+            {
+                "title": "Gabrielle Aplin - Anyway (Official Audio)",
+                "author": "Gabrielle Aplin",
+                "link": "%M%/gabrielle-aplin-anyway-official-audio.mp3",
+                "cover": "%B%/gabrielle-aplin-anyway-official-audio.png"
             },
             {
                 "title": "GAMBO - You",
                 "author": "MrSuicideSheep",
                 "link": "%M%/GAMBO - You.mp3",
                 "cover": "%B%/GAMBO - You.jpeg"
+            },
+            {
+                "title": "Gryffin - Body Back ft. Maia Wright (Official Music Video)",
+                "author": "GryffinVEVO",
+                "link": "%M%/Gryffin - Body Back ft. Maia Wright (Official Music Video).mp3",
+                "cover": "%B%/Gryffin - Body Back ft. Maia Wright (Official Music Video).jpeg"
+            },
+            {
+                "title": "HARLEE - Reset [Joel Corry Remix]",
+                "author": "Joel Corry",
+                "link": "%M%/HARLEE - Reset [Joel Corry Remix].mp3",
+                "cover": "%B%/HARLEE - Reset [Joel Corry Remix].jpeg"
             },
             {
                 "title": "Headhunterz ft. Malukah - Reignite (Bass Boosted)(HD)",
@@ -377,12 +572,13 @@
                     "IMPORTANT": "ALL DETAIL IS NOT 100% ACCURATE !",
                     "explicit": false,
                     "album": {
-                        "covers": "https://i.scdn.co/image/ab67616d0000b273e8aef05e9c2796d0e2f862b2",
-                        "name": "Spring Break Explosion 2012"
+                        "covers": "https://i.scdn.co/image/ab67616d0000b2733abbbfa1b8ee74cfd2784385",
+                        "name": "Hippie Dreams"
                     },
                     "artists": [
                         "Andrew Spencer",
-                        "Max Farenthide"
+                        "Andreas Heck",
+                        "Thomas Weitzel"
                     ]
                 }
             },
@@ -431,16 +627,83 @@
                 "cover": "%B%/I’ll Make It Up To You.jpeg"
             },
             {
+                "title": "Jamie Jones - Lose My Mind (Extended)",
+                "author": "SubSoul",
+                "link": "%M%/Jamie Jones - Lose My Mind (Extended).mp3",
+                "cover": "%B%/Jamie Jones - Lose My Mind (Extended).jpeg"
+            },
+            {
                 "title": "Jason",
                 "author": "The Midnight - Topic",
                 "link": "%M%/Jason.mp3",
                 "cover": "%B%/Jason.jpeg"
             },
             {
+                "title": "Jess Bays - Temptation (ft. Poppy Baskomb)",
+                "author": "SubSoul",
+                "link": "%M%/Jess Bays - Temptation (ft. Poppy Baskomb).mp3",
+                "cover": "%B%/Jess Bays - Temptation (ft. Poppy Baskomb).jpeg"
+            },
+            {
+                "title": "Jethro Heston, Cardboard Foxes - Cut Me Loose (ft. Max Marshall)",
+                "author": "Jethro Heston",
+                "link": "%M%/Jethro Heston, Cardboard Foxes - Cut Me Loose (ft. Max Marshall).mp3",
+                "cover": "%B%/Jethro Heston, Cardboard Foxes - Cut Me Loose (ft. Max Marshall).jpeg",
+                "moreDetail": {
+                    "IMPORTANT": "ALL DETAIL IS NOT 100% ACCURATE !",
+                    "explicit": false,
+                    "album": {
+                        "covers": "https://i.scdn.co/image/ab67616d0000b2730e24285cf75beba2792d7d36",
+                        "name": "Cut Me Loose (Beyond Chicago Remix)"
+                    },
+                    "artists": [
+                        "Jethro Heston",
+                        "Max Marshall"
+                    ]
+                }
+            },
+            {
                 "title": "Jim Yosef - Ghost (ft. Scarlett) [Official Lyric Video]",
                 "author": "Jim Yosef",
                 "link": "%M%/Jim Yosef - Ghost (ft. Scarlett) [Official Lyric Video].mp3",
-                "cover": "%B%/Jim Yosef - Ghost (ft. Scarlett) [Official Lyric Video].jpeg"
+                "cover": "%B%/Jim Yosef - Ghost (ft. Scarlett) [Official Lyric Video].jpeg",
+                "moreDetail": {
+                    "IMPORTANT": "ALL DETAIL IS NOT 100% ACCURATE !",
+                    "explicit": false,
+                    "album": {
+                        "covers": "https://i.scdn.co/image/ab67616d0000b2733cf8d28ccd73dde8c0a40193",
+                        "name": "Everlasting"
+                    },
+                    "artists": [
+                        "Jim Yosef",
+                        "Ephixa"
+                    ]
+                }
+            },
+            {
+                "title": "Joe Hertz - Stay Lost (feat. Amber-Simone) (Cabu Remix)",
+                "author": "Majestic Casual",
+                "link": "%M%/Joe Hertz - Stay Lost (feat. Amber-Simone) (Cabu Remix).mp3",
+                "cover": "%B%/Joe Hertz - Stay Lost (feat. Amber-Simone) (Cabu Remix).jpeg"
+            },
+            {
+                "title": "Joel Corry - Sorry [Official Video]",
+                "author": "Joel Corry",
+                "link": "%M%/Joel Corry - Sorry [Official Video].mp3",
+                "cover": "%B%/Joel Corry - Sorry [Official Video].jpeg",
+                "moreDetail": {
+                    "IMPORTANT": "ALL DETAIL IS NOT 100% ACCURATE !",
+                    "explicit": false,
+                    "album": {
+                        "covers": "https://i.scdn.co/image/ab67616d0000b273fed7f8d413b8bd2e85c2d114",
+                        "name": "Sorry (The Remixes) [Pt.1]"
+                    },
+                    "artists": [
+                        "Joel Corry",
+                        "Bru-C",
+                        "Darkzy"
+                    ]
+                }
             },
             {
                 "title": "Waiting For A Lifetime",
@@ -452,13 +715,33 @@
                     "IMPORTANT": "ALL DETAIL IS NOT 100% ACCURATE !",
                     "explicit": false,
                     "album": {
-                        "covers": "https://i.scdn.co/image/ab67616d0000b273c31ce98936c6c5d0deefe978",
-                        "name": "Tribute"
+                        "covers": "https://i.scdn.co/image/ab67616d0000b273c935cdaa291fffeea534f971",
+                        "name": "Love Me Again (Remix)"
                     },
                     "artists": [
-                        "John Newman"
+                        "John Newman",
+                        "Vice",
+                        "Kemal Golden"
                     ]
                 }
+            },
+            {
+                "title": "Joris Delacroix & Nancy - Take your time Live",
+                "author": "Way Of House",
+                "link": "%M%/Joris Delacroix & Nancy - Take your time Live.mp3",
+                "cover": "%B%/Joris Delacroix & Nancy - Take your time Live.jpeg"
+            },
+            {
+                "title": "JVLY - swim",
+                "author": "Majestic Casual",
+                "link": "%M%/JVLY - swim.mp3",
+                "cover": "%B%/JVLY - swim.jpeg"
+            },
+            {
+                "title": "Kučka - Honey (Medasin Remix)",
+                "author": "Majestic Casual",
+                "link": "%M%/Kučka - Honey (Medasin Remix).mp3",
+                "cover": "%B%/Kučka - Honey (Medasin Remix).jpeg"
             },
             {
                 "title": "Lefa - Mauvais (Clip officiel)",
@@ -475,13 +758,37 @@
                     "IMPORTANT": "ALL DETAIL IS NOT 100% ACCURATE !",
                     "explicit": true,
                     "album": {
-                        "covers": "https://i.scdn.co/image/ab67616d0000b273e12d4853c476caf3f04eb9e8",
-                        "name": "Sex In The City"
+                        "covers": "https://i.scdn.co/image/ab67616d0000b2737dfb2cbea4cdb69a132cb2a9",
+                        "name": "Légende Vivante"
                     },
                     "artists": [
                         "Lorenzo"
                     ]
                 }
+            },
+            {
+                "title": "Los Angeles",
+                "author": "The Midnight - Topic",
+                "link": "%M%/Los Angeles.mp3",
+                "cover": "%B%/Los Angeles.jpeg"
+            },
+            {
+                "title": "Lost & Found",
+                "author": "The Midnight - Topic",
+                "link": "%M%/Lost & Found.mp3",
+                "cover": "%B%/Lost & Found.jpeg"
+            },
+            {
+                "title": "Lost Capital - Livin Without Maybes (feat. Gor Sujyan) [Official Audio]",
+                "author": "Spinnin' Records",
+                "link": "%M%/Lost Capital - Livin Without Maybes (feat. Gor Sujyan) [Official Audio].mp3",
+                "cover": "%B%/Lost Capital - Livin Without Maybes (feat. Gor Sujyan) [Official Audio].jpeg"
+            },
+            {
+                "title": "Lucas & Steve - Another Life (Lyrics) ft. Alida",
+                "author": "The Vibe Guide",
+                "link": "%M%/Lucas & Steve - Another Life (Lyrics) ft. Alida.mp3",
+                "cover": "%B%/Lucas & Steve - Another Life (Lyrics) ft. Alida.jpeg"
             },
             {
                 "title": "Machine Gun Kelly - Bloody Valentine [Official Video]",
@@ -498,11 +805,12 @@
                     "IMPORTANT": "ALL DETAIL IS NOT 100% ACCURATE !",
                     "explicit": true,
                     "album": {
-                        "covers": "https://i.scdn.co/image/ab67616d0000b273b4683d9ac3c5f14a71523c84",
-                        "name": "mainstream sellout"
+                        "covers": "https://i.scdn.co/image/ab67616d0000b2738f8c981944c3ae3e39039cd0",
+                        "name": "mainstream sellout (life in pink deluxe)"
                     },
                     "artists": [
-                        "Machine Gun Kelly"
+                        "Machine Gun Kelly",
+                        "glaive"
                     ]
                 }
             },
@@ -513,6 +821,36 @@
                 "cover": "%B%/Machine Gun Kelly - The Break Up (Official Music Video).jpeg"
             },
             {
+                "title": "machineheart & Vanic - Circles",
+                "author": "Trap Nation",
+                "link": "%M%/machineheart & Vanic - Circles.mp3",
+                "cover": "%B%/machineheart & Vanic - Circles.jpeg"
+            },
+            {
+                "title": "Magic Box - Carillon [Official Video]",
+                "author": "Time Records",
+                "link": "%M%/Magic Box - Carillon [Official Video].mp3",
+                "cover": "%B%/Magic Box - Carillon [Official Video].jpeg"
+            },
+            {
+                "title": "Martin Garrix & DallasK & Sasha Alex Sloan - Loop",
+                "author": "Selected.",
+                "link": "%M%/Martin Garrix & DallasK & Sasha Alex Sloan - Loop.mp3",
+                "cover": "%B%/Martin Garrix & DallasK & Sasha Alex Sloan - Loop.jpeg"
+            },
+            {
+                "title": "MC Paulin da Capital - Eu Achei (Juelz Remix)",
+                "author": "Trap Nation",
+                "link": "%M%/MC Paulin da Capital - Eu Achei (Juelz Remix).mp3",
+                "cover": "%B%/MC Paulin da Capital - Eu Achei (Juelz Remix).jpeg"
+            },
+            {
+                "title": "MitiS - Homesick (Lyrics) feat. SOUNDR",
+                "author": "WaveMusic",
+                "link": "%M%/MitiS - Homesick (Lyrics) feat. SOUNDR.mp3",
+                "cover": "%B%/MitiS - Homesick (Lyrics) feat. SOUNDR.jpeg"
+            },
+            {
                 "title": "NEFFEX - All These Thoughts [Copyright Free] No.68",
                 "author": "NEFFEX",
                 "link": "%M%/NEFFEX - All These Thoughts [Copyright Free] No.68.mp3",
@@ -521,8 +859,8 @@
                     "IMPORTANT": "ALL DETAIL IS NOT 100% ACCURATE !",
                     "explicit": true,
                     "album": {
-                        "covers": "https://i.scdn.co/image/ab67616d0000b2736ef19ac05f79e8b07b63c51d",
-                        "name": "Chance"
+                        "covers": "https://i.scdn.co/image/ab67616d0000b27349a49102f917e455ea854f75",
+                        "name": "Dangerous"
                     },
                     "artists": [
                         "NEFFEX"
@@ -536,10 +874,10 @@
                 "cover": "%B%/NEFFEX - Chance [Copyright Free] No.65.jpeg",
                 "moreDetail": {
                     "IMPORTANT": "ALL DETAIL IS NOT 100% ACCURATE !",
-                    "explicit": false,
+                    "explicit": true,
                     "album": {
-                        "covers": "https://i.scdn.co/image/ab67616d0000b273bd9e9490d5198c41cb85b669",
-                        "name": "Fight Back: The Collection"
+                        "covers": "https://i.scdn.co/image/ab67616d0000b273607dfbd668cd06751f26094e",
+                        "name": "Fight Back"
                     },
                     "artists": [
                         "NEFFEX"
@@ -557,6 +895,12 @@
                 "author": "NoCopyrightSounds",
                 "link": "%M%/Netrum & Halvorsen - Shivers [NCS Release].mp3",
                 "cover": "%B%/Netrum & Halvorsen - Shivers [NCS Release].jpeg"
+            },
+            {
+                "title": "NICOLOSI - Wasted Time",
+                "author": "MrSuicideSheep",
+                "link": "%M%/NICOLOSI - Wasted Time.mp3",
+                "cover": "%B%/NICOLOSI - Wasted Time.jpeg"
             },
             {
                 "title": "Nightcall",
@@ -579,14 +923,27 @@
                     "IMPORTANT": "ALL DETAIL IS NOT 100% ACCURATE !",
                     "explicit": false,
                     "album": {
-                        "covers": "https://i.scdn.co/image/ab67616d0000b273e8ff592eb1bdad08cba55131",
-                        "name": "4 The People"
+                        "covers": "https://i.scdn.co/image/ab67616d0000b2738f42f482d961266b1d64df2f",
+                        "name": "Catch My Love"
                     },
                     "artists": [
                         "Noizu",
-                        "Tony Romera"
+                        "Disciples",
+                        "MOYA"
                     ]
                 }
+            },
+            {
+                "title": "Oden & Fatzo – Lauren (Official Visualiser)",
+                "author": "Ministry of Sound",
+                "link": "%M%/Oden & Fatzo – Lauren (Official Visualiser).mp3",
+                "cover": "%B%/Oden & Fatzo – Lauren (Official Visualiser).jpeg"
+            },
+            {
+                "title": "Oliver Heldens X Becky Hill - Gecko (Overdrive) [Radio Edit]",
+                "author": "FFRR",
+                "link": "%M%/Oliver Heldens X Becky Hill - Gecko (Overdrive) [Radio Edit].mp3",
+                "cover": "%B%/Oliver Heldens X Becky Hill - Gecko (Overdrive) [Radio Edit].jpeg"
             },
             {
                 "title": "Over Easy - Trying Too Hard ft. Leondis & Britt Lari (Official Lyric Video)",
@@ -595,10 +952,54 @@
                 "cover": "%B%/over-easy-trying-too-hard-ft-leondis-britt-lari-official-lyric-video.png"
             },
             {
+                "title": "Owl City - Lucid Dream",
+                "author": "OwlCityVEVO",
+                "link": "%M%/Owl City - Lucid Dream.mp3",
+                "cover": "%B%/Owl City - Lucid Dream.jpeg"
+            },
+            {
+                "title": "Philip George & Anton Powers - Alone No More (Official Music Video) HD",
+                "author": "3 Beat",
+                "link": "%M%/Philip George & Anton Powers - Alone No More (Official Music Video) HD.mp3",
+                "cover": "%B%/Philip George & Anton Powers - Alone No More (Official Music Video) HD.jpeg"
+            },
+            {
+                "title": "PIKASONIC - Asuka",
+                "author": "Diversity",
+                "link": "%M%/PIKASONIC - Asuka.mp3",
+                "cover": "%B%/PIKASONIC - Asuka.jpeg"
+            },
+            {
                 "title": "Porter Robinson - Everything Goes On (Lyrics)",
                 "author": "WaveMusic",
                 "link": "%M%/porter-robinson-everything-goes-on-lyrics.mp3",
                 "cover": "%B%/porter-robinson-everything-goes-on-lyrics.png"
+            },
+            {
+                "title": "R3HAB x MOTi - Up All Night ft. Fiora (Official Video)",
+                "author": "R3HAB",
+                "link": "%M%/R3HAB x MOTi - Up All Night ft. Fiora (Official Video).mp3",
+                "cover": "%B%/R3HAB x MOTi - Up All Night ft. Fiora (Official Video).jpeg",
+                "moreDetail": {
+                    "IMPORTANT": "ALL DETAIL IS NOT 100% ACCURATE !",
+                    "explicit": false,
+                    "album": {
+                        "covers": "https://i.scdn.co/image/ab67616d0000b273e7c7244ea3019c2fc099205c",
+                        "name": "Up All Night (Skytech Remix)"
+                    },
+                    "artists": [
+                        "R3HAB",
+                        "MOTi",
+                        "Skytech",
+                        "Fiora"
+                    ]
+                }
+            },
+            {
+                "title": "Redondo x MALARKEY x Galluxy - Never Stop (Official Audio)",
+                "author": "Spinnin' Records",
+                "link": "%M%/Redondo x MALARKEY x Galluxy - Never Stop (Official Audio).mp3",
+                "cover": "%B%/Redondo x MALARKEY x Galluxy - Never Stop (Official Audio).jpeg"
             },
             {
                 "title": "Rico & Miella x TELYKast - Worth Fighting For",
@@ -613,10 +1014,27 @@
                 "cover": "%B%/Rise Up.jpeg"
             },
             {
+                "title": "Sasha Alex Sloan - WTF (Official Video)",
+                "author": "SashaSloanVEVO",
+                "link": "%M%/Sasha Alex Sloan - WTF (Official Video).mp3",
+                "cover": "%B%/Sasha Alex Sloan - WTF (Official Video).jpeg"
+            },
+            {
                 "title": "Sayan - Shi-Fu-Mi (Clip Officiel)",
                 "author": "SAYAN",
                 "link": "%M%/sayan-shi-fu-mi-clip-officiel.mp3",
-                "cover": "%B%/sayan-shi-fu-mi-clip-officiel.png"
+                "cover": "%B%/sayan-shi-fu-mi-clip-officiel.png",
+                "moreDetail": {
+                    "IMPORTANT": "ALL DETAIL IS NOT 100% ACCURATE !",
+                    "explicit": false,
+                    "album": {
+                        "covers": "https://i.scdn.co/image/ab67616d0000b273031b6cffa504a979fcfbd22e",
+                        "name": "BEST LIFE"
+                    },
+                    "artists": [
+                        "Sayan"
+                    ]
+                }
             },
             {
                 "title": "Shane Codd - It Ain't Right (Official Audio)",
@@ -648,6 +1066,12 @@
                 "cover": "%B%/shift-k3y-i-know.jpeg"
             },
             {
+                "title": "Siine ft. Le June - Trip (Official Lyric Video)",
+                "author": "Epidemic Pop",
+                "link": "%M%/Siine ft. Le June - Trip (Official Lyric Video).mp3",
+                "cover": "%B%/Siine ft. Le June - Trip (Official Lyric Video).jpeg"
+            },
+            {
                 "title": "stage7 - 8 bit mentality",
                 "author": "z0rg",
                 "link": "%M%/stage7 - 8 bit mentality.mp3",
@@ -677,6 +1101,40 @@
                 }
             },
             {
+                "title": "The Midnight - 'America Online (Instrumental)' (Official Audio)",
+                "author": "The Midnight",
+                "link": "%M%/The Midnight - _America Online (Instrumental)_ (Official Audio).mp3",
+                "cover": "%B%/The Midnight - _America Online (Instrumental)_ (Official Audio).jpeg",
+                "moreDetail": {
+                    "IMPORTANT": "ALL DETAIL IS NOT 100% ACCURATE !",
+                    "explicit": false,
+                    "album": {
+                        "covers": "https://i.scdn.co/image/ab67616d0000b2732087a7552587b7a9a7bc4238",
+                        "name": "Heroes"
+                    },
+                    "artists": [
+                        "The Midnight"
+                    ]
+                }
+            },
+            {
+                "title": "The Midnight - 'Last Train' (Official Audio)",
+                "author": "The Midnight",
+                "link": "%M%/The Midnight - _Last Train_ (Official Audio).mp3",
+                "cover": "%B%/The Midnight - _Last Train_ (Official Audio).jpeg",
+                "moreDetail": {
+                    "IMPORTANT": "ALL DETAIL IS NOT 100% ACCURATE !",
+                    "explicit": false,
+                    "album": {
+                        "covers": "https://i.scdn.co/image/ab67616d0000b2737d7737237b5742e6a8b05b2d",
+                        "name": "Endless Summer"
+                    },
+                    "artists": [
+                        "The Midnight"
+                    ]
+                }
+            },
+            {
                 "title": "TheFatRat & Maisy Kay - The Storm",
                 "author": "xKito Music",
                 "link": "%M%/TheFatRat & Maisy Kay - The Storm.mp3",
@@ -686,24 +1144,55 @@
                 "title": "TOM GREGORY - FORGET SOMEBODY (Official Lyric Video)",
                 "author": "Tom Gregory",
                 "link": "%M%/tom-gregory-forget-somebody-official-lyric-video.mp3",
-                "cover": "%B%/tom-gregory-forget-somebody-official-lyric-video.png",
-                "moreDetail": {
-                    "IMPORTANT": "ALL DETAIL IS NOT 100% ACCURATE !",
-                    "explicit": false,
-                    "album": {
-                        "covers": "https://i.scdn.co/image/ab67616d0000b273743d11f573024ffb5fdc8bfc",
-                        "name": "River"
-                    },
-                    "artists": [
-                        "Tom Gregory"
-                    ]
-                }
+                "cover": "%B%/tom-gregory-forget-somebody-official-lyric-video.png"
+            },
+            {
+                "title": "TOOMANYLEFTHANDS x Chico Rose - Play My Jam (Official Audio)",
+                "author": "Spinnin' Records",
+                "link": "%M%/TOOMANYLEFTHANDS x Chico Rose - Play My Jam (Official Audio).mp3",
+                "cover": "%B%/TOOMANYLEFTHANDS x Chico Rose - Play My Jam (Official Audio).jpeg"
+            },
+            {
+                "title": "Tristam - Bone Dry [Monstercat Release]",
+                "author": "Monstercat Uncaged",
+                "link": "%M%/Tristam - Bone Dry [Monstercat Release].mp3",
+                "cover": "%B%/Tristam - Bone Dry [Monstercat Release].jpeg"
             },
             {
                 "title": "Ultrabeat - Pretty Green Eyes (Paul Gannon Remix)(Bass Boosted)(HD)",
                 "author": "Mr. Bass Boost",
                 "link": "%M%/ultrabeat-pretty-green-eyes-paul-gannon-remixbass-boostedhd.mp3",
                 "cover": "%B%/ultrabeat-pretty-green-eyes-paul-gannon-remixbass-boostedhd.jpeg"
+            },
+            {
+                "title": "VASSY x Bingo Players x Disco Fries - Pieces (Official Music Video)",
+                "author": "Spinnin' Records",
+                "link": "%M%/VASSY x Bingo Players x Disco Fries - Pieces (Official Music Video).mp3",
+                "cover": "%B%/VASSY x Bingo Players x Disco Fries - Pieces (Official Music Video).jpeg"
+            },
+            {
+                "title": "Vengaboys - Boom Boom Boom Boom!! (Prezioso x Alyon & Mylian Hardstyle Bootleg)",
+                "author": "Yenno",
+                "link": "%M%/Vengaboys - Boom Boom Boom Boom!! (Prezioso x Alyon & Mylian Hardstyle Bootleg).mp3",
+                "cover": "%B%/Vengaboys - Boom Boom Boom Boom!! (Prezioso x Alyon & Mylian Hardstyle Bootleg).jpeg"
+            },
+            {
+                "title": "Vicetone - United We Dance",
+                "author": "Proximity",
+                "link": "%M%/Vicetone - United We Dance.mp3",
+                "cover": "%B%/Vicetone - United We Dance.jpeg"
+            },
+            {
+                "title": "WEKEED - Wild Child",
+                "author": "Majestic Casual",
+                "link": "%M%/WEKEED - Wild Child.mp3",
+                "cover": "%B%/WEKEED - Wild Child.jpeg"
+            },
+            {
+                "title": "When We Were Young",
+                "author": "Magic Dance - Topic",
+                "link": "%M%/When We Were Young.mp3",
+                "cover": "%B%/When We Were Young.jpeg"
             },
             {
                 "title": "When I'm Down",
@@ -728,6 +1217,44 @@
                         "Younger Hunger"
                     ]
                 }
+            },
+            {
+                "title": "Youv Dee - Ceci Cela (Clip Officiel)",
+                "author": "Monkey Dee Youv",
+                "link": "%M%/Youv Dee - Ceci Cela (Clip Officiel).mp3",
+                "cover": "%B%/Youv Dee - Ceci Cela (Clip Officiel).jpeg"
+            },
+            {
+                "title": "youve been cheatin and tellin me lies x",
+                "author": "kayleighwoolleyX",
+                "link": "%M%/youve been cheatin and tellin me lies x.mp3",
+                "cover": "%B%/youve been cheatin and tellin me lies x.jpeg"
+            },
+            {
+                "title": "Yves V - We Got That Cool (feat. Afrojack & Icona Pop)",
+                "author": "Afrojack",
+                "link": "%M%/Yves V - We Got That Cool (feat. Afrojack & Icona Pop).mp3",
+                "cover": "%B%/Yves V - We Got That Cool (feat. Afrojack & Icona Pop).jpeg",
+                "moreDetail": {
+                    "IMPORTANT": "ALL DETAIL IS NOT 100% ACCURATE !",
+                    "explicit": false,
+                    "album": {
+                        "covers": "https://i.scdn.co/image/ab67616d0000b273a575334a0c8c15b280fe8564",
+                        "name": "Worlds On Fire (Afrojack & R3HAB vs Vion Konger VIP Remix)"
+                    },
+                    "artists": [
+                        "AFROJACK",
+                        "R3HAB",
+                        "Au/Ra",
+                        "Vion Konger"
+                    ]
+                }
+            },
+            {
+                "title": "[DnB] - Tristam & Braken - Frame of Mind [Monstercat Release]",
+                "author": "Monstercat Uncaged",
+                "link": "%M%/[DnB] - Tristam & Braken - Frame of Mind [Monstercat Release].mp3",
+                "cover": "%B%/[DnB] - Tristam & Braken - Frame of Mind [Monstercat Release].jpeg"
             }
         ]
     }
