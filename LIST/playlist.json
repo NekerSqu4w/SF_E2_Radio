@@ -65,11 +65,13 @@
                     "IMPORTANT": "ALL DETAIL IS NOT 100% ACCURATE !",
                     "explicit": false,
                     "album": {
-                        "covers": "https://i.scdn.co/image/ab67616d0000b273db3595215a885f0953a8dd55",
-                        "name": "IRIDESCENT"
+                        "covers": "https://i.scdn.co/image/ab67616d0000b273f3c3227561ed3d2f9ee32df7",
+                        "name": "Is It Love (Remixed)"
                     },
                     "artists": [
-                        "3LAU"
+                        "3LAU",
+                        "YEAH BOY",
+                        "Justin Caruso"
                     ]
                 }
             },
@@ -100,12 +102,13 @@
                     "IMPORTANT": "ALL DETAIL IS NOT 100% ACCURATE !",
                     "explicit": false,
                     "album": {
-                        "covers": "https://i.scdn.co/image/ab67616d0000b273a152de6438e748b4c0cddff7",
-                        "name": "Walkerverse Pt. I & II"
+                        "covers": "https://i.scdn.co/image/ab67616d0000b273a108e07c661f9fc54de9c43a",
+                        "name": "Different World"
                     },
                     "artists": [
                         "Alan Walker",
-                        "Au/Ra"
+                        "Au/Ra",
+                        "Tomine Harket"
                     ]
                 }
             },
@@ -119,12 +122,11 @@
                     "IMPORTANT": "ALL DETAIL IS NOT 100% ACCURATE !",
                     "explicit": false,
                     "album": {
-                        "covers": "https://i.scdn.co/image/ab67616d0000b27343357ac4b0b34bf7069df5ad",
-                        "name": "All These Nights (Lewis Thompson Remix)"
+                        "covers": "https://i.scdn.co/image/ab67616d0000b273834191af28e34c0fe7cb678b",
+                        "name": "All These Nights"
                     },
                     "artists": [
-                        "Tom Grennan",
-                        "Lewis Thompson"
+                        "Tom Grennan"
                     ]
                 }
             },
@@ -252,18 +254,7 @@
                 "title": "Cher - Believe [Official Music Video]",
                 "author": "Cher",
                 "link": "%M%/Cher - Believe [Official Music Video].mp3",
-                "cover": "%B%/Cher - Believe [Official Music Video].jpeg",
-                "moreDetail": {
-                    "IMPORTANT": "ALL DETAIL IS NOT 100% ACCURATE !",
-                    "explicit": false,
-                    "album": {
-                        "covers": "https://i.scdn.co/image/ab67616d0000b27390f12a0e2c1f36cf05a09ca0",
-                        "name": "90's Mixtape"
-                    },
-                    "artists": [
-                        "Cher"
-                    ]
-                }
+                "cover": "%B%/Cher - Believe [Official Music Video].jpeg"
             },
             {
                 "title": "Chris Lake feat Alexis Roberts - Turn Off The Lights",
@@ -346,11 +337,12 @@
                     "IMPORTANT": "ALL DETAIL IS NOT 100% ACCURATE !",
                     "explicit": false,
                     "album": {
-                        "covers": "https://i.scdn.co/image/ab67616d0000b273f213951c13a6cc088ffd900f",
-                        "name": "Southern Hospitality"
+                        "covers": "https://i.scdn.co/image/ab67616d0000b27378be6771e21246898734fbaa",
+                        "name": "On My Mind (Deepend Remix)"
                     },
                     "artists": [
-                        "Disciple"
+                        "Disciples",
+                        "Deepend"
                     ]
                 }
             },
@@ -363,12 +355,12 @@
                     "IMPORTANT": "ALL DETAIL IS NOT 100% ACCURATE !",
                     "explicit": false,
                     "album": {
-                        "covers": "https://i.scdn.co/image/ab67616d0000b273f23789ae07046cb71d4fb7f1",
-                        "name": "Ultimatum"
+                        "covers": "https://i.scdn.co/image/ab67616d0000b2730e39ee167da397172f7e17b2",
+                        "name": "Beach Party 2020"
                     },
                     "artists": [
                         "Disclosure",
-                        "Fatoumata Diawara"
+                        "AlunaGeorge"
                     ]
                 }
             },
@@ -381,8 +373,8 @@
                     "IMPORTANT": "ALL DETAIL IS NOT 100% ACCURATE !",
                     "explicit": false,
                     "album": {
-                        "covers": "https://i.scdn.co/image/ab67616d0000b2735a745ed86084dce96ce32846",
-                        "name": "Is This Love"
+                        "covers": "https://i.scdn.co/image/ab67616d0000b27319d734f61f0d2180f81894b4",
+                        "name": "Baby Girl"
                     },
                     "artists": [
                         "Disco Lines"
@@ -412,8 +404,8 @@
                     "IMPORTANT": "ALL DETAIL IS NOT 100% ACCURATE !",
                     "explicit": false,
                     "album": {
-                        "covers": "https://i.scdn.co/image/ab67616d0000b273a6dbfd2e2b55f0a755ba83de",
-                        "name": "Monody (Radio Edit)"
+                        "covers": "https://i.scdn.co/image/ab67616d0000b273eb3785a0c33439fb09e39f97",
+                        "name": "We'll Meet Again"
                     },
                     "artists": [
                         "TheFatRat",
@@ -524,8 +516,8 @@
                     "IMPORTANT": "ALL DETAIL IS NOT 100% ACCURATE !",
                     "explicit": false,
                     "album": {
-                        "covers": "https://i.scdn.co/image/ab67616d0000b2738eb4ed91d0ea3ed0ebd04f8f",
-                        "name": "Hometown"
+                        "covers": "https://i.scdn.co/image/ab67616d0000b273d8ebf0d2bdf4721a9f027900",
+                        "name": "Joshua"
                     },
                     "artists": [
                         "French 79"
@@ -653,8 +645,8 @@
                     "IMPORTANT": "ALL DETAIL IS NOT 100% ACCURATE !",
                     "explicit": false,
                     "album": {
-                        "covers": "https://i.scdn.co/image/ab67616d0000b2730e24285cf75beba2792d7d36",
-                        "name": "Cut Me Loose (Beyond Chicago Remix)"
+                        "covers": "https://i.scdn.co/image/ab67616d0000b2739f01da96d11b0d1509f32b00",
+                        "name": "Dance Workout"
                     },
                     "artists": [
                         "Jethro Heston",
@@ -666,19 +658,7 @@
                 "title": "Jim Yosef - Ghost (ft. Scarlett) [Official Lyric Video]",
                 "author": "Jim Yosef",
                 "link": "%M%/Jim Yosef - Ghost (ft. Scarlett) [Official Lyric Video].mp3",
-                "cover": "%B%/Jim Yosef - Ghost (ft. Scarlett) [Official Lyric Video].jpeg",
-                "moreDetail": {
-                    "IMPORTANT": "ALL DETAIL IS NOT 100% ACCURATE !",
-                    "explicit": false,
-                    "album": {
-                        "covers": "https://i.scdn.co/image/ab67616d0000b2733cf8d28ccd73dde8c0a40193",
-                        "name": "Everlasting"
-                    },
-                    "artists": [
-                        "Jim Yosef",
-                        "Ephixa"
-                    ]
-                }
+                "cover": "%B%/Jim Yosef - Ghost (ft. Scarlett) [Official Lyric Video].jpeg"
             },
             {
                 "title": "Joe Hertz - Stay Lost (feat. Amber-Simone) (Cabu Remix)",
@@ -695,13 +675,12 @@
                     "IMPORTANT": "ALL DETAIL IS NOT 100% ACCURATE !",
                     "explicit": false,
                     "album": {
-                        "covers": "https://i.scdn.co/image/ab67616d0000b273fed7f8d413b8bd2e85c2d114",
-                        "name": "Sorry (The Remixes) [Pt.1]"
+                        "covers": "https://i.scdn.co/image/ab67616d0000b2730eeff2bc0a9b11610b7dcd66",
+                        "name": "Smile (Joel Corry Remix)"
                     },
                     "artists": [
-                        "Joel Corry",
-                        "Bru-C",
-                        "Darkzy"
+                        "Katy Perry",
+                        "Joel Corry"
                     ]
                 }
             },
@@ -715,13 +694,11 @@
                     "IMPORTANT": "ALL DETAIL IS NOT 100% ACCURATE !",
                     "explicit": false,
                     "album": {
-                        "covers": "https://i.scdn.co/image/ab67616d0000b273c935cdaa291fffeea534f971",
-                        "name": "Love Me Again (Remix)"
+                        "covers": "https://i.scdn.co/image/ab67616d0000b273082a6355f201162570d98fa5",
+                        "name": "Waiting For A Lifetime (John Newman 2.0 Mix)"
                     },
                     "artists": [
-                        "John Newman",
-                        "Vice",
-                        "Kemal Golden"
+                        "John Newman"
                     ]
                 }
             },
@@ -758,11 +735,12 @@
                     "IMPORTANT": "ALL DETAIL IS NOT 100% ACCURATE !",
                     "explicit": true,
                     "album": {
-                        "covers": "https://i.scdn.co/image/ab67616d0000b2737dfb2cbea4cdb69a132cb2a9",
-                        "name": "Légende Vivante"
+                        "covers": "https://i.scdn.co/image/ab67616d0000b273bc0a4414b8c9d2097381765e",
+                        "name": "Bonne Année Rap"
                     },
                     "artists": [
-                        "Lorenzo"
+                        "Lorenzo",
+                        "Tony Corrida"
                     ]
                 }
             },
@@ -805,12 +783,12 @@
                     "IMPORTANT": "ALL DETAIL IS NOT 100% ACCURATE !",
                     "explicit": true,
                     "album": {
-                        "covers": "https://i.scdn.co/image/ab67616d0000b2738f8c981944c3ae3e39039cd0",
-                        "name": "mainstream sellout (life in pink deluxe)"
+                        "covers": "https://i.scdn.co/image/ab67616d0000b273cfc4b1939aba562fc97159c5",
+                        "name": "Hotel Diablo"
                     },
                     "artists": [
                         "Machine Gun Kelly",
-                        "glaive"
+                        "Trippie Redd"
                     ]
                 }
             },
@@ -859,8 +837,8 @@
                     "IMPORTANT": "ALL DETAIL IS NOT 100% ACCURATE !",
                     "explicit": true,
                     "album": {
-                        "covers": "https://i.scdn.co/image/ab67616d0000b27349a49102f917e455ea854f75",
-                        "name": "Dangerous"
+                        "covers": "https://i.scdn.co/image/ab67616d0000b27344dda0229c29ac973f16fb99",
+                        "name": "Play"
                     },
                     "artists": [
                         "NEFFEX"
@@ -876,8 +854,8 @@
                     "IMPORTANT": "ALL DETAIL IS NOT 100% ACCURATE !",
                     "explicit": true,
                     "album": {
-                        "covers": "https://i.scdn.co/image/ab67616d0000b273607dfbd668cd06751f26094e",
-                        "name": "Fight Back"
+                        "covers": "https://i.scdn.co/image/ab67616d0000b27344dda0229c29ac973f16fb99",
+                        "name": "Play"
                     },
                     "artists": [
                         "NEFFEX"
@@ -923,13 +901,13 @@
                     "IMPORTANT": "ALL DETAIL IS NOT 100% ACCURATE !",
                     "explicit": false,
                     "album": {
-                        "covers": "https://i.scdn.co/image/ab67616d0000b2738f42f482d961266b1d64df2f",
-                        "name": "Catch My Love"
+                        "covers": "https://i.scdn.co/image/ab67616d0000b273909003b732b0818e9bb2ee33",
+                        "name": "Push To Start (feat. No/Me)"
                     },
                     "artists": [
                         "Noizu",
-                        "Disciples",
-                        "MOYA"
+                        "Westend",
+                        "No/Me"
                     ]
                 }
             },
@@ -1045,8 +1023,8 @@
                     "IMPORTANT": "ALL DETAIL IS NOT 100% ACCURATE !",
                     "explicit": false,
                     "album": {
-                        "covers": "https://i.scdn.co/image/ab67616d0000b273e24a6b740abc152f6b9d170a",
-                        "name": "Club Anthems 2022"
+                        "covers": "https://i.scdn.co/image/ab67616d0000b27360df207d5fa4bd44ca7c8fd3",
+                        "name": "Spring Break 2022: Party Anthems"
                     },
                     "artists": [
                         "Shane Codd"
@@ -1092,8 +1070,8 @@
                     "IMPORTANT": "ALL DETAIL IS NOT 100% ACCURATE !",
                     "explicit": false,
                     "album": {
-                        "covers": "https://i.scdn.co/image/ab67616d0000b2737d7737237b5742e6a8b05b2d",
-                        "name": "Endless Summer"
+                        "covers": "https://i.scdn.co/image/ab67616d0000b273d1e0a3e6fc01376236fda2e1",
+                        "name": "Monsters (The Instrumentals)"
                     },
                     "artists": [
                         "The Midnight"
@@ -1109,8 +1087,8 @@
                     "IMPORTANT": "ALL DETAIL IS NOT 100% ACCURATE !",
                     "explicit": false,
                     "album": {
-                        "covers": "https://i.scdn.co/image/ab67616d0000b2732087a7552587b7a9a7bc4238",
-                        "name": "Heroes"
+                        "covers": "https://i.scdn.co/image/ab67616d0000b2737d7737237b5742e6a8b05b2d",
+                        "name": "Endless Summer"
                     },
                     "artists": [
                         "The Midnight"
@@ -1126,8 +1104,8 @@
                     "IMPORTANT": "ALL DETAIL IS NOT 100% ACCURATE !",
                     "explicit": false,
                     "album": {
-                        "covers": "https://i.scdn.co/image/ab67616d0000b2737d7737237b5742e6a8b05b2d",
-                        "name": "Endless Summer"
+                        "covers": "https://i.scdn.co/image/ab67616d0000b27383b1bde5d94b7ff8deef5496",
+                        "name": "Nocturnal"
                     },
                     "artists": [
                         "The Midnight"
@@ -1210,8 +1188,8 @@
                     "IMPORTANT": "ALL DETAIL IS NOT 100% ACCURATE !",
                     "explicit": false,
                     "album": {
-                        "covers": "https://i.scdn.co/image/ab67616d0000b27322ce52ff7f4fa6e44b2ad846",
-                        "name": "Crying In The Pit"
+                        "covers": "https://i.scdn.co/image/ab67616d0000b2731787c422550100ce69318865",
+                        "name": "Straight Face"
                     },
                     "artists": [
                         "Younger Hunger"
@@ -1239,14 +1217,13 @@
                     "IMPORTANT": "ALL DETAIL IS NOT 100% ACCURATE !",
                     "explicit": false,
                     "album": {
-                        "covers": "https://i.scdn.co/image/ab67616d0000b273a575334a0c8c15b280fe8564",
-                        "name": "Worlds On Fire (Afrojack & R3HAB vs Vion Konger VIP Remix)"
+                        "covers": "https://i.scdn.co/image/ab67616d0000b2733c32200341e6796270af72b2",
+                        "name": "We Got That Cool (feat. Afrojack & Icona Pop) [DISTO Remix]"
                     },
                     "artists": [
+                        "Yves V",
                         "AFROJACK",
-                        "R3HAB",
-                        "Au/Ra",
-                        "Vion Konger"
+                        "Icona Pop"
                     ]
                 }
             },
