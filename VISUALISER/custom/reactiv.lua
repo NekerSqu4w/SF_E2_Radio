@@ -67,4 +67,11 @@ function visualizer.render(loader,me,scrW,scrH)
     me.retro_screen.draw(512,512,false)
 end
 
+//executed only when switch to another visualizer
+//can be usefull to remove render target
+function visualizer.on_switch()
+    render.destroyRenderTarget("BUFFER1")
+    render.destroyRenderTarget("BUFFER2")
+end
+
 return visualizer
