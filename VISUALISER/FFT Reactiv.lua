@@ -5,7 +5,6 @@
 --@include https://raw.githubusercontent.com/NekerSqu4w/my-starfall-library/main/retro_screen.txt as retro_screen.txt
 --@include https://raw.githubusercontent.com/NekerSqu4w/my-starfall-library/main/multiple_screen_lib.txt as multiple_screen_lib.txt
 --@include https://raw.githubusercontent.com/NekerSqu4w/my-starfall-library/main/permission_handler.txt as permission_handler.txt
---@include https://raw.githubusercontent.com/NekerSqu4w/my-starfall-library/main/uuid.txt as uuid.txt
 --@include https://raw.githubusercontent.com/NekerSqu4w/SF_E2_Radio/main/loader.lua as loader.lua
 
 //gui library
@@ -14,6 +13,8 @@
 --@include https://raw.githubusercontent.com/itisluiz/SFUi/main/sfui/components/window.lua as components/window.lua
 --@include https://raw.githubusercontent.com/itisluiz/SFUi/main/sfui/components/button.lua as components/button.lua
 --@include https://raw.githubusercontent.com/itisluiz/SFUi/main/sfui/components/list.lua as components/list.lua
+--@include https://raw.githubusercontent.com/itisluiz/SFUi/main/sfui/components/slider.lua as components/slider.lua
+--@include https://raw.githubusercontent.com/itisluiz/SFUi/main/sfui/components/label.lua as components/label.lua
 
 
 if CLIENT then
@@ -26,6 +27,8 @@ if CLIENT then
     require("components/window.lua")
     require("components/button.lua")
     require("components/list.lua")
+    require("components/slider.lua")
+    require("components/label.lua")
 
     local song_loader = require("loader.lua")
     local playlist = {}
@@ -62,43 +65,52 @@ if CLIENT then
     local guiButton = {}
     local guiList = {}
     
-    local max = 0
+    //search highest value
     function math.maxt(tbl,min,limit)
+        local max = 0
         for x=min, limit do
             for y=min, limit do
-                if (tbl[x] or 0) > (tbl[y] or 0) then
-                    max = (tbl[x] or 0)
-                elseif (tbl[x] or 0) < (tbl[y] or 0) then
-                    max = (tbl[y] or 0)
-                end
+                if (tbl[x] or 0) > (tbl[y] or 0) then max = (tbl[x] or 0)
+                elseif (tbl[x] or 0) < (tbl[y] or 0) then max = (tbl[y] or 0) end
             end
         end
-        
         return max
     end
-    
+
+    //search low frequency power
     local bassVal = 0
     function getBass(snd,smooth)
         local ft = snd:getFFT(4)
-        if snd.playing then
-            bassVal = math.lerp(timer.frametime() * smooth,bassVal,math.maxt(ft,3,9))
-        else  
-            bassVal = math.lerp(timer.frametime() * smooth,bassVal,0)
-        end
+        if snd.playing then bassVal = math.lerp(timer.frametime() * smooth,bassVal,math.maxt(ft,3,9))
+        else bassVal = math.lerp(timer.frametime() * smooth,bassVal,0) end
         return bassVal
     end
     
-    local volume_multiplier = 1
+    local validTypeName = {"Yes","No","Cancel","Ok","Continue"}
+    function dialogBox(usegui,title,info,button,on_press)
+        local dialog_window = SFUi.window(Vector(64,64), Vector(300,150), title, true, true, function() on_press(dialog_window,0) end)
 
-    
+        for i=1, #info:split("\n") do
+            //limit to 6 newline
+            if i > 6 then break end
+            SFUi.label(dialog_window, Vector(4, 15 + 4 - 15 + i * 15), "" .. info:split("\n")[i])
+        end
+
+        for i=1, #button do
+            //allow 3 max button
+            if i > 3 then break end
+            SFUi.button(dialog_window,Vector(dialog_window.size.x - 70 - math.clamp(#button,0,3) * 70 + i * 70,dialog_window.size.y - 30),Vector(60,20),validTypeName[button[i]],function() on_press(dialog_window,i) end)
+        end
+        usegui:addComponent(dialog_window)
+    end
+
     local coverBufferGenerated = true
     local coverInfo = {}
     coverInfo.realSize = Vector(0,0)
     coverInfo.realPos = Vector(0,0)
-    function load_audio(data)
-        guiList.list.value = track
-        if currentSnd then currentSnd:pause() end
-        cover:setTextureURL("$basetexture",data.playlist[list][track].cover or data.data.no_background[math.random(1,#data.data.no_background)],function(_,_,w,h,layout)
+    function process_cover(data,url)
+        url = url or data.playlist[list][track].cover or data.data.no_background[math.random(1,#data.data.no_background)]
+        cover:setTextureURL("$basetexture",url,function(_,_,w,h,layout)
             //fix size to 1024x1024 depending of proportion
             local fw, fh = w or 1024, h or 1024
             local scl = 1
@@ -114,6 +126,16 @@ if CLIENT then
             layout(512 - fw/2,512 - fh/2,fw,fh)
         end,
         function() coverBufferGenerated = false end)
+    end
+    
+    function load_audio(data)
+        guiList.list.value = track
+        if currentSnd then currentSnd:pause() end
+        process_cover(data)
+        local moreDetail = data.playlist[list][track].moreDetail
+        if moreDetail and moreDetail.album and moreDetail.album.covers then
+            process_cover(data,moreDetail.album.covers)
+        end
 
         local WAITINGSTOP = currentSnd
         bass.loadURL(data.playlist[list][track].link, "3d noblock", function(snd)
@@ -128,8 +150,7 @@ if CLIENT then
 
                 waitingNextSong = false
 
-                //write custom use function
-                    
+                //write custom sound function
                 function currentSnd:toggle(forceToggle)
                     local id = timer.curtime()
                     if self then else return end
@@ -181,6 +202,8 @@ if CLIENT then
                     self.volume = vol
                     self:setVolume(vol)
                 end
+                
+                currentSnd:setVolume2(guiButton.volume.value)
 
                 if WAITINGSTOP then WAITINGSTOP:stop() end
             end
@@ -189,7 +212,7 @@ if CLIENT then
 
     function on_load(data)
         table.sort(data.playlist[list], function(a,b)
-            if a.title < b.title then
+            if a.author < b.author then
                 return b
             end
         end)
@@ -221,13 +244,18 @@ if CLIENT then
                 waitingNextSong = true
             end
         end)
+        
+        guiButton.seek = SFUi.slider(nil, Vector(-128,0), Vector(512,10),0,0,1,0.001)
+        guiButton.volume = SFUi.slider(nil, Vector(guiButton.prev.pos.x,guiButton.prev.pos.y - 30), Vector(128,10),1,0,5,0.1,function(vol) currentSnd:setVolume2(vol) end)
         mainGui:addComponent(guiButton.prev)
         mainGui:addComponent(guiButton.next)
         mainGui:addComponent(guiButton.pause)
+        mainGui:addComponent(guiButton.seek)
+        mainGui:addComponent(guiButton.volume)
 
         local songListGui = SFUi:new()
         local formatedList = {}
-        for key, data in pairs(data.playlist[list]) do formatedList[key] = "#" .. key .. "> " .. data.title end
+        for key, data in pairs(data.playlist[list]) do formatedList[key] = "#" .. key .. "> " .. data.author .. "@ " .. data.title end
 
         guiList.list = SFUi.list(nil, Vector(0, 15), Vector(512, 512-15), "Song list", formatedList, function(id)
             if waitingNextSong == false then
@@ -238,17 +266,25 @@ if CLIENT then
         end)  
         songListGui:addComponent(guiList.list)
         guiList.list.value = track
+        
+        --[[
+        //FEATURE IN DEV
+        //but almost done
+        dialogBox(mainGui,"This is a title","Description\nwith also some newline",{1,2,3,4,5},function(win,id)
+            //print(id)
+            
+            //do close window on button press
+            mainGui:removeComponent(win)
+        end)
+        ]]
+
 
         hook.add("render","",function()
             msl.update()
             if currentSnd then
                 currentSnd:setPos(chip():getPos())
-                
-                if currentSnd.playing then
-                    guiButton.pause.text = "Pause"
-                else
-                    guiButton.pause.text = "Play"
-                end
+                if currentSnd.playing then guiButton.pause.text = "Pause"
+                else guiButton.pause.text = "Play" end
             end
 
             if coverBufferGenerated == false then
@@ -275,33 +311,31 @@ if CLIENT then
             local title = track_.title
             local author = track_.author
             local album = track_.album
+            local moreDetail = track_.moreDetail or {explicit=false}
+
+            //Due to not correct songdetail, this is not 100% accurate
+            //if moreDetail and moreDetail.artists then author = table.concat(moreDetail.artists,", ") end
 
             if currentSnd then
                 fft = currentSnd:getFFT(1)
                 fft2 = currentSnd:getFFT(4)
 
-                bassfft = getBass(currentSnd,10) * volume_multiplier
-
+                bassfft = getBass(currentSnd,10) * 10
                 local left,right = currentSnd:getLevels()
-                left = left * volume_multiplier
-                right = right * volume_multiplier
                 local mono = (left+right)/2
-    
-                if bassfft <= 0.1 then
-                    volume_multiplier = volume_multiplier + 0.2
-                end
-    
-                if bassfft >= 0.9 then
-                    volume_multiplier = volume_multiplier - 0.2
-                end
             end
 
-            volume_multiplier = 10
             if currentSnd then
                 duration = currentSnd:getLength()
                 time = currentSnd:getTime()
+                if guiButton.seek.action.held == nil then
+                    guiButton.seek.value = time
+                else
+                    currentSnd:setTime(guiButton.seek.value)
+                end
+                guiButton.seek.max = duration
 
-                if time >= duration and list == "mp3" and waitingNextSong == false then
+                if guiButton.seek.action.held == nil and time >= duration and list == "mp3" and waitingNextSong == false then
                     track = math.random(1,#data.playlist[list])
                     load_audio(data)
                     waitingNextSong = true
@@ -332,12 +366,8 @@ if CLIENT then
             render.popMatrix()
  
             render.setColor(Color(255,255,255))
+
             num = 100
-            for i=1, bassfft*15 do
-                render.setColor(Color((i / (bassfft*15)) * 360,1,1):hsvToRGB())
-                render.drawRect(math.random(1,512),math.random(1,512),1,1)
-            end
-            
             for i=1, num do
                 smooth_fft[i] = math.lerp(timer.frametime()*10,smooth_fft[i] or 0, fft2[i] or 0)
     
@@ -350,8 +380,8 @@ if CLIENT then
                 render.drawLine(256+x,256+y,256+lx,256+ly)
     
     
-                r = 100 - bassfft*60 - smooth_fft[i] * 150
-                r2 = 100 - bassfft*60 - (smooth_fft[i-1] or smooth_fft[num] or 0) * 150
+                r = 100 - bassfft*60 - smooth_fft[i] * 80
+                r2 = 100 - bassfft*60 - (smooth_fft[i-1] or smooth_fft[num] or 0) * 80
                 x,y = math.cos((i/num) * (math.pi*2)) * r,math.sin((i/num) * (math.pi*2)) * r
                 lx,ly = math.cos(((i-1)/num) * (math.pi*2)) * r2,math.sin(((i-1)/num) * (math.pi*2)) * r2
     
@@ -382,20 +412,22 @@ if CLIENT then
             render.setMaterial(cover)
             render.drawTexturedRect(5 + 4, 512 - 65 + 4, 60 - 8, 60 - 8)
             render.setMaterial()
+    
 
-            render.setColor(Color(80,80,80))
-            if duration < 0 then render.setColor(ui_color) end
-            render.drawRect(10 + 60,height - 15,width - 75,10)
+            guiButton.seek.pos = Vector(10 + 60,height - 15)
+            guiButton.seek.size = Vector(width - 75,10)
 
             if duration < 0 then
                 render.setColor(ui_color)
+                render.drawRect(10 + 60,height - 15,width - 75,10)
                 render.drawFilledCircle(width-40,height-27,5)
     
                 render.setColor(Color(255,255,255))
-                render.drawSimpleText(width - 10 ,height - 35,"Live",2,0) 
+                render.drawSimpleText(width - 10 ,height - 35,"Live",2,0)
+
+                guiButton.seek.visible = false
             else
-                render.setColor(ui_color)
-                render.drawRect(10 + 60,height - 15,(time/duration) * (width - 75),10)
+                guiButton.seek.visible = true
 
                 render.setColor(Color(255,255,255))
                 render.drawSimpleText(width - 10,height - 35,""..string.toHoursMinutesSeconds(time).." / "..string.toHoursMinutesSeconds(duration),2,0)
@@ -412,6 +444,9 @@ if CLIENT then
             end
             song_info = song_info:sub(0,#song_info - 1)
             render.drawText(10 + 60,height - 65,song_info,0,0)
+            
+            //render.setColor(Color(255,255,255))
+            //render.drawText(10,10,""..table.toString(track_,nil,true),0,0)
 
             mainGui:render()
         end)
@@ -437,7 +472,8 @@ if CLIENT then
         "bass.loadURL",
         "sound.create",
         "bass.play2D",
-        "http.get"
+        "http.get",
+        "material.urlcreate"
     }
 
     if permission.can_create() then
