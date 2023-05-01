@@ -1,27 +1,28 @@
---@name FFT Reactiv
+--@name FFT Loader
 --@author AstalNeker
 
-//own library
---@include https://raw.githubusercontent.com/NekerSqu4w/my-starfall-library/main/retro_screen.txt as retro_screen.txt
---@include https://raw.githubusercontent.com/NekerSqu4w/my-starfall-library/main/multiple_screen_lib.txt as multiple_screen_lib.txt
---@include https://raw.githubusercontent.com/NekerSqu4w/my-starfall-library/main/permission_handler.txt as permission_handler.txt
---@include https://raw.githubusercontent.com/NekerSqu4w/SF_E2_Radio/main/loader.lua as loader.lua
-
-//gui library
---@include https://raw.githubusercontent.com/itisluiz/SFUi/main/sfui/sfui.lua as sfui.lua
---@include https://raw.githubusercontent.com/itisluiz/SFUi/main/sfui/components/component.lua as components/component.lua
---@include https://raw.githubusercontent.com/itisluiz/SFUi/main/sfui/components/window.lua as components/window.lua
---@include https://raw.githubusercontent.com/itisluiz/SFUi/main/sfui/components/button.lua as components/button.lua
---@include https://raw.githubusercontent.com/itisluiz/SFUi/main/sfui/components/list.lua as components/list.lua
---@include https://raw.githubusercontent.com/itisluiz/SFUi/main/sfui/components/slider.lua as components/slider.lua
---@include https://raw.githubusercontent.com/itisluiz/SFUi/main/sfui/components/label.lua as components/label.lua
-
-
 if CLIENT then
-    local retro_screen = require("retro_screen.txt")
+    //import alot of library
+    //own library
+    --@include https://raw.githubusercontent.com/NekerSqu4w/my-starfall-library/main/retro_screen.txt as retro_screen.txt
+    --@include https://raw.githubusercontent.com/NekerSqu4w/my-starfall-library/main/multiple_screen_lib.txt as multiple_screen_lib.txt
+    --@include https://raw.githubusercontent.com/NekerSqu4w/my-starfall-library/main/permission_handler.txt as permission_handler.txt
+    --@include https://raw.githubusercontent.com/NekerSqu4w/SF_E2_Radio/main/loader.lua as loader.lua
+    
+    //import some custom visualizer
+    --@include https://raw.githubusercontent.com/NekerSqu4w/SF_E2_Radio/main/VISUALISER/custom/reactiv.lua as reactiv.lua
+
+    //gui library
+    --@include https://raw.githubusercontent.com/itisluiz/SFUi/main/sfui/sfui.lua as sfui.lua
+    --@include https://raw.githubusercontent.com/itisluiz/SFUi/main/sfui/components/component.lua as components/component.lua
+    --@include https://raw.githubusercontent.com/itisluiz/SFUi/main/sfui/components/window.lua as components/window.lua
+    --@include https://raw.githubusercontent.com/itisluiz/SFUi/main/sfui/components/button.lua as components/button.lua
+    --@include https://raw.githubusercontent.com/itisluiz/SFUi/main/sfui/components/list.lua as components/list.lua
+    --@include https://raw.githubusercontent.com/itisluiz/SFUi/main/sfui/components/slider.lua as components/slider.lua
+    --@include https://raw.githubusercontent.com/itisluiz/SFUi/main/sfui/components/label.lua as components/label.lua
+
     local msl = require("multiple_screen_lib.txt")
     local permission = require("permission_handler.txt")
-
     require("sfui.lua")
     require("components/component.lua")
     require("components/window.lua")
@@ -29,38 +30,34 @@ if CLIENT then
     require("components/list.lua")
     require("components/slider.lua")
     require("components/label.lua")
-
     local song_loader = require("loader.lua")
-    local playlist = {}
 
-    local track = 1
-    local list = "mp3"
-    local ui_color = Color(70,255,255)
+    local visualizer = {}
+    visualizer.version = "1.0"
+    visualizer.current_track = {id=1,list="mp3"}
+    visualizer.visualizer = {current="reactiv.lua",list={}}
+    visualizer.theme_color = {global_color = Color(70,255,255)}
+    visualizer.font = {}
     
+    //import visualizer to data
+    visualizer.visualizer.list["reactiv.lua"] = require("reactiv.lua")
+
     SFUi.static.palette = {
         foreground = Color(255, 255, 255),
         background = Color(30, 30, 30),
         hover = Color(75, 75, 75),
         component = Color(45, 45, 45),
         contrast = Color(60, 60, 60),
-        highlight = ui_color
+        highlight = visualizer.theme_color.global_color
     }
 
+    visualizer.FFT = {}
+    visualizer.FFT.fft = {}
+    visualizer.FFT.fft2 = {}
 
-    local buffers = {"rt", "rt2"}
-    local buffernum = 1
-    render.createRenderTarget("rt")
-    render.createRenderTarget("rt2")
-
-    local fft = {}
-    local fft2 = {}
-    local smooth_fft = {}
-
-    local bassVal = 0
-    local bassfft = 0
-    local currentSnd = nil
-    local waitingNextSong = true
-    
+    visualizer.bassfft = 0
+    visualizer.currentSnd = nil
+    visualizer.waitingNextSong = true
     
     local guiButton = {}
     local guiList = {}
@@ -109,8 +106,8 @@ if CLIENT then
     coverInfo.realSize = Vector(0,0)
     coverInfo.realPos = Vector(0,0)
     function process_cover(data,url)
-        url = url or data.container.playlist[list].list[track].cover or data.container.no_background[math.random(1,#data.container.no_background)]
-        cover:setTextureURL("$basetexture",url,function(_,_,w,h,layout)
+        url = url or data.container.playlist[visualizer.current_track.list].list[visualizer.current_track.id].cover or data.container.no_background[math.random(1,#data.container.no_background)]
+        visualizer.cover:setTextureURL("$basetexture",url,function(_,_,w,h,layout)
             //fix size to 1024x1024 depending of proportion
             local fw, fh = w or 1024, h or 1024
             local scl = 1
@@ -129,29 +126,29 @@ if CLIENT then
     end
     
     function load_audio(data)
-        guiList.list.value = track
-        if currentSnd then currentSnd:pause() end
+        guiList.list.value = visualizer.current_track.id
+        if visualizer.currentSnd then visualizer.currentSnd:pause() end
         process_cover(data)
-        local moreDetail = data.container.playlist[list].list[track].moreDetail
+        local moreDetail = data.container.playlist[visualizer.current_track.list].list[visualizer.current_track.id].moreDetail
         if moreDetail and moreDetail.album and moreDetail.album.covers then
             process_cover(data,moreDetail.album.covers)
         end
 
-        local WAITINGSTOP = currentSnd
-        bass.loadURL(data.container.playlist[list].list[track].link, "3d noblock", function(snd)
+        local WAITINGSTOP = visualizer.currentSnd
+        bass.loadURL(data.container.playlist[visualizer.current_track.list].list[visualizer.current_track.id].link, "3d noblock", function(snd)
             if snd then
-                currentSnd = snd
+                visualizer.currentSnd = snd
                 
                 //add metadata
-                currentSnd.volume = 1
-                currentSnd.playing = true
-                currentSnd.hasFinishToggle = true
-                currentSnd.VOLUMEBEFORETRANSITION = currentSnd.volume
+                visualizer.currentSnd.volume = 1
+                visualizer.currentSnd.playing = true
+                visualizer.currentSnd.hasFinishToggle = true
+                visualizer.currentSnd.VOLUMEBEFORETRANSITION = visualizer.currentSnd.volume
 
-                waitingNextSong = false
+                visualizer.waitingNextSong = false
 
                 //write custom sound function
-                function currentSnd:toggle(forceToggle)
+                function visualizer.currentSnd:toggle(forceToggle)
                     local id = timer.curtime()
                     if self then else return end
                     if self.hasFinishToggle then else return end
@@ -198,12 +195,12 @@ if CLIENT then
                     end
                 end
 
-                function currentSnd:setVolume2(vol)
+                function visualizer.currentSnd:setVolume2(vol)
                     self.volume = vol
                     self:setVolume(vol)
                 end
                 
-                currentSnd:setVolume2(guiButton.volume.value)
+                visualizer.currentSnd:setVolume2(guiButton.volume.value)
 
                 if WAITINGSTOP then WAITINGSTOP:stop() end
             end
@@ -211,42 +208,42 @@ if CLIENT then
     end
 
     function on_load(data)
-        table.sort(data.container.playlist[list].list, function(a,b)
+        table.sort(data.container.playlist[visualizer.current_track.list].list, function(a,b)
             if a.author < b.author then
                 return b
             end
         end)
 
-        local font = render.createFont("FontAwesome",15,0)
-        local font2 = render.createFont("FontAwesome",35,0)
-        local listFont = render.createFont("FontAwesome",15,0)
+        visualizer.font.main = render.createFont("FontAwesome",15,0)
+        visualizer.font.font2 = render.createFont("FontAwesome",35,0)
+        visualizer.font.listFont = render.createFont("FontAwesome",15,0)
 
-        cover = material.create("UnlitGeneric")
+        visualizer.cover = material.create("UnlitGeneric")
         render.createRenderTarget("coverBlurBuffer")
 
         local mainGui = SFUi:new()
         guiButton.prev = SFUi.button(nil, Vector(10, 512 - 90), Vector(20, 20), "|<", function()
-            track = track - 1
-            if track < 1 then track = #data.container.playlist[list].list end
-            if waitingNextSong == false then
+            visualizer.current_track.id = visualizer.current_track.id - 1
+            if visualizer.current_track.id < 1 then visualizer.current_track.id = #data.container.playlist[visualizer.current_track.list].list end
+            if visualizer.waitingNextSong == false then
                 load_audio(data)
-                waitingNextSong = true
+                visualizer.waitingNextSong = true
             end
         end)
         guiButton.pause = SFUi.button(nil, Vector(guiButton.prev.pos.x + guiButton.prev.size.x+5, guiButton.prev.pos.y), Vector(40, 20), "Pause", function()
-            currentSnd:toggle()
+            visualizer.currentSnd:toggle()
         end)
         guiButton.next = SFUi.button(nil, Vector(guiButton.pause.pos.x + guiButton.pause.size.x+5, guiButton.prev.pos.y), Vector(20, 20), ">|", function()
-            track = track + 1
-            if track > #data.container.playlist[list].list then track = 1 end
-            if waitingNextSong == false then
+            visualizer.current_track.id = visualizer.current_track.id + 1
+            if visualizer.current_track.id > #data.container.playlist[visualizer.current_track.list].list then visualizer.current_track.id = 1 end
+            if visualizer.waitingNextSong == false then
                 load_audio(data)
-                waitingNextSong = true
+                visualizer.waitingNextSong = true
             end
         end)
         
         guiButton.seek = SFUi.slider(nil, Vector(-128,0), Vector(512,10),0,0,1,0.001)
-        guiButton.volume = SFUi.slider(nil, Vector(guiButton.prev.pos.x,guiButton.prev.pos.y - 30), Vector(128,10),1,0,5,0.1,function(vol) currentSnd:setVolume2(vol) end)
+        guiButton.volume = SFUi.slider(nil, Vector(guiButton.prev.pos.x,guiButton.prev.pos.y - 30), Vector(128,10),1,0,5,0.1,function(vol) visualizer.currentSnd:setVolume2(vol) end)
         mainGui:addComponent(guiButton.prev)
         mainGui:addComponent(guiButton.next)
         mainGui:addComponent(guiButton.pause)
@@ -255,17 +252,17 @@ if CLIENT then
 
         local songListGui = SFUi:new()
         local formatedList = {}
-        for key, data in pairs(data.container.playlist[list].list) do formatedList[key] = "#" .. key .. "> " .. data.author .. "@ " .. data.title end
+        for key, data in pairs(data.container.playlist[visualizer.current_track.list].list) do formatedList[key] = "#" .. key .. "> " .. data.author .. "@ " .. data.title end
 
         guiList.list = SFUi.list(nil, Vector(0, 15), Vector(512, 512-15), "Song list", formatedList, function(id)
-            if waitingNextSong == false then
-                track = id
+            if visualizer.waitingNextSong == false then
+                visualizer.current_track.id = id
                 load_audio(data)
-                waitingNextSong = true
+                visualizer.waitingNextSong = true
             end
         end)  
         songListGui:addComponent(guiList.list)
-        guiList.list.value = track
+        guiList.list.value = visualizer.current_track.id
         
         --[[
         //FEATURE IN DEV
@@ -281,9 +278,9 @@ if CLIENT then
 
         hook.add("render","",function()
             msl.update()
-            if currentSnd then
-                currentSnd:setPos(chip():getPos())
-                if currentSnd.playing then guiButton.pause.text = "Pause"
+            if visualizer.currentSnd then
+                visualizer.currentSnd:setPos(chip():getPos())
+                if visualizer.currentSnd.playing then guiButton.pause.text = "Pause"
                 else guiButton.pause.text = "Play" end
             end
 
@@ -292,7 +289,7 @@ if CLIENT then
                 render.clear()
                 
                 render.setColor(Color(255, 255, 255))
-                render.setMaterial(cover)
+                render.setMaterial(visualizer.cover)
                 render.drawTexturedRect(-1024/2, -1024/2, 1024*2, 1024*2)
                 render.setMaterial()
                 render.drawBlurEffect(12,12,1)
@@ -306,101 +303,51 @@ if CLIENT then
         hook.add("ms_render1","",function()
             local width, height = render.getResolution()
 
-            local track_ = data.container.playlist[list].list[track]
+            local track_ = data.container.playlist[visualizer.current_track.list].list[visualizer.current_track.id]
             local url = track_.link
             local title = track_.title
             local author = track_.author
             local album = track_.album
             local moreDetail = track_.moreDetail or {explicit=false}
+            visualizer.current_track.detail = track_
 
             //Due to not correct songdetail, this is not 100% accurate
             //if moreDetail and moreDetail.artists then author = table.concat(moreDetail.artists,", ") end
 
-            if currentSnd then
-                fft = currentSnd:getFFT(1)
-                fft2 = currentSnd:getFFT(4)
+            if visualizer.currentSnd then
+                visualizer.FFT.fft = visualizer.currentSnd:getFFT(1)
+                visualizer.FFT.fft2 = visualizer.currentSnd:getFFT(4)
 
-                bassfft = getBass(currentSnd,10) * 10
-                local left,right = currentSnd:getLevels()
+                visualizer.bassfft = getBass(visualizer.currentSnd,10) * 10
+                local left,right = visualizer.currentSnd:getLevels()
                 local mono = (left+right)/2
             end
 
-            if currentSnd then
-                duration = currentSnd:getLength()
-                time = currentSnd:getTime()
+            if visualizer.currentSnd then
+                visualizer.current_track.duration = visualizer.currentSnd:getLength()
+                visualizer.current_track.time = visualizer.currentSnd:getTime()
                 if guiButton.seek.action.held == nil then
-                    guiButton.seek.value = time
+                    guiButton.seek.value = visualizer.current_track.time
                 else
-                    currentSnd:setTime(guiButton.seek.value)
+                    visualizer.currentSnd:setTime(guiButton.seek.value)
                 end
-                guiButton.seek.max = duration
+                guiButton.seek.max = visualizer.current_track.duration
 
-                if guiButton.seek.action.held == nil and time >= duration and list == "mp3" and waitingNextSong == false then
-                    track = math.random(1,#data.container.playlist[list].list)
+                if guiButton.seek.action.held == nil and visualizer.current_track.time >= visualizer.current_track.duration and visualizer.current_track.list == "mp3" and visualizer.waitingNextSong == false then
+                    visualizer.current_track.id = math.random(1,#data.container.playlist[visualizer.current_track.list].list)
                     load_audio(data)
-                    waitingNextSong = true
+                    visualizer.waitingNextSong = true
                 end
             else
-                duration = 0
-                time = 0
+                visualizer.current_track.duration = 0
+                visualizer.current_track.time = 0
             end
 
-            render.setFont(font)
-            local nextbuffer = (buffernum%#buffers)+1
-            render.setRenderTargetTexture(buffers[buffernum])
-            render.selectRenderTarget(buffers[nextbuffer])
-            render.clear(Color(0,0,0,255))
+            render.setFont(visualizer.font.main)
 
-            render.setColor(Color(255, 255, 255, 180))
-            render.drawTexturedRect(-8/4, -8/4, 1024+8, 1024+8)
-    
-            render.setColor(Color(255, 255, 255, 60))
-            render.drawTexturedRect(0, 0, 1024, 1024)
-
-            local m = Matrix()
-            m:rotate(Angle(0,45,0))
-            m:setTranslation(Vector(256,256,0))
-                        
-            render.pushMatrix(m)
-            render.drawTexturedRect(-256, -256, 1024, 1024)
-            render.popMatrix()
- 
-            render.setColor(Color(255,255,255))
-
-            num = 100
-            for i=1, num do
-                smooth_fft[i] = math.lerp(timer.frametime()*10,smooth_fft[i] or 0, fft2[i] or 0)
-    
-                r = 100 + bassfft*60 + smooth_fft[i] * 150
-                r2 = 100 + bassfft*60 + (smooth_fft[i-1] or smooth_fft[num] or 0) * 150
-                x,y = math.cos((i/num) * (math.pi*2)) * r,math.sin((i/num) * (math.pi*2)) * r
-                lx,ly = math.cos(((i-1)/num) * (math.pi*2)) * r2,math.sin(((i-1)/num) * (math.pi*2)) * r2
-
-                render.setColor(Color((i / num) * 360 + bassfft/2 * 230,1,1):hsvToRGB())
-                render.drawLine(256+x,256+y,256+lx,256+ly)
-    
-    
-                r = 100 - bassfft*60 - smooth_fft[i] * 80
-                r2 = 100 - bassfft*60 - (smooth_fft[i-1] or smooth_fft[num] or 0) * 80
-                x,y = math.cos((i/num) * (math.pi*2)) * r,math.sin((i/num) * (math.pi*2)) * r
-                lx,ly = math.cos(((i-1)/num) * (math.pi*2)) * r2,math.sin(((i-1)/num) * (math.pi*2)) * r2
-    
-                render.setColor(Color((i / num) * 360 + bassfft/2 * 230,1,1):hsvToRGB())
-                render.drawLine(256+x,256+y,256+lx,256+ly)
-            end
-    
-            render.selectRenderTarget(nil)
-
-            retro_screen.push()
-            render.setColor(Color(255,255,255))
-            render.setRenderTargetTexture(buffers[nextbuffer])
-            render.drawTexturedRect(width/2 - 1024/4,0,1024,1024)
-            retro_screen.pop()
-                        
-            buffernum = nextbuffer
-
-            retro_screen.draw(512,512,false)
-
+            //draw custom visualizer
+            local CURRENTVISUALIZER = visualizer.visualizer.list[visualizer.visualizer.current]
+            CURRENTVISUALIZER.render(visualizer,CURRENTVISUALIZER,width,height)
 
             //interface element 
             render.setColor(Color(255, 255, 255))
@@ -409,7 +356,7 @@ if CLIENT then
             render.setRenderTargetTexture()
 
             render.setColor(Color(255, 255, 255))
-            render.setMaterial(cover)
+            render.setMaterial(visualizer.cover)
             render.drawTexturedRect(5 + 4, 512 - 65 + 4, 60 - 8, 60 - 8)
             render.setMaterial()
     
@@ -417,8 +364,8 @@ if CLIENT then
             guiButton.seek.pos = Vector(10 + 60,height - 15)
             guiButton.seek.size = Vector(width - 75,10)
 
-            if duration < 0 then
-                render.setColor(ui_color)
+            if visualizer.current_track.duration < 0 then
+                render.setColor(visualizer.theme_color.global_color)
                 render.drawRect(10 + 60,height - 15,width - 75,10)
                 render.drawFilledCircle(width-40,height-27,5)
     
@@ -430,11 +377,11 @@ if CLIENT then
                 guiButton.seek.visible = true
 
                 render.setColor(Color(255,255,255))
-                render.drawSimpleText(width - 10,height - 35,""..string.toHoursMinutesSeconds(time).." / "..string.toHoursMinutesSeconds(duration),2,0)
+                render.drawSimpleText(width - 10,height - 35,""..string.toHoursMinutesSeconds(visualizer.current_track.time).." / "..string.toHoursMinutesSeconds(visualizer.current_track.duration),2,0)
             end
             
             local song_info = ""
-            song_info = "#" .. track .. "> "
+            song_info = "#" .. visualizer.current_track.id .. "> "
             for i=1, 3 do
                 local t = ""
                 if i == 1 and title then t = title .. "\n" end
@@ -463,7 +410,7 @@ if CLIENT then
             render.drawText(0,0,final_info,0,0)
             ]]
 
-            render.setFont(listFont)
+            render.setFont(visualizer.font.listFont)
             songListGui:render()
         end)
     end
@@ -479,9 +426,8 @@ if CLIENT then
     if permission.can_create() then
         permission.setup_permission(perms,"Accept permission to see anything of the visualizer",function()
             song_loader.load("https://raw.githubusercontent.com/NekerSqu4w/SF_E2_Radio/main/LIST/playlist.json",function(data)
-                playlist = data
-                print(ui_color,"Playlist loaded !",Color(60,255,60), " (Found " .. #data.container.playlist.radio .. " radio and " .. #data.container.playlist.mp3 .. " audio file)")
-                if list == "mp3" then track = math.random(1,#data.container.playlist[list].list) end
+                print(visualizer.theme_color.global_color,"Playlist loaded !",Color(60,255,60), " (Found " .. #data.container.playlist.radio .. " radio and " .. #data.container.playlist.mp3 .. " audio file)")
+                if visualizer.current_track.list == "mp3" then visualizer.current_track.id = math.random(1,#data.container.playlist[visualizer.current_track.list].list) end
                 on_load(data)
                 load_audio(data)
             end)
