@@ -8,9 +8,6 @@ if CLIENT then
     --@include https://raw.githubusercontent.com/NekerSqu4w/my-starfall-library/main/multiple_screen_lib.txt as multiple_screen_lib.txt
     --@include https://raw.githubusercontent.com/NekerSqu4w/my-starfall-library/main/permission_handler.txt as permission_handler.txt
     --@include https://raw.githubusercontent.com/NekerSqu4w/SF_E2_Radio/main/loader.lua as loader.lua
-    
-    //import some custom visualizer
-    --@include https://raw.githubusercontent.com/NekerSqu4w/SF_E2_Radio/main/VISUALISER/custom/reactiv.lua as reactiv.lua
 
     //gui library
     --@include https://raw.githubusercontent.com/itisluiz/SFUi/main/sfui/sfui.lua as sfui.lua
@@ -40,7 +37,10 @@ if CLIENT then
     visualizer.font = {}
     
     //import visualizer to data
+    --@include https://raw.githubusercontent.com/NekerSqu4w/SF_E2_Radio/main/VISUALISER/custom/reactiv.lua as reactiv.lua
+    --@include https://raw.githubusercontent.com/NekerSqu4w/SF_E2_Radio/main/VISUALISER/custom/monstercat.lua as monstercat.lua
     visualizer.visualizer.list["reactiv.lua"] = require("reactiv.lua")
+    visualizer.visualizer.list["monstercat.lua"] = require("monstercat.lua")
 
     SFUi.static.palette = {
         foreground = Color(255, 255, 255),
@@ -126,7 +126,7 @@ if CLIENT then
     end
     
     function load_audio(data)
-        guiList.list.value = visualizer.current_track.id
+        guiList.songList.value = visualizer.current_track.id
         if visualizer.currentSnd then visualizer.currentSnd:pause() end
         process_cover(data)
         local moreDetail = data.container.playlist[visualizer.current_track.list].list[visualizer.current_track.id].moreDetail
@@ -253,16 +253,26 @@ if CLIENT then
         local songListGui = SFUi:new()
         local formatedList = {}
         for key, data in pairs(data.container.playlist[visualizer.current_track.list].list) do formatedList[key] = "#" .. key .. "> " .. data.author .. "@ " .. data.title end
-
-        guiList.list = SFUi.list(nil, Vector(0, 15), Vector(512, 512-15), "Song list", formatedList, function(id)
+        guiList.songList = SFUi.list(nil, Vector(0, 15), Vector(512, 512-15), "Song list", formatedList, function(id)
             if visualizer.waitingNextSong == false then
                 visualizer.current_track.id = id
                 load_audio(data)
                 visualizer.waitingNextSong = true
             end
-        end)  
-        songListGui:addComponent(guiList.list)
-        guiList.list.value = visualizer.current_track.id
+        end)
+        
+        local formatedList = {}
+        for key, data in pairs(visualizer.visualizer.list) do formatedList[key] = key end
+        guiList.visualizerList = SFUi.list(nil, Vector(512, 15), Vector(512, 512-15), "Visualizer list", formatedList, function(id)
+            //reset data of unused visualizer
+            local CURRENTVISUALIZER = visualizer.visualizer.list[visualizer.visualizer.current]
+            CURRENTVISUALIZER.on_switch()
+            visualizer.visualizer.current = id
+        end)
+        songListGui:addComponent(guiList.songList)
+        songListGui:addComponent(guiList.visualizerList)
+        guiList.songList.value = visualizer.current_track.id
+        guiList.visualizerList.value = visualizer.visualizer.current
         
         --[[
         //FEATURE IN DEV
@@ -349,7 +359,9 @@ if CLIENT then
             local CURRENTVISUALIZER = visualizer.visualizer.list[visualizer.visualizer.current]
             CURRENTVISUALIZER.render(visualizer,CURRENTVISUALIZER,width,height)
 
-            //interface element 
+            render.setFont(visualizer.font.main)
+
+            //interface element
             render.setColor(Color(255, 255, 255))
             render.setRenderTargetTexture("coverBlurBuffer")
             render.drawTexturedRect(5, 512 - 65, 60, 60)
@@ -426,7 +438,10 @@ if CLIENT then
     if permission.can_create() then
         permission.setup_permission(perms,"Accept permission to see anything of the visualizer",function()
             song_loader.load("https://raw.githubusercontent.com/NekerSqu4w/SF_E2_Radio/main/LIST/playlist.json",function(data)
-                print(visualizer.theme_color.global_color,"Playlist loaded !",Color(60,255,60), " (Found " .. #data.container.playlist.radio .. " radio and " .. #data.container.playlist.mp3 .. " audio file)")
+                local EVERYFOUNDFOLDER = ""
+                for id, folder in pairs(data.container.playlist) do EVERYFOUNDFOLDER = EVERYFOUNDFOLDER .. "\n" .. #folder.list .. " link in " .. folder.name end
+                print(visualizer.theme_color.global_color,"Playlist loaded !",Color(60,255,60), "\nLet's check what i found:" .. EVERYFOUNDFOLDER)
+
                 if visualizer.current_track.list == "mp3" then visualizer.current_track.id = math.random(1,#data.container.playlist[visualizer.current_track.list].list) end
                 on_load(data)
                 load_audio(data)
