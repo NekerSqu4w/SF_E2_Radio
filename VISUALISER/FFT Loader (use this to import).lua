@@ -2,6 +2,12 @@
 --@author AstalNeker
 --@client
 
+
+//IMPORTANT if this script crash, it's maybe be due to change of data
+// if you wanna fix the problem you can replace the script of this file by
+// this data: https://raw.githubusercontent.com/NekerSqu4w/SF_E2_Radio/main/VISUALISER/FFT%20Loader%20(use%20this%20to%20import).lua
+
+
 //own library
 --@include https://raw.githubusercontent.com/NekerSqu4w/my-starfall-library/main/retro_screen.txt as retro_screen.txt
 --@include https://raw.githubusercontent.com/NekerSqu4w/my-starfall-library/main/multiple_screen_lib.txt as multiple_screen_lib.txt
