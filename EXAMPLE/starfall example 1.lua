@@ -17,13 +17,13 @@ if CLIENT then
         if error.error then
             print(error.message)
         else
-            print("Current list as " .. #data.playlist[list] .. " file")
-            print("Current song: " .. data.playlist[list][load_id].title)
-            print("Playlist name: " .. data.playlist.list_name[list])
+            print("Current list as " .. #data.container.playlist[list].list .. " file")
+            print("Current song: " .. data.container.playlist[list].list[load_id].title)
+            print("Playlist name: " .. data.container.playlist[list].name)
     
-            print("Song link: " .. data.playlist[list][load_id].link)
+            print("Song link: " .. data.container.playlist[list].list[load_id].link)
 
-            bass.loadURL(data.playlist[list][load_id].link, "3d noblock", function(snd,error)
+            bass.loadURL(data.container.playlist[list].list[load_id].link, "3d noblock", function(snd,error)
                 if snd then
                     snd:setVolume(1)
                     if not snd:isOnline() then snd:setLooping(true) end

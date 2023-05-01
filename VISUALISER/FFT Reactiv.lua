@@ -109,7 +109,7 @@ if CLIENT then
     coverInfo.realSize = Vector(0,0)
     coverInfo.realPos = Vector(0,0)
     function process_cover(data,url)
-        url = url or data.playlist[list][track].cover or data.data.no_background[math.random(1,#data.data.no_background)]
+        url = url or data.container.playlist[list].list[track].cover or data.container.no_background[math.random(1,#data.container.no_background)]
         cover:setTextureURL("$basetexture",url,function(_,_,w,h,layout)
             //fix size to 1024x1024 depending of proportion
             local fw, fh = w or 1024, h or 1024
@@ -132,13 +132,13 @@ if CLIENT then
         guiList.list.value = track
         if currentSnd then currentSnd:pause() end
         process_cover(data)
-        local moreDetail = data.playlist[list][track].moreDetail
+        local moreDetail = data.container.playlist[list].list[track].moreDetail
         if moreDetail and moreDetail.album and moreDetail.album.covers then
             process_cover(data,moreDetail.album.covers)
         end
 
         local WAITINGSTOP = currentSnd
-        bass.loadURL(data.playlist[list][track].link, "3d noblock", function(snd)
+        bass.loadURL(data.container.playlist[list].list[track].link, "3d noblock", function(snd)
             if snd then
                 currentSnd = snd
                 
@@ -211,7 +211,7 @@ if CLIENT then
     end
 
     function on_load(data)
-        table.sort(data.playlist[list], function(a,b)
+        table.sort(data.container.playlist[list].list, function(a,b)
             if a.author < b.author then
                 return b
             end
@@ -222,12 +222,12 @@ if CLIENT then
         local listFont = render.createFont("FontAwesome",15,0)
 
         cover = material.create("UnlitGeneric")
-        render.createRenderTarget("coverBuffer")
+        render.createRenderTarget("coverBlurBuffer")
 
         local mainGui = SFUi:new()
         guiButton.prev = SFUi.button(nil, Vector(10, 512 - 90), Vector(20, 20), "|<", function()
             track = track - 1
-            if track < 1 then track = #data.playlist[list] end
+            if track < 1 then track = #data.container.playlist[list].list end
             if waitingNextSong == false then
                 load_audio(data)
                 waitingNextSong = true
@@ -238,7 +238,7 @@ if CLIENT then
         end)
         guiButton.next = SFUi.button(nil, Vector(guiButton.pause.pos.x + guiButton.pause.size.x+5, guiButton.prev.pos.y), Vector(20, 20), ">|", function()
             track = track + 1
-            if track > #data.playlist[list] then track = 1 end
+            if track > #data.container.playlist[list].list then track = 1 end
             if waitingNextSong == false then
                 load_audio(data)
                 waitingNextSong = true
@@ -255,7 +255,7 @@ if CLIENT then
 
         local songListGui = SFUi:new()
         local formatedList = {}
-        for key, data in pairs(data.playlist[list]) do formatedList[key] = "#" .. key .. "> " .. data.author .. "@ " .. data.title end
+        for key, data in pairs(data.container.playlist[list].list) do formatedList[key] = "#" .. key .. "> " .. data.author .. "@ " .. data.title end
 
         guiList.list = SFUi.list(nil, Vector(0, 15), Vector(512, 512-15), "Song list", formatedList, function(id)
             if waitingNextSong == false then
@@ -288,7 +288,7 @@ if CLIENT then
             end
 
             if coverBufferGenerated == false then
-                render.selectRenderTarget("coverBuffer")
+                render.selectRenderTarget("coverBlurBuffer")
                 render.clear()
                 
                 render.setColor(Color(255, 255, 255))
@@ -305,8 +305,8 @@ if CLIENT then
 
         hook.add("ms_render1","",function()
             local width, height = render.getResolution()
-            
-            local track_ = data.playlist[list][track]
+
+            local track_ = data.container.playlist[list].list[track]
             local url = track_.link
             local title = track_.title
             local author = track_.author
@@ -404,7 +404,7 @@ if CLIENT then
 
             //interface element 
             render.setColor(Color(255, 255, 255))
-            render.setRenderTargetTexture("coverBuffer")
+            render.setRenderTargetTexture("coverBlurBuffer")
             render.drawTexturedRect(5, 512 - 65, 60, 60)
             render.setRenderTargetTexture()
 
@@ -480,8 +480,8 @@ if CLIENT then
         permission.setup_permission(perms,"Accept permission to see anything of the visualizer",function()
             song_loader.load("https://raw.githubusercontent.com/NekerSqu4w/SF_E2_Radio/main/LIST/playlist.json",function(data)
                 playlist = data
-                print(ui_color,"Playlist loaded !",Color(60,255,60), " (Found " .. #data.playlist.radio .. " radio and " .. #data.playlist.mp3 .. " audio file)")
-                if list == "mp3" then track = math.random(1,#data.playlist[list]) end
+                print(ui_color,"Playlist loaded !",Color(60,255,60), " (Found " .. #data.container.playlist.radio .. " radio and " .. #data.container.playlist.mp3 .. " audio file)")
+                if list == "mp3" then track = math.random(1,#data.container.playlist[list].list) end
                 on_load(data)
                 load_audio(data)
             end)
