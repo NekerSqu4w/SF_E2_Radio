@@ -92,25 +92,6 @@
                         "cover": "%B%/Aguava - If I.jpeg"
                     },
                     {
-                        "title": "Alan Walker & Ruben – Heading Home (Official Music Video)",
-                        "author": "Alan Walker",
-                        "link": "%M%/Alan Walker & Ruben – Heading Home (Official Music Video).mp3",
-                        "cover": "%B%/Alan Walker & Ruben – Heading Home (Official Music Video).jpeg",
-                        "moreDetail": {
-                            "IMPORTANT": "ALL DETAIL IS NOT 100% ACCURATE !",
-                            "explicit": false,
-                            "album": {
-                                "covers": "https://i.scdn.co/image/ab67616d0000b273a108e07c661f9fc54de9c43a",
-                                "name": "Different World"
-                            },
-                            "artists": [
-                                "Alan Walker",
-                                "Au/Ra",
-                                "Tomine Harket"
-                            ]
-                        }
-                    },
-                    {
                         "title": "All These Nights",
                         "author": "Tom Grennan",
                         "album": "All These Nights",
@@ -138,7 +119,19 @@
                         "title": "Red Line [NCS Release]",
                         "author": "Anna Yvette",
                         "link": "%M%/Anna Yvette - Red Line [NCS Release] - Synthwave.mp3",
-                        "cover": "%B%/Anna Yvette - Red Line [NCS Release] - Synthwave.jpeg"
+                        "cover": "%B%/Anna Yvette - Red Line [NCS Release] - Synthwave.jpeg",
+                        "moreDetail": {
+                            "IMPORTANT": "ALL DETAIL IS NOT 100% ACCURATE !",
+                            "explicit": false,
+                            "album": {
+                                "covers": "https://i.scdn.co/image/ab67616d0000b27325227283e1eefc4668e3079e",
+                                "name": "Open Window"
+                            },
+                            "artists": [
+                                "Anna Yvette",
+                                "MitiS"
+                            ]
+                        }
                     },
                     {
                         "title": "Shooting Star [Forza Horizon 4 Pulse]",
@@ -317,8 +310,8 @@
                             "IMPORTANT": "ALL DETAIL IS NOT 100% ACCURATE !",
                             "explicit": false,
                             "album": {
-                                "covers": "https://i.scdn.co/image/ab67616d0000b273200a583baedeece53b2188ba",
-                                "name": "This is Our Life"
+                                "covers": "https://i.scdn.co/image/ab67616d0000b27333b0600cc57c73cb58b128dc",
+                                "name": "A Real Good Person In A Real Bad Place"
                             },
                             "artists": [
                                 "Des Rocs"
@@ -346,12 +339,11 @@
                             "IMPORTANT": "ALL DETAIL IS NOT 100% ACCURATE !",
                             "explicit": false,
                             "album": {
-                                "covers": "https://i.scdn.co/image/ab67616d0000b27378be6771e21246898734fbaa",
-                                "name": "On My Mind (Deepend Remix)"
+                                "covers": "https://i.scdn.co/image/ab67616d0000b273c3647b02a2dba464fa7a739b",
+                                "name": "On My Mind"
                             },
                             "artists": [
-                                "Disciples",
-                                "Deepend"
+                                "Disciples"
                             ]
                         }
                     },
@@ -364,12 +356,12 @@
                             "IMPORTANT": "ALL DETAIL IS NOT 100% ACCURATE !",
                             "explicit": false,
                             "album": {
-                                "covers": "https://i.scdn.co/image/ab67616d0000b2730e39ee167da397172f7e17b2",
-                                "name": "Beach Party 2020"
+                                "covers": "https://i.scdn.co/image/ab67616d0000b273e2f9df5c00476154a4fbdfff",
+                                "name": "Caracal (Deluxe)"
                             },
                             "artists": [
                                 "Disclosure",
-                                "AlunaGeorge"
+                                "Lorde"
                             ]
                         }
                     },
@@ -414,11 +406,10 @@
                             "IMPORTANT": "ALL DETAIL IS NOT 100% ACCURATE !",
                             "explicit": false,
                             "album": {
-                                "covers": "https://i.scdn.co/image/ab67616d0000b273e5fcc64d12baea349c9fe5f0",
-                                "name": "Monstercat - Best of 2015"
+                                "covers": "https://i.scdn.co/image/ab67616d0000b27343be64a333f51d5a576627d2",
+                                "name": "Parallel"
                             },
                             "artists": [
-                                "Draper",
                                 "Laura Brehm"
                             ]
                         }
@@ -556,20 +547,7 @@
                         "title": "Reset [Joel Corry Remix]",
                         "author": "Joel Corry",
                         "link": "%M%/HARLEE - Reset [Joel Corry Remix].mp3",
-                        "cover": "%B%/HARLEE - Reset [Joel Corry Remix].jpeg",
-                        "moreDetail": {
-                            "IMPORTANT": "ALL DETAIL IS NOT 100% ACCURATE !",
-                            "explicit": false,
-                            "album": {
-                                "covers": "https://i.scdn.co/image/ab67616d0000b273db791b96e1ef04e80b09657f",
-                                "name": "What Would You Do?"
-                            },
-                            "artists": [
-                                "Joel Corry",
-                                "David Guetta",
-                                "Bryson Tiller"
-                            ]
-                        }
+                        "cover": "%B%/HARLEE - Reset [Joel Corry Remix].jpeg"
                     },
                     {
                         "title": "Reignite (Bass Boosted)(HD)",
@@ -636,12 +614,6 @@
                         "cover": "%B%/its-alright.png"
                     },
                     {
-                        "title": "I’ll Make It Up To You",
-                        "author": "Imagine Dragons - Topic",
-                        "link": "%M%/I’ll Make It Up To You.mp3",
-                        "cover": "%B%/I’ll Make It Up To You.jpeg"
-                    },
-                    {
                         "title": "Lose My Mind (Extended)",
                         "author": "SubSoul",
                         "link": "%M%/Jamie Jones - Lose My Mind (Extended).mp3",
@@ -668,8 +640,8 @@
                             "IMPORTANT": "ALL DETAIL IS NOT 100% ACCURATE !",
                             "explicit": false,
                             "album": {
-                                "covers": "https://i.scdn.co/image/ab67616d0000b2734975747890c3f1b1ceb74eaa",
-                                "name": "My Love (Higher & Faster)"
+                                "covers": "https://i.scdn.co/image/ab67616d0000b273890ab5c403d06d0d9a08d2b3",
+                                "name": "My Love (Beautified)"
                             },
                             "artists": [
                                 "Jethro Heston",
@@ -686,8 +658,8 @@
                             "IMPORTANT": "ALL DETAIL IS NOT 100% ACCURATE !",
                             "explicit": false,
                             "album": {
-                                "covers": "https://i.scdn.co/image/ab67616d0000b2735bc7fb0656c8fdbe81de562c",
-                                "name": "Fairytale"
+                                "covers": "https://i.scdn.co/image/ab67616d0000b27332464984ebcbf44c7beeff34",
+                                "name": "Samurai"
                             },
                             "artists": [
                                 "Jim Yosef"
@@ -709,12 +681,11 @@
                             "IMPORTANT": "ALL DETAIL IS NOT 100% ACCURATE !",
                             "explicit": false,
                             "album": {
-                                "covers": "https://i.scdn.co/image/ab67616d0000b273cf02d16e8ffba52a07d3bda2",
-                                "name": "Sorry (The Remixes) [Pt.2]"
+                                "covers": "https://i.scdn.co/image/ab67616d0000b27370f6dff324c2ab24e40972be",
+                                "name": "Lonely"
                             },
                             "artists": [
-                                "Joel Corry",
-                                "Rave Republic"
+                                "Joel Corry"
                             ]
                         }
                     },
@@ -749,12 +720,6 @@
                         "cover": "%B%/JVLY - swim.jpeg"
                     },
                     {
-                        "title": "Honey (Medasin Remix)",
-                        "author": "Majestic Casual",
-                        "link": "%M%/Kučka - Honey (Medasin Remix).mp3",
-                        "cover": "%B%/Kučka - Honey (Medasin Remix).jpeg"
-                    },
-                    {
                         "title": "Mauvais (Clip officiel)",
                         "author": "LefaAuthentiqueVEVO",
                         "link": "%M%/Lefa - Mauvais (Clip officiel).mp3",
@@ -769,12 +734,12 @@
                             "IMPORTANT": "ALL DETAIL IS NOT 100% ACCURATE !",
                             "explicit": true,
                             "album": {
-                                "covers": "https://i.scdn.co/image/ab67616d0000b2737dfb2cbea4cdb69a132cb2a9",
-                                "name": "Légende Vivante"
+                                "covers": "https://i.scdn.co/image/ab67616d0000b273bc0a4414b8c9d2097381765e",
+                                "name": "Bonne Année Rap"
                             },
                             "artists": [
                                 "Lorenzo",
-                                "bbno$"
+                                "Tony Corrida"
                             ]
                         }
                     },
@@ -869,10 +834,10 @@
                         "cover": "%B%/NEFFEX - All These Thoughts [Copyright Free] No.68.jpeg",
                         "moreDetail": {
                             "IMPORTANT": "ALL DETAIL IS NOT 100% ACCURATE !",
-                            "explicit": false,
+                            "explicit": true,
                             "album": {
-                                "covers": "https://i.scdn.co/image/ab67616d0000b2735ecca0377ea07ad22d5f16c9",
-                                "name": "POTUS"
+                                "covers": "https://i.scdn.co/image/ab67616d0000b27344dda0229c29ac973f16fb99",
+                                "name": "Play"
                             },
                             "artists": [
                                 "NEFFEX"
@@ -935,19 +900,13 @@
                             "IMPORTANT": "ALL DETAIL IS NOT 100% ACCURATE !",
                             "explicit": false,
                             "album": {
-                                "covers": "https://i.scdn.co/image/ab67616d0000b273b527687462d976f6819fc280",
-                                "name": "Baby Baby"
+                                "covers": "https://i.scdn.co/image/ab67616d0000b273474ebd2e1f272cca800c8640",
+                                "name": "Middle"
                             },
                             "artists": [
                                 "Noizu"
                             ]
                         }
-                    },
-                    {
-                        "title": "Oden & Fatzo – Lauren (Official Visualiser)",
-                        "author": "Ministry of Sound",
-                        "link": "%M%/Oden & Fatzo – Lauren (Official Visualiser).mp3",
-                        "cover": "%B%/Oden & Fatzo – Lauren (Official Visualiser).jpeg"
                     },
                     {
                         "title": "Gecko (Overdrive) [Radio Edit]",
@@ -989,7 +948,21 @@
                         "title": "Up All Night ft. Fiora (Official Video)",
                         "author": "R3HAB",
                         "link": "%M%/R3HAB x MOTi - Up All Night ft. Fiora (Official Video).mp3",
-                        "cover": "%B%/R3HAB x MOTi - Up All Night ft. Fiora (Official Video).jpeg"
+                        "cover": "%B%/R3HAB x MOTi - Up All Night ft. Fiora (Official Video).jpeg",
+                        "moreDetail": {
+                            "IMPORTANT": "ALL DETAIL IS NOT 100% ACCURATE !",
+                            "explicit": false,
+                            "album": {
+                                "covers": "https://i.scdn.co/image/ab67616d0000b273e7c7244ea3019c2fc099205c",
+                                "name": "Up All Night (Skytech Remix)"
+                            },
+                            "artists": [
+                                "R3HAB",
+                                "MOTi",
+                                "Skytech",
+                                "Fiora"
+                            ]
+                        }
                     },
                     {
                         "title": "Never Stop (Official Audio)",
@@ -1206,8 +1179,8 @@
                             "IMPORTANT": "ALL DETAIL IS NOT 100% ACCURATE !",
                             "explicit": false,
                             "album": {
-                                "covers": "https://i.scdn.co/image/ab67616d0000b273d4aa2fa3322331d87dbf98c9",
-                                "name": "Narcissist"
+                                "covers": "https://i.scdn.co/image/ab67616d0000b27322ce52ff7f4fa6e44b2ad846",
+                                "name": "Crying In The Pit"
                             },
                             "artists": [
                                 "Younger Hunger"
@@ -1235,20 +1208,14 @@
                             "IMPORTANT": "ALL DETAIL IS NOT 100% ACCURATE !",
                             "explicit": false,
                             "album": {
-                                "covers": "https://i.scdn.co/image/ab67616d0000b273179f08b16d968517d1ead2aa",
-                                "name": "SummerThing!"
+                                "covers": "https://i.scdn.co/image/ab67616d0000b273e0320d534c3d40e45e5869ed",
+                                "name": "Take over Control (feat. Eva Simons)"
                             },
                             "artists": [
                                 "AFROJACK",
-                                "Mike Taylor"
+                                "Eva Simons"
                             ]
                         }
-                    },
-                    {
-                        "title": "Tristam & Braken",
-                        "author": "Monstercat Uncaged",
-                        "link": "%M%/[DnB] - Tristam & Braken - Frame of Mind [Monstercat Release].mp3",
-                        "cover": "%B%/[DnB] - Tristam & Braken - Frame of Mind [Monstercat Release].jpeg"
                     }
                 ]
             }
