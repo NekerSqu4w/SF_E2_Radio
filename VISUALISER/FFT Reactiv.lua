@@ -336,7 +336,7 @@ if CLIENT then
                 guiButton.seek.max = duration
 
                 if guiButton.seek.action.held == nil and time >= duration and list == "mp3" and waitingNextSong == false then
-                    track = math.random(1,#data.playlist[list])
+                    track = math.random(1,#data.container.playlist[list].playist)
                     load_audio(data)
                     waitingNextSong = true
                 end
