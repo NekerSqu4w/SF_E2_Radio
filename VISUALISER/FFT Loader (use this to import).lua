@@ -17,6 +17,8 @@
 --@include https://raw.githubusercontent.com/itisluiz/SFUi/main/sfui/components/window.lua as components/window.lua
 --@include https://raw.githubusercontent.com/itisluiz/SFUi/main/sfui/components/button.lua as components/button.lua
 --@include https://raw.githubusercontent.com/itisluiz/SFUi/main/sfui/components/list.lua as components/list.lua
+--@include https://raw.githubusercontent.com/itisluiz/SFUi/main/sfui/components/slider.lua as components/slider.lua
+--@include https://raw.githubusercontent.com/itisluiz/SFUi/main/sfui/components/label.lua as components/label.lua
 
 --@include https://raw.githubusercontent.com/NekerSqu4w/SF_E2_Radio/main/VISUALISER/FFT%20Loader.lua as fft.lua
 require("fft.lua")
