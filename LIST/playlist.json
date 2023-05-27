@@ -69,7 +69,7 @@
                             "artists": [
                                 "3LAU",
                                 "YEAH BOY",
-                                "Justin Caruso"
+                                "Jenaux"
                             ]
                         }
                     },
@@ -119,19 +119,7 @@
                         "title": "Red Line [NCS Release]",
                         "author": "Anna Yvette",
                         "link": "%M%/Anna Yvette - Red Line [NCS Release] - Synthwave.mp3",
-                        "cover": "%B%/Anna Yvette - Red Line [NCS Release] - Synthwave.jpeg",
-                        "moreDetail": {
-                            "IMPORTANT": "ALL DETAIL IS NOT 100% ACCURATE !",
-                            "explicit": false,
-                            "album": {
-                                "covers": "https://i.scdn.co/image/ab67616d0000b27325227283e1eefc4668e3079e",
-                                "name": "Open Window"
-                            },
-                            "artists": [
-                                "Anna Yvette",
-                                "MitiS"
-                            ]
-                        }
+                        "cover": "%B%/Anna Yvette - Red Line [NCS Release] - Synthwave.jpeg"
                     },
                     {
                         "title": "Shooting Star [Forza Horizon 4 Pulse]",
@@ -310,8 +298,8 @@
                             "IMPORTANT": "ALL DETAIL IS NOT 100% ACCURATE !",
                             "explicit": false,
                             "album": {
-                                "covers": "https://i.scdn.co/image/ab67616d0000b27333b0600cc57c73cb58b128dc",
-                                "name": "A Real Good Person In A Real Bad Place"
+                                "covers": "https://i.scdn.co/image/ab67616d0000b273979c11cfa4daa0ee228a2bab",
+                                "name": "Let the Vultures In"
                             },
                             "artists": [
                                 "Des Rocs"
@@ -339,11 +327,12 @@
                             "IMPORTANT": "ALL DETAIL IS NOT 100% ACCURATE !",
                             "explicit": false,
                             "album": {
-                                "covers": "https://i.scdn.co/image/ab67616d0000b273c3647b02a2dba464fa7a739b",
-                                "name": "On My Mind"
+                                "covers": "https://i.scdn.co/image/ab67616d0000b27378be6771e21246898734fbaa",
+                                "name": "On My Mind (Deepend Remix)"
                             },
                             "artists": [
-                                "Disciples"
+                                "Disciples",
+                                "Deepend"
                             ]
                         }
                     },
@@ -374,12 +363,12 @@
                             "IMPORTANT": "ALL DETAIL IS NOT 100% ACCURATE !",
                             "explicit": false,
                             "album": {
-                                "covers": "https://i.scdn.co/image/ab67616d0000b273ce28051a0fc3a0afa04b9a57",
-                                "name": "Honey"
+                                "covers": "https://i.scdn.co/image/ab67616d0000b2732390cd41cc4e8858e1a5166d",
+                                "name": "Baby Girl (George IV's UK Sunshine Flip)"
                             },
                             "artists": [
                                 "Disco Lines",
-                                "Gabriella"
+                                "George IV"
                             ]
                         }
                     },
@@ -406,10 +395,11 @@
                             "IMPORTANT": "ALL DETAIL IS NOT 100% ACCURATE !",
                             "explicit": false,
                             "album": {
-                                "covers": "https://i.scdn.co/image/ab67616d0000b27343be64a333f51d5a576627d2",
-                                "name": "Parallel"
+                                "covers": "https://i.scdn.co/image/ab67616d0000b273e5fcc64d12baea349c9fe5f0",
+                                "name": "Monstercat - Best of 2015"
                             },
                             "artists": [
+                                "Draper",
                                 "Laura Brehm"
                             ]
                         }
@@ -495,18 +485,7 @@
                         "author": "Twin Ngor",
                         "album": "forget me",
                         "link": "%M%/forget-me.mp3",
-                        "cover": "%B%/forget-me.png",
-                        "moreDetail": {
-                            "IMPORTANT": "ALL DETAIL IS NOT 100% ACCURATE !",
-                            "explicit": true,
-                            "album": {
-                                "covers": "https://i.scdn.co/image/ab67616d0000b273b8623d21cbc0ccf1501d15fe",
-                                "name": "forget me"
-                            },
-                            "artists": [
-                                "Twin Ngor"
-                            ]
-                        }
+                        "cover": "%B%/forget-me.png"
                     },
                     {
                         "title": "Hometown [Official Video]",
@@ -580,19 +559,7 @@
                         "author": "Klaas",
                         "album": "Hot N Cold",
                         "link": "%M%/hot-n-cold.mp3",
-                        "cover": "%B%/hot-n-cold.jpeg",
-                        "moreDetail": {
-                            "IMPORTANT": "ALL DETAIL IS NOT 100% ACCURATE !",
-                            "explicit": true,
-                            "album": {
-                                "covers": "https://i.scdn.co/image/ab67616d0000b2731d52b52390e7384ff5f7ee01",
-                                "name": "Hot N Cold"
-                            },
-                            "artists": [
-                                "Klaas",
-                                "Moodygee"
-                            ]
-                        }
+                        "cover": "%B%/hot-n-cold.jpeg"
                     },
                     {
                         "title": "Bones (Official Music Video)",
@@ -640,12 +607,13 @@
                             "IMPORTANT": "ALL DETAIL IS NOT 100% ACCURATE !",
                             "explicit": false,
                             "album": {
-                                "covers": "https://i.scdn.co/image/ab67616d0000b273890ab5c403d06d0d9a08d2b3",
-                                "name": "My Love (Beautified)"
+                                "covers": "https://i.scdn.co/image/ab67616d0000b273e24a6b740abc152f6b9d170a",
+                                "name": "Club Anthems 2022"
                             },
                             "artists": [
                                 "Jethro Heston",
-                                "Max Marshall"
+                                "Max Marshall",
+                                "D.O.D"
                             ]
                         }
                     },
@@ -653,18 +621,7 @@
                         "title": "Ghost (ft. Scarlett) [Official Lyric Video]",
                         "author": "Jim Yosef",
                         "link": "%M%/Jim Yosef - Ghost (ft. Scarlett) [Official Lyric Video].mp3",
-                        "cover": "%B%/Jim Yosef - Ghost (ft. Scarlett) [Official Lyric Video].jpeg",
-                        "moreDetail": {
-                            "IMPORTANT": "ALL DETAIL IS NOT 100% ACCURATE !",
-                            "explicit": false,
-                            "album": {
-                                "covers": "https://i.scdn.co/image/ab67616d0000b27332464984ebcbf44c7beeff34",
-                                "name": "Samurai"
-                            },
-                            "artists": [
-                                "Jim Yosef"
-                            ]
-                        }
+                        "cover": "%B%/Jim Yosef - Ghost (ft. Scarlett) [Official Lyric Video].jpeg"
                     },
                     {
                         "title": "Stay Lost (feat. Amber-Simone) (Cabu Remix)",
@@ -734,12 +691,12 @@
                             "IMPORTANT": "ALL DETAIL IS NOT 100% ACCURATE !",
                             "explicit": true,
                             "album": {
-                                "covers": "https://i.scdn.co/image/ab67616d0000b273bc0a4414b8c9d2097381765e",
-                                "name": "Bonne Année Rap"
+                                "covers": "https://i.scdn.co/image/ab67616d0000b2737dfb2cbea4cdb69a132cb2a9",
+                                "name": "Légende Vivante"
                             },
                             "artists": [
                                 "Lorenzo",
-                                "Tony Corrida"
+                                "bbno$"
                             ]
                         }
                     },
@@ -782,12 +739,12 @@
                             "IMPORTANT": "ALL DETAIL IS NOT 100% ACCURATE !",
                             "explicit": true,
                             "album": {
-                                "covers": "https://i.scdn.co/image/ab67616d0000b273cfc4b1939aba562fc97159c5",
-                                "name": "Hotel Diablo"
+                                "covers": "https://i.scdn.co/image/ab67616d0000b273b4683d9ac3c5f14a71523c84",
+                                "name": "mainstream sellout"
                             },
                             "artists": [
                                 "Machine Gun Kelly",
-                                "Trippie Redd"
+                                "blackbear"
                             ]
                         }
                     },
@@ -834,10 +791,10 @@
                         "cover": "%B%/NEFFEX - All These Thoughts [Copyright Free] No.68.jpeg",
                         "moreDetail": {
                             "IMPORTANT": "ALL DETAIL IS NOT 100% ACCURATE !",
-                            "explicit": true,
+                            "explicit": false,
                             "album": {
-                                "covers": "https://i.scdn.co/image/ab67616d0000b27344dda0229c29ac973f16fb99",
-                                "name": "Play"
+                                "covers": "https://i.scdn.co/image/ab67616d0000b2735ecca0377ea07ad22d5f16c9",
+                                "name": "POTUS"
                             },
                             "artists": [
                                 "NEFFEX"
@@ -851,10 +808,10 @@
                         "cover": "%B%/NEFFEX - Chance [Copyright Free] No.65.jpeg",
                         "moreDetail": {
                             "IMPORTANT": "ALL DETAIL IS NOT 100% ACCURATE !",
-                            "explicit": true,
+                            "explicit": false,
                             "album": {
-                                "covers": "https://i.scdn.co/image/ab67616d0000b27344dda0229c29ac973f16fb99",
-                                "name": "Play"
+                                "covers": "https://i.scdn.co/image/ab67616d0000b273cf562c0dcc8230bd23c6b6f3",
+                                "name": "Destiny: The Collection"
                             },
                             "artists": [
                                 "NEFFEX"
@@ -900,8 +857,8 @@
                             "IMPORTANT": "ALL DETAIL IS NOT 100% ACCURATE !",
                             "explicit": false,
                             "album": {
-                                "covers": "https://i.scdn.co/image/ab67616d0000b273474ebd2e1f272cca800c8640",
-                                "name": "Middle"
+                                "covers": "https://i.scdn.co/image/ab67616d0000b2735f4bdd678c7f3df7a3641996",
+                                "name": "Mi Corazón"
                             },
                             "artists": [
                                 "Noizu"
