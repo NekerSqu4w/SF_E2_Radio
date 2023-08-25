@@ -38,7 +38,7 @@ local function load(use_own_playlist_url,exec)
             local id = timer.curtime()
             timer.create("SLOW_LOAD"..id,0,0,function()
                 for i=1, rewriteSpeed do
-                    if as_write < #ld.container.playlist.mp3.list then else
+                    if as_write <= #ld.container.playlist.mp3.list then else
                         exec(ld,{error=false,"No error occured"})
                         timer.remove("SLOW_LOAD"..id)
                         break
