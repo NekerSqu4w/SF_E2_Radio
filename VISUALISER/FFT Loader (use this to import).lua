@@ -5,7 +5,7 @@
 
 //IMPORTANT if this script crash, it's maybe be due to change of data
 // if you wanna fix the problem you can replace the script of this file by
-// this data: https://raw.githubusercontent.com/NekerSqu4w/SF_E2_Radio/main/VISUALISER/FFT%20Loader%20(use%20this%20to%20import).lua
+// this file: https://raw.githubusercontent.com/NekerSqu4w/SF_E2_Radio/main/VISUALISER/FFT%20Loader%20(use%20this%20to%20import).lua
 
 
 //own library
@@ -22,7 +22,7 @@
 --@include https://raw.githubusercontent.com/itisluiz/SFUi/main/sfui/components/list.lua as components/list.lua
 --@include https://raw.githubusercontent.com/itisluiz/SFUi/main/sfui/components/slider.lua as components/slider.lua
 --@include https://raw.githubusercontent.com/itisluiz/SFUi/main/sfui/components/label.lua as components/label.lua
-
+q
 
 //import some custom visualizer
 --@include https://raw.githubusercontent.com/NekerSqu4w/SF_E2_Radio/main/VISUALISER/custom/reactiv.lua as reactiv.lua

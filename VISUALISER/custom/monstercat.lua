@@ -58,7 +58,7 @@ function visualizer.render(loader,me,scrW,scrH)
 end
 
 //executed only when switch to another visualizer
-//can be usefull to remove render target
+//can be usefull to remove render target from memory
 function visualizer.on_switch()
 end
 

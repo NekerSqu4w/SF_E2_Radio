@@ -8,6 +8,7 @@ local function handle_request(url,exec)
     if http.canRequest() then
         http.get(url,function(response) exec(response,{error=false,msg="No error occured"}) end,function(error) exec("",{error=true,msg=error}) end)
     else
+        //retry request
         timer.simple(0.4,function() handle_request(url,exec) end)
     end
 end
