@@ -4,8 +4,9 @@
     },
     "container": {
         "no_background": [
-            "https://raw.githubusercontent.com/kaisermustard/-SF-E2-MEDIA_Player/master/ressource/texture/madeon.png",
-            "https://raw.githubusercontent.com/kaisermustard/-SF-E2-MEDIA_Player/master/ressource/texture/synthwave.png"
+            "https://raw.githubusercontent.com/NekerSqu4w/SF_E2_Radio/main/file/defaultBackground/galaxy.png",
+            "https://raw.githubusercontent.com/NekerSqu4w/SF_E2_Radio/main/file/defaultBackground/madeon.jpg",
+            "https://raw.githubusercontent.com/NekerSqu4w/SF_E2_Radio/main/file/defaultBackground/synthwave.png"
         ],
         "playlist": {
             "radio": {
