@@ -64,6 +64,12 @@
                         "cover": "%B%/44phantom - don't sleep, repeat (Official Video) ft. Machine Gun Kelly.jpeg"
                     },
                     {
+                        "title": "don't sleep, repeat (Official Video) ft. Machine Gun Kelly",
+                        "author": "44phantomVEVO",
+                        "link": "%M%/44phantom - don_t sleep, repeat (Official Video) ft. Machine Gun Kelly.mp3",
+                        "cover": "%B%/44phantom - don_t sleep, repeat (Official Video) ft. Machine Gun Kelly.jpeg"
+                    },
+                    {
                         "title": "Hard to See (Official Music Video)",
                         "author": "SpinefarmRec",
                         "link": "%M%/5FDP - Hard to See (Official Music Video).mp3",
@@ -74,6 +80,12 @@
                         "author": "Majestic Casual",
                         "link": "%M%/Aguava - If I.mp3",
                         "cover": "%B%/Aguava - If I.jpeg"
+                    },
+                    {
+                        "title": "Better Off Alone (Official Video)",
+                        "author": "Alice Deejay",
+                        "link": "%M%/Alice Deejay - Better Off Alone (Official Video).mp3",
+                        "cover": "%B%/Alice Deejay - Better Off Alone (Official Video).jpeg"
                     },
                     {
                         "title": "All These Nights",
@@ -117,6 +129,12 @@
                         "author": "Majestic Casual",
                         "link": "%M%/Audio Dope - Unconditional (feat. Emilia Anastazja).mp3",
                         "cover": "%B%/Audio Dope - Unconditional (feat. Emilia Anastazja).jpeg"
+                    },
+                    {
+                        "title": "Rush (Official Music Video)",
+                        "author": "AyraStarrVEVO",
+                        "link": "%M%/Ayra Starr - Rush (Official Music Video).mp3",
+                        "cover": "%B%/Ayra Starr - Rush (Official Music Video).jpeg"
                     },
                     {
                         "title": "Boombox (Official Audio)",
@@ -203,6 +221,24 @@
                         "cover": "%B%/Bondax - Gold (Snakehips Bootleg).jpeg"
                     },
                     {
+                        "title": "Run To You",
+                        "author": "BryanAdamsVEVO",
+                        "link": "%M%/Bryan Adams - Run To You.mp3",
+                        "cover": "%B%/Bryan Adams - Run To You.jpeg"
+                    },
+                    {
+                        "title": "Breaking Away",
+                        "author": "Retrowave Cinema",
+                        "link": "%M%/Bunny X & SelloRekt  LA Dreams - Breaking Away.mp3",
+                        "cover": "%B%/Bunny X & SelloRekt  LA Dreams - Breaking Away.jpeg"
+                    },
+                    {
+                        "title": "I Remember U | NCS",
+                        "author": "NoCopyrightSounds",
+                        "link": "%M%/Cartoon feat. Jüri Pootsmann - I Remember U _ NCS - Copyright Free Music.mp3",
+                        "cover": "%B%/Cartoon feat. Jüri Pootsmann - I Remember U _ NCS - Copyright Free Music.jpeg"
+                    },
+                    {
                         "title": "Music Is The Answer (Danny Tenaglia)",
                         "author": "davepeo77",
                         "link": "%M%/Celeda - Music Is The Answer (Danny Tenaglia).mp3",
@@ -219,6 +255,12 @@
                         "author": "ChillYourMind",
                         "link": "%M%/Chris Lake feat Alexis Roberts - Turn Off The Lights.mp3",
                         "cover": "%B%/Chris Lake feat Alexis Roberts - Turn Off The Lights.jpeg"
+                    },
+                    {
+                        "title": "Clocks (Official Video)",
+                        "author": "Coldplay",
+                        "link": "%M%/Coldplay - Clocks (Official Video).mp3",
+                        "cover": "%B%/Coldplay - Clocks (Official Video).jpeg"
                     },
                     {
                         "title": "Come Alive (feat. Anna Moore)",
@@ -367,6 +409,12 @@
                         "cover": "%B%/EmiSphere - Beyond The Skies.jpeg"
                     },
                     {
+                        "title": "Dreamstate [Monstercat Release]",
+                        "author": "Monstercat Instinct",
+                        "link": "%M%/Ephixa - Dreamstate [Monstercat Release].mp3",
+                        "cover": "%B%/Ephixa - Dreamstate [Monstercat Release].jpeg"
+                    },
+                    {
                         "title": "New Beginning",
                         "author": "Trap Nation",
                         "link": "%M%/Far Out - New Beginning.mp3",
@@ -422,6 +470,12 @@
                         "cover": "%B%/Headhunterz ft. Malukah - Reignite (Bass Boosted)(HD).jpeg"
                     },
                     {
+                        "title": "Cascade Nights",
+                        "author": "Electronic Gems",
+                        "link": "%M%/Hello Meteor - Cascade Nights.mp3",
+                        "cover": "%B%/Hello Meteor - Cascade Nights.jpeg"
+                    },
+                    {
                         "title": "Hippie Dreams (MoveTown Remix)",
                         "author": "Andrew Spencer",
                         "album": "Hippie Dreams",
@@ -434,6 +488,12 @@
                         "album": "Hot N Cold",
                         "link": "%M%/hot-n-cold.mp3",
                         "cover": "%B%/hot-n-cold.jpeg"
+                    },
+                    {
+                        "title": "If You're Serious",
+                        "author": "The Chainsmokers - Topic",
+                        "link": "%M%/If You_re Serious.mp3",
+                        "cover": "%B%/If You_re Serious.jpeg"
                     },
                     {
                         "title": "Bones (Official Music Video)",
@@ -479,6 +539,12 @@
                         "cover": "%B%/Jethro Heston, Cardboard Foxes - Cut Me Loose (ft. Max Marshall).jpeg"
                     },
                     {
+                        "title": "Into the Sky (Official Lyric Video)",
+                        "author": "Laura Brehm",
+                        "link": "%M%/Jim Yosef & Laura Brehm - Into the Sky (Official Lyric Video).mp3",
+                        "cover": "%B%/Jim Yosef & Laura Brehm - Into the Sky (Official Lyric Video).jpeg"
+                    },
+                    {
                         "title": "Ghost (ft. Scarlett) [Official Lyric Video]",
                         "author": "Jim Yosef",
                         "link": "%M%/Jim Yosef - Ghost (ft. Scarlett) [Official Lyric Video].mp3",
@@ -516,10 +582,22 @@
                         "cover": "%B%/JVLY - swim.jpeg"
                     },
                     {
+                        "title": "Strangers (Official Lyric Video)",
+                        "author": "Kenya Grace",
+                        "link": "%M%/Kenya Grace - Strangers (Official Lyric Video).mp3",
+                        "cover": "%B%/Kenya Grace - Strangers (Official Lyric Video).jpeg"
+                    },
+                    {
                         "title": "Retro Love [NCS Release]",
                         "author": "NoCopyrightSounds",
                         "link": "%M%/KILLA - Retro Love [NCS Release].mp3",
                         "cover": "%B%/KILLA - Retro Love [NCS Release].jpeg"
+                    },
+                    {
+                        "title": "Bad Girl | House | NCS",
+                        "author": "NoCopyrightSounds",
+                        "link": "%M%/LAADS - Bad Girl _ House _ NCS - Copyright Free Music.mp3",
+                        "cover": "%B%/LAADS - Bad Girl _ House _ NCS - Copyright Free Music.jpeg"
                     },
                     {
                         "title": "****, i'm lonely (with Anne-Marie) [Official Video]",
@@ -570,16 +648,82 @@
                         "cover": "%B%/Machine Gun Kelly - Bloody Valentine [Official Video].jpeg"
                     },
                     {
+                        "title": "drunk face (Official Music Video)",
+                        "author": "Machine Gun Kelly",
+                        "link": "%M%/Machine Gun Kelly - drunk face (Official Music Video).mp3",
+                        "cover": "%B%/Machine Gun Kelly - drunk face (Official Music Video).jpeg"
+                    },
+                    {
+                        "title": "I Think I'm OKAY [Official Music Video]",
+                        "author": "MGKVEVO",
+                        "link": "%M%/Machine Gun Kelly - I Think I_m OKAY [Official Music Video].mp3",
+                        "cover": "%B%/Machine Gun Kelly - I Think I_m OKAY [Official Music Video].jpeg"
+                    },
+                    {
+                        "title": "kiss kiss (Official Audio)",
+                        "author": "Machine Gun Kelly",
+                        "link": "%M%/Machine Gun Kelly - kiss kiss (Official Audio).mp3",
+                        "cover": "%B%/Machine Gun Kelly - kiss kiss (Official Audio).jpeg"
+                    },
+                    {
                         "title": "love race (feat Kellin Quinn)",
                         "author": "Machine Gun Kelly",
                         "link": "%M%/Machine Gun Kelly - love race (feat Kellin Quinn).mp3",
                         "cover": "%B%/Machine Gun Kelly - love race (feat Kellin Quinn).jpeg"
                     },
                     {
+                        "title": "maybe feat. Bring Me The Horizon (Official Music Video)",
+                        "author": "MGKVEVO",
+                        "link": "%M%/Machine Gun Kelly - maybe feat. Bring Me The Horizon (Official Music Video).mp3",
+                        "cover": "%B%/Machine Gun Kelly - maybe feat. Bring Me The Horizon (Official Music Video).jpeg"
+                    },
+                    {
+                        "title": "more than life ft. glaive (Official Music Video)",
+                        "author": "MGKVEVO",
+                        "link": "%M%/Machine Gun Kelly - more than life ft. glaive (Official Music Video).mp3",
+                        "cover": "%B%/Machine Gun Kelly - more than life ft. glaive (Official Music Video).jpeg"
+                    },
+                    {
                         "title": "The Break Up (Official Music Video)",
                         "author": "MGKVEVO",
                         "link": "%M%/Machine Gun Kelly - The Break Up (Official Music Video).mp3",
                         "cover": "%B%/Machine Gun Kelly - The Break Up (Official Music Video).jpeg"
+                    },
+                    {
+                        "title": "why are you here [Official Music Video]",
+                        "author": "MGKVEVO",
+                        "link": "%M%/Machine Gun Kelly - why are you here [Official Music Video].mp3",
+                        "cover": "%B%/Machine Gun Kelly - why are you here [Official Music Video].jpeg"
+                    },
+                    {
+                        "title": "my ex's best friend (Official Music Video)",
+                        "author": "MGKVEVO",
+                        "link": "%M%/Machine Gun Kelly ft. blackbear - my ex_s best friend (Official Music Video).mp3",
+                        "cover": "%B%/Machine Gun Kelly ft. blackbear - my ex_s best friend (Official Music Video).jpeg"
+                    },
+                    {
+                        "title": "nothing inside (Official Audio)",
+                        "author": "Machine Gun Kelly",
+                        "link": "%M%/Machine Gun Kelly Ft. Iann Dior - nothing inside (Official Audio).mp3",
+                        "cover": "%B%/Machine Gun Kelly Ft. Iann Dior - nothing inside (Official Audio).jpeg"
+                    },
+                    {
+                        "title": "all I know (Official Audio)",
+                        "author": "Machine Gun Kelly",
+                        "link": "%M%/Machine Gun Kelly Ft. Trippie Redd - all I know (Official Audio).mp3",
+                        "cover": "%B%/Machine Gun Kelly Ft. Trippie Redd - all I know (Official Audio).jpeg"
+                    },
+                    {
+                        "title": "Machine Gun Kelly – Candy feat. Trippie Redd (Official Audio)",
+                        "author": "Machine Gun Kelly",
+                        "link": "%M%/Machine Gun Kelly – Candy feat. Trippie Redd (Official Audio).mp3",
+                        "cover": "%B%/Machine Gun Kelly – Candy feat. Trippie Redd (Official Audio).jpeg"
+                    },
+                    {
+                        "title": "make up sex ft. blackbear (Official Music Video)",
+                        "author": "MGKVEVO",
+                        "link": "%M%/Machine Gun Kelly, blackbear - make up sex ft. blackbear (Official Music Video).mp3",
+                        "cover": "%B%/Machine Gun Kelly, blackbear - make up sex ft. blackbear (Official Music Video).jpeg"
                     },
                     {
                         "title": "Circles",
@@ -666,10 +810,22 @@
                         "cover": "%B%/noizu-summer-91-looking-back.png"
                     },
                     {
+                        "title": "Via Stellarum",
+                        "author": "Electronic Gems",
+                        "link": "%M%/obio - Via Stellarum.mp3",
+                        "cover": "%B%/obio - Via Stellarum.jpeg"
+                    },
+                    {
                         "title": "Gecko (Overdrive) [Radio Edit]",
                         "author": "FFRR",
                         "link": "%M%/Oliver Heldens X Becky Hill - Gecko (Overdrive) [Radio Edit].mp3",
                         "cover": "%B%/Oliver Heldens X Becky Hill - Gecko (Overdrive) [Radio Edit].jpeg"
+                    },
+                    {
+                        "title": "Stranger Love",
+                        "author": "NewRetroWave",
+                        "link": "%M%/Ollie Wride & Sunglasses Kid - Stranger Love.mp3",
+                        "cover": "%B%/Ollie Wride & Sunglasses Kid - Stranger Love.jpeg"
                     },
                     {
                         "title": "Trying Too Hard ft. Leondis & Britt Lari (Official Lyric Video)",
@@ -732,6 +888,12 @@
                         "cover": "%B%/Rise Up.jpeg"
                     },
                     {
+                        "title": "Light It Up (feat. Jex) | Future Bounce | NCS",
+                        "author": "NoCopyrightSounds",
+                        "link": "%M%/Robin Hustin x TobiMorrow - Light It Up (feat. Jex) _ Future Bounce _ NCS - Copyright Free Music.mp3",
+                        "cover": "%B%/Robin Hustin x TobiMorrow - Light It Up (feat. Jex) _ Future Bounce _ NCS - Copyright Free Music.jpeg"
+                    },
+                    {
                         "title": "WTF (Official Video)",
                         "author": "SashaSloanVEVO",
                         "link": "%M%/Sasha Alex Sloan - WTF (Official Video).mp3",
@@ -780,6 +942,12 @@
                         "cover": "%B%/Stellar - Grave (Official Lyric Video).jpeg"
                     },
                     {
+                        "title": "Shape of My Heart (Official Music Video)",
+                        "author": "StingVEVO",
+                        "link": "%M%/Sting - Shape of My Heart (Official Music Video).mp3",
+                        "cover": "%B%/Sting - Shape of My Heart (Official Music Video).jpeg"
+                    },
+                    {
                         "title": "Follow (feat. Vikki Gilmore) [NCS Release]",
                         "author": "NoCopyrightSounds",
                         "link": "%M%/T-Mass & Rain Man - Follow (feat. Vikki Gilmore) [NCS Release].mp3",
@@ -790,6 +958,12 @@
                         "author": "The1975VEVO",
                         "link": "%M%/The 1975 - Me & You Together Song.mp3",
                         "cover": "%B%/The 1975 - Me & You Together Song.jpeg"
+                    },
+                    {
+                        "title": "Summertime Friends (Official Video)",
+                        "author": "ChainsmokersVEVO",
+                        "link": "%M%/The Chainsmokers - Summertime Friends (Official Video).mp3",
+                        "cover": "%B%/The Chainsmokers - Summertime Friends (Official Video).jpeg"
                     },
                     {
                         "title": "'Seventeen' (Official Audio)",
@@ -810,10 +984,34 @@
                         "cover": "%B%/The Midnight - _Last Train_ (Official Audio).jpeg"
                     },
                     {
+                        "title": "False Alarm (Audio)",
+                        "author": "TheWeekndVEVO",
+                        "link": "%M%/The Weeknd - False Alarm (Audio).mp3",
+                        "cover": "%B%/The Weeknd - False Alarm (Audio).jpeg"
+                    },
+                    {
+                        "title": "Close To The Sun",
+                        "author": "TheFatRat",
+                        "link": "%M%/TheFatRat & Anjulie - Close To The Sun.mp3",
+                        "cover": "%B%/TheFatRat & Anjulie - Close To The Sun.jpeg"
+                    },
+                    {
                         "title": "The Storm",
                         "author": "xKito Music",
                         "link": "%M%/TheFatRat & Maisy Kay - The Storm.mp3",
                         "cover": "%B%/TheFatRat & Maisy Kay - The Storm.jpeg"
+                    },
+                    {
+                        "title": "No No No",
+                        "author": "TheFatRat",
+                        "link": "%M%/TheFatRat - No No No.mp3",
+                        "cover": "%B%/TheFatRat - No No No.jpeg"
+                    },
+                    {
+                        "title": "Best Day Of My Life (Official Music Video)",
+                        "author": "Tom Odell",
+                        "link": "%M%/Tom Odell - Best Day Of My Life (Official Music Video).mp3",
+                        "cover": "%B%/Tom Odell - Best Day Of My Life (Official Music Video).jpeg"
                     },
                     {
                         "title": "FORGET SOMEBODY (Official Lyric Video)",
@@ -832,6 +1030,12 @@
                         "author": "Monstercat Uncaged",
                         "link": "%M%/Tristam - Bone Dry [Monstercat Release].mp3",
                         "cover": "%B%/Tristam - Bone Dry [Monstercat Release].jpeg"
+                    },
+                    {
+                        "title": "I Remember [Monstercat Release]",
+                        "author": "Monstercat Uncaged",
+                        "link": "%M%/Tristam - I Remember [Monstercat Release].mp3",
+                        "cover": "%B%/Tristam - I Remember [Monstercat Release].jpeg"
                     },
                     {
                         "title": "Pretty Green Eyes (Paul Gannon Remix)(Bass Boosted)(HD)",
@@ -883,10 +1087,22 @@
                         "cover": "%B%/Wilkinson - Infinity (ft. ILIRA, iiola & Tom Cane).jpeg"
                     },
                     {
+                        "title": "Heads Will Roll (Official Music Video)",
+                        "author": "YeahYeahYeahsVEVO",
+                        "link": "%M%/Yeah Yeah Yeahs - Heads Will Roll (Official Music Video).mp3",
+                        "cover": "%B%/Yeah Yeah Yeahs - Heads Will Roll (Official Music Video).jpeg"
+                    },
+                    {
                         "title": "Holding On",
                         "author": "NewRetroWave",
                         "link": "%M%/Yota - Holding On.mp3",
                         "cover": "%B%/Yota - Holding On.jpeg"
+                    },
+                    {
+                        "title": "Limelight",
+                        "author": "NewRetroWave",
+                        "link": "%M%/YOTA - Limelight.mp3",
+                        "cover": "%B%/YOTA - Limelight.jpeg"
                     },
                     {
                         "title": "Dead Inside (Official Audio)",
@@ -917,6 +1133,12 @@
                         "author": "NoCopyrightSounds",
                         "link": "%M%/Zaug - 8 Rounds [NCS Release].mp3",
                         "cover": "%B%/Zaug - 8 Rounds [NCS Release].jpeg"
+                    },
+                    {
+                        "title": "Tristam",
+                        "author": "Monstercat Uncaged",
+                        "link": "%M%/[Glitch Hop or 110BPM] - Tristam - Till It_s Over [Monstercat Release].mp3",
+                        "cover": "%B%/[Glitch Hop or 110BPM] - Tristam - Till It_s Over [Monstercat Release].jpeg"
                     }
                 ]
             }
