@@ -131,6 +131,30 @@
                         "cover": "%B%/Audio Dope - Unconditional (feat. Emilia Anastazja).jpeg"
                     },
                     {
+                        "title": "Broken Arrows",
+                        "author": "AviciiOfficialVEVO",
+                        "link": "%M%/Avicii - Broken Arrows.mp3",
+                        "cover": "%B%/Avicii - Broken Arrows.jpeg"
+                    },
+                    {
+                        "title": "Heaven (Tribute Video)",
+                        "author": "AviciiOfficialVEVO",
+                        "link": "%M%/Avicii - Heaven (Tribute Video).mp3",
+                        "cover": "%B%/Avicii - Heaven (Tribute Video).jpeg"
+                    },
+                    {
+                        "title": "Levels",
+                        "author": "AviciiOfficialVEVO",
+                        "link": "%M%/Avicii - Levels.mp3",
+                        "cover": "%B%/Avicii - Levels.jpeg"
+                    },
+                    {
+                        "title": "SOS (Fan Memories Video) ft. Aloe Blacc",
+                        "author": "AviciiOfficialVEVO",
+                        "link": "%M%/Avicii - SOS (Fan Memories Video) ft. Aloe Blacc.mp3",
+                        "cover": "%B%/Avicii - SOS (Fan Memories Video) ft. Aloe Blacc.jpeg"
+                    },
+                    {
                         "title": "Rush (Official Music Video)",
                         "author": "AyraStarrVEVO",
                         "link": "%M%/Ayra Starr - Rush (Official Music Video).mp3",
@@ -245,6 +269,12 @@
                         "cover": "%B%/Celeda - Music Is The Answer (Danny Tenaglia).jpeg"
                     },
                     {
+                        "title": "Light Switch [Official Music Video]",
+                        "author": "Charlie Puth",
+                        "link": "%M%/Charlie Puth - Light Switch [Official Music Video].mp3",
+                        "cover": "%B%/Charlie Puth - Light Switch [Official Music Video].jpeg"
+                    },
+                    {
                         "title": "Believe [Official Music Video]",
                         "author": "Cher",
                         "link": "%M%/Cher - Believe [Official Music Video].mp3",
@@ -309,6 +339,12 @@
                         "author": "Majestic Casual",
                         "link": "%M%/Darius - Hot Hands.mp3",
                         "cover": "%B%/Darius - Hot Hands.jpeg"
+                    },
+                    {
+                        "title": "Lovers On The Sun (Official Video) ft Sam Martin",
+                        "author": "David Guetta",
+                        "link": "%M%/David Guetta - Lovers On The Sun (Official Video) ft Sam Martin.mp3",
+                        "cover": "%B%/David Guetta - Lovers On The Sun (Official Video) ft Sam Martin.jpeg"
                     },
                     {
                         "title": "Used to the Darkness (Audio)",
@@ -648,6 +684,12 @@
                         "cover": "%B%/Machine Gun Kelly - Bloody Valentine [Official Video].jpeg"
                     },
                     {
+                        "title": "concert for aliens (Official Music Video)",
+                        "author": "MGKVEVO",
+                        "link": "%M%/Machine Gun Kelly - concert for aliens (Official Music Video).mp3",
+                        "cover": "%B%/Machine Gun Kelly - concert for aliens (Official Music Video).jpeg"
+                    },
+                    {
                         "title": "drunk face (Official Music Video)",
                         "author": "Machine Gun Kelly",
                         "link": "%M%/Machine Gun Kelly - drunk face (Official Music Video).mp3",
@@ -960,6 +1002,18 @@
                         "cover": "%B%/The 1975 - Me & You Together Song.jpeg"
                     },
                     {
+                        "title": "Paris (Official Lyric Video)",
+                        "author": "ChainsmokersVEVO",
+                        "link": "%M%/The Chainsmokers - Paris (Official Lyric Video).mp3",
+                        "cover": "%B%/The Chainsmokers - Paris (Official Lyric Video).jpeg"
+                    },
+                    {
+                        "title": "Sick Boy (Official Video)",
+                        "author": "ChainsmokersVEVO",
+                        "link": "%M%/The Chainsmokers - Sick Boy (Official Video).mp3",
+                        "cover": "%B%/The Chainsmokers - Sick Boy (Official Video).jpeg"
+                    },
+                    {
                         "title": "Summertime Friends (Official Video)",
                         "author": "ChainsmokersVEVO",
                         "link": "%M%/The Chainsmokers - Summertime Friends (Official Video).mp3",
@@ -1000,6 +1054,18 @@
                         "author": "xKito Music",
                         "link": "%M%/TheFatRat & Maisy Kay - The Storm.mp3",
                         "cover": "%B%/TheFatRat & Maisy Kay - The Storm.jpeg"
+                    },
+                    {
+                        "title": "Hiding In The Blue [Chapter 1]",
+                        "author": "TheFatRat",
+                        "link": "%M%/TheFatRat & RIELL - Hiding In The Blue [Chapter 1].mp3",
+                        "cover": "%B%/TheFatRat & RIELL - Hiding In The Blue [Chapter 1].jpeg"
+                    },
+                    {
+                        "title": "MAYDAY feat. Laura Brehm",
+                        "author": "TheFatRat",
+                        "link": "%M%/TheFatRat - MAYDAY feat. Laura Brehm.mp3",
+                        "cover": "%B%/TheFatRat - MAYDAY feat. Laura Brehm.jpeg"
                     },
                     {
                         "title": "No No No",
@@ -1133,6 +1199,12 @@
                         "author": "NoCopyrightSounds",
                         "link": "%M%/Zaug - 8 Rounds [NCS Release].mp3",
                         "cover": "%B%/Zaug - 8 Rounds [NCS Release].jpeg"
+                    },
+                    {
+                        "title": "Clarity ft. Foxes",
+                        "author": "ZEDDVEVO",
+                        "link": "%M%/Zedd - Clarity ft. Foxes.mp3",
+                        "cover": "%B%/Zedd - Clarity ft. Foxes.jpeg"
                     },
                     {
                         "title": "Tristam",
