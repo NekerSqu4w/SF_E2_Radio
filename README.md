@@ -29,22 +29,39 @@ end
 On execution succesfull this will return
 ```json
 {
-    "data": {
-        "version": string,
-        "no_background": [...]
+    "metadata": {
+        "version": "string"
     },
-    "playlist": {
-        "reformat_link": {...},
-        "list_id": {...},
-        "list_name": {...},
-        "radio": [
-            {...},
-            {...}
-        ],
-        "mp3": [
-            {...},
-            {...}
-        ]
+    "container": {
+        "no_background": [...],
+        "playlist": {
+            "radio": {
+                "name": "string",
+                "list": [
+                    {
+                        "link": "string",
+                        "title": "string"
+                    },
+                    {...}
+                ]
+            },
+            "mp3": {
+                "name": "string",
+                "reformat_link": {
+                    "%M%": "https://raw.githubusercontent.com/NekerSqu4w/SF_E2_Radio/main/file/music",
+                    "%B%": "https://raw.githubusercontent.com/NekerSqu4w/SF_E2_Radio/main/file/background"
+                },
+                "list": [
+                    {
+                        "title": "string",
+                        "author": "string",
+                        "link": "%M%/ + path",
+                        "cover": "%B%/ + path",
+                    },
+                    {...}
+                ]
+            },
+        }        
     }
 }
 ```
