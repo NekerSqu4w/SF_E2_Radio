@@ -4,8 +4,16 @@
     },
     "container": {
         "no_background": [
+            "https://raw.githubusercontent.com/NekerSqu4w/SF_E2_Radio/main/file/defaultBackground/cloudy sky anime.jpg",
+            "https://raw.githubusercontent.com/NekerSqu4w/SF_E2_Radio/main/file/defaultBackground/fire dragon.png",
             "https://raw.githubusercontent.com/NekerSqu4w/SF_E2_Radio/main/file/defaultBackground/galaxy.png",
+            "https://raw.githubusercontent.com/NekerSqu4w/SF_E2_Radio/main/file/defaultBackground/gas mask fantasy.jpg",
             "https://raw.githubusercontent.com/NekerSqu4w/SF_E2_Radio/main/file/defaultBackground/madeon.jpg",
+            "https://raw.githubusercontent.com/NekerSqu4w/SF_E2_Radio/main/file/defaultBackground/mirador.png",
+            "https://raw.githubusercontent.com/NekerSqu4w/SF_E2_Radio/main/file/defaultBackground/red sunset and tree.jpg",
+            "https://raw.githubusercontent.com/NekerSqu4w/SF_E2_Radio/main/file/defaultBackground/red sunset.jpg",
+            "https://raw.githubusercontent.com/NekerSqu4w/SF_E2_Radio/main/file/defaultBackground/red wire.jpg",
+            "https://raw.githubusercontent.com/NekerSqu4w/SF_E2_Radio/main/file/defaultBackground/scenery clouds.jpg",
             "https://raw.githubusercontent.com/NekerSqu4w/SF_E2_Radio/main/file/defaultBackground/synthwave.png"
         ],
         "playlist": {
@@ -62,12 +70,6 @@
                         "author": "44phantomVEVO",
                         "link": "%M%/44phantom - don't sleep, repeat (Official Video) ft. Machine Gun Kelly.mp3",
                         "cover": "%B%/44phantom - don't sleep, repeat (Official Video) ft. Machine Gun Kelly.jpeg"
-                    },
-                    {
-                        "title": "don't sleep, repeat (Official Video) ft. Machine Gun Kelly",
-                        "author": "44phantomVEVO",
-                        "link": "%M%/44phantom - don_t sleep, repeat (Official Video) ft. Machine Gun Kelly.mp3",
-                        "cover": "%B%/44phantom - don_t sleep, repeat (Official Video) ft. Machine Gun Kelly.jpeg"
                     },
                     {
                         "title": "Hard to See (Official Music Video)",
@@ -528,8 +530,8 @@
                     {
                         "title": "If You're Serious",
                         "author": "The Chainsmokers - Topic",
-                        "link": "%M%/If You_re Serious.mp3",
-                        "cover": "%B%/If You_re Serious.jpeg"
+                        "link": "%M%/If You're Serious.mp3",
+                        "cover": "%B%/If You're Serious.jpeg"
                     },
                     {
                         "title": "Bones (Official Music Video)",
@@ -638,8 +640,8 @@
                     {
                         "title": "****, i'm lonely (with Anne-Marie) [Official Video]",
                         "author": "Lauv",
-                        "link": "%M%/Lauv - ####, i_m lonely (with Anne-Marie) [Official Video].mp3",
-                        "cover": "%B%/Lauv - ####, i_m lonely (with Anne-Marie) [Official Video].jpeg"
+                        "link": "%M%/Lauv - ####, i'm lonely (with Anne-Marie) [Official Video].mp3",
+                        "cover": "%B%/Lauv - ####, i'm lonely (with Anne-Marie) [Official Video].jpeg"
                     },
                     {
                         "title": "Mauvais (Clip officiel)",
@@ -1209,8 +1211,8 @@
                     {
                         "title": "Tristam",
                         "author": "Monstercat Uncaged",
-                        "link": "%M%/[Glitch Hop or 110BPM] - Tristam - Till It_s Over [Monstercat Release].mp3",
-                        "cover": "%B%/[Glitch Hop or 110BPM] - Tristam - Till It_s Over [Monstercat Release].jpeg"
+                        "link": "%M%/[Glitch Hop or 110BPM] - Tristam - Till It's Over [Monstercat Release].mp3",
+                        "cover": "%B%/[Glitch Hop or 110BPM] - Tristam - Till It's Over [Monstercat Release].jpeg"
                     }
                 ]
             }
