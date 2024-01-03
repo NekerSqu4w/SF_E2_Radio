@@ -1,0 +1,20 @@
+{
+	"texPath": "https://raw.githubusercontent.com/NekerSqu4w/SF_E2_Radio/main/VISUALISER/myvisualizer_v2/tunnel.data/texture/",
+	"mdlPath": "https://raw.githubusercontent.com/NekerSqu4w/SF_E2_Radio/main/VISUALISER/myvisualizer_v2/tunnel.data/model/",
+	"MDL.INFO": "texture_id: objects list",
+	"TEX.INFO": "texture_id: data",
+	"mdl": {
+		"neon": ["blue neon.obj","neon.obj"],
+		"tunnel": ["border_cylinder.obj","neon_box.obj"],
+		"pipe": ["pipe.obj"],
+		"platform": ["platform.obj"],
+		"ring": ["ring.obj"]
+	},
+	"tex": {
+		"pipe": {"path": "pipe baking.png", "flags": 8448, "alpha": 1},
+		"platform": {"path": "platform baking.png", "flags": 8448, "alpha": 1},
+		"ring": {"path": "ring baking.png", "flags": 8448, "alpha": 1},
+		"smoke": {"path": "smoke.png", "flags": 8320, "alpha": 0.05},
+		"tunnel": {"path": "tunnel baking.png", "flags": 8448, "alpha": 1}
+	}
+}

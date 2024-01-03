@@ -1,19 +1,20 @@
 local tunnel = class("myvisualizer.tunnel") // you must use different class name for each visualizer
 
 --@include lib/meshlib/mesh_lib.txt
---@includedata lib/myvisualizer_v2/tunnel.data/model/border_cylinder.obj
---@includedata lib/myvisualizer_v2/tunnel.data/model/neon_box.obj
---@includedata lib/myvisualizer_v2/tunnel.data/model/neon.obj
---@includedata lib/myvisualizer_v2/tunnel.data/model/blue neon.obj
---@includedata lib/myvisualizer_v2/tunnel.data/model/pipe.obj
---@includedata lib/myvisualizer_v2/tunnel.data/model/platform.obj
---@includedata lib/myvisualizer_v2/tunnel.data/model/ring.obj
+--@includedata lib/myvisualizer_v2/tunnel.data/tunnel.data
 
---@includedata lib/myvisualizer_v2/tunnel.data/texture/tunnel baking.png
---@includedata lib/myvisualizer_v2/tunnel.data/texture/pipe baking.png
---@includedata lib/myvisualizer_v2/tunnel.data/texture/platform baking.png
---@includedata lib/myvisualizer_v2/tunnel.data/texture/ring baking.png
---@includedata lib/myvisualizer_v2/tunnel.data/texture/smoke.png
+tunnel.meshLib = require("lib/meshlib/mesh_lib.txt")
+local https = {}
+function tunnel.waitHttp(url,receive,head) table.insert(https,{url=url,receive=receive,head=head}) end
+
+hook.add("think","myvisualizer.tunnel.updateHttp",function()
+    local dohttp = https[1]
+    
+    if dohttp and http.canRequest() then
+        http.get(dohttp.url,dohttp.receive)
+        table.remove(https,1)
+    end
+end)
 
 function tunnel:initialize(currentAudio,scrW,scrH)
     self.currentAudio = currentAudio
@@ -37,7 +38,7 @@ function tunnel:initialize(currentAudio,scrW,scrH)
     
     render.createRenderTarget("myvisualizer.tunnel.camera")
     
-    local function insertMdl(controller,modelId,mesh)
+    self.insertMdl = function(controller,modelId,mesh)
         self.models[modelId] = {
             material = controller.mat,
             param = controller.param or {},
@@ -45,63 +46,33 @@ function tunnel:initialize(currentAudio,scrW,scrH)
         }
     end
     
-    self.materials["tunnel"] = material.create("UnlitGeneric")
-    self.materials["tunnel"]:setTextureURL("$basetexture","data:image/png;base64," .. http.base64Encode(getScript("lib/myvisualizer_v2/tunnel.data/texture/tunnel baking.png")))
-    self.materials["tunnel"]:setInt("$flags", 256+8192)
+    local dataList = json.decode(getScript("lib/myvisualizer_v2/tunnel.data/tunnel.data"))
     
-    self.materials["platform"] = material.create("UnlitGeneric")
-    self.materials["platform"]:setTextureURL("$basetexture","data:image/png;base64," .. http.base64Encode(getScript("lib/myvisualizer_v2/tunnel.data/texture/platform baking.png")))
-    self.materials["platform"]:setInt("$flags", 256+8192)
+    /* GENERATE TEXTURE */
+    for name, data in pairs(dataList.tex) do
+        self.materials[name] = material.create("UnlitGeneric")
+        self.materials[name]:setTextureURL("$basetexture",dataList.texPath .. data.path)
+        self.materials[name]:setInt("$flags", data.flags)
+        self.materials[name]:setFloat("$alpha", data.alpha)
+    end
     
-    self.materials["pipe"] = material.create("UnlitGeneric")
-    self.materials["pipe"]:setTextureURL("$basetexture","data:image/png;base64," .. http.base64Encode(getScript("lib/myvisualizer_v2/tunnel.data/texture/pipe baking.png")))
-    self.materials["pipe"]:setInt("$flags", 256+8192)
-    
-    self.materials["ring"] = material.create("UnlitGeneric")
-    self.materials["ring"]:setTextureURL("$basetexture","data:image/png;base64," .. http.base64Encode(getScript("lib/myvisualizer_v2/tunnel.data/texture/ring baking.png")))
-    self.materials["ring"]:setInt("$flags", 256+8192)
-    
-    self.materials["neon"] = material.create("UnlitGeneric")
-    self.materials["neon"]:setTexture("$basetexture","models/debug/debugwhite")
-    self.materials["neon"]:setInt("$flags", 256+8192)
-    
-    self.materials["smoke"] = material.create("UnlitGeneric")
-    self.materials["smoke"]:setTextureURL("$basetexture","data:image/png;base64," .. http.base64Encode(getScript("lib/myvisualizer_v2/tunnel.data/texture/smoke.png")))
-    self.materials["smoke"]:setInt("$flags", 128+8192)
-    self.materials["smoke"]:setFloat("$alpha",0.05)
-    
-    local meshLib = require("lib/meshlib/mesh_lib.txt")
-    local meshController = meshLib:new()
-    meshController.mat = self.materials["tunnel"]
-    meshController:pushObj(getScript("lib/myvisualizer_v2/tunnel.data/model/border_cylinder.obj"))
-    meshController:pushObj(getScript("lib/myvisualizer_v2/tunnel.data/model/neon_box.obj"))
-    meshController:build(insertMdl)
-    
-    local meshController = meshLib:new()
-    meshController.mat = self.materials["pipe"]
-    meshController:pushObj(getScript("lib/myvisualizer_v2/tunnel.data/model/pipe.obj"))
-    meshController:build(insertMdl)
-    
-    local meshController = meshLib:new()
-    meshController:preGenerate(viewVerticesCount)
-    meshController.mat = self.materials["platform"]
-    meshController:pushObj(getScript("lib/myvisualizer_v2/tunnel.data/model/platform.obj"))
-    meshController:build(insertMdl)
-    
-    local meshController = meshLib:new()
-    meshController.mat = self.materials["ring"]
-    meshController:pushObj(getScript("lib/myvisualizer_v2/tunnel.data/model/ring.obj"))
-    meshController:build(insertMdl)
-    
-    local meshController = meshLib:new()
-    meshController.mat = self.materials["neon"]
-    meshController:pushObj(getScript("lib/myvisualizer_v2/tunnel.data/model/neon.obj"))
-    meshController:pushObj(getScript("lib/myvisualizer_v2/tunnel.data/model/blue neon.obj"))
-    meshController:build(insertMdl)
-    
+    /* GENERATE MODEL */
+    for tex, list in pairs(dataList.mdl) do
+        local meshController = tunnel.meshLib:new()
+        meshController.mat = self.materials[tex]
+        
+        for id, path in pairs(list) do
+            tunnel.waitHttp(dataList.mdlPath .. path,function(data,head)
+                meshController:pushObj(data)
+                
+                // do build if last model pushed
+                if id == #list then meshController:build(self.insertMdl) end
+            end)
+        end
+    end
     
     self.planeModel = nil
-    local meshController = meshLib:new()
+    local meshController = tunnel.meshLib:new()
     meshController:pushObj([[o Plane
 v -0.500000 0.500000 0.000000
 v -0.500000 -0.500000 0.000000
@@ -115,7 +86,7 @@ vt 0.000000 1.000000
 f 1/1/1 2/2/1 4/3/1 3/4/1]])
     meshController:build(function(controller,modelId,mesh) self.planeModel = mesh end)
     
-    timer.create("myvisualizer.tunnel.insertNewParticle",0.1,0,function()
+    timer.create("myvisualizer.tunnel.insertNewParticle",0.2,0,function()
         table.insert(self.particles,{
             pos = Vector(math.random(-400,400),-self.move2 - 150,math.random(-400,400)),
             vel = Vector(math.rand(-0.5,0.5),math.rand(-0.5,0.5),math.rand(-0.5,0.5)),
@@ -152,7 +123,7 @@ function tunnel:renderScreen(x,y,scrW,scrH)
     local size = scrW
     if scrH > size then size = scrH end
     
-    local addForce = 3 + self.lowFreq * 70 * self.animationSpeed
+    local addForce = 1 + self.lowFreq * 70 * self.animationSpeed
     
     self.move = self.move - addForce
     if self.move <= 0 then self.move = 700 end
@@ -171,7 +142,7 @@ function tunnel:renderScreen(x,y,scrW,scrH)
     
     render.setFogStart((tunnelLength-10) * tunnelSize)
     render.setFogEnd((tunnelLength-2) * tunnelSize)
-    render.setFogDensity(0.75)
+    render.setFogDensity(1)
     render.setFogColor(Color(30,30,50))
     render.setFogMode(1)
     
@@ -206,9 +177,6 @@ function tunnel:renderScreen(x,y,scrW,scrH)
         part.pos = part.pos + part.vel
         part.size = part.size + 1
         local normPos = part.pos + Vector(0,self.move2,0)
-        
-        // sprite direction broken
-        //render.draw3DSprite(normPos, part.size, part.size, part.color)
         
         
         local cam = Matrix()
@@ -245,13 +213,7 @@ end
 function tunnel:on_visualizer_switch()
     render.destroyRenderTarget("myvisualizer.tunnel.camera")
     
-    self.materials["tunnel"]:destroy()
-    self.materials["platform"]:destroy()
-    self.materials["pipe"]:destroy()
-    self.materials["ring"]:destroy()
-    self.materials["neon"]:destroy()
-    self.materials["smoke"]:destroy()
-    
+    for _, mat in pairs(self.materials) do math:destroy() end
     self.particles = {} // reset it from memory
 end
 
