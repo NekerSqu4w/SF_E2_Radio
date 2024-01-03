@@ -1,0 +1,110 @@
+local thestar = class("myvisualizer.thestar") // you must use different class name for each visualizer
+
+function thestar:initialize(currentAudio,scrW,scrH)
+    self.currentAudio = currentAudio
+    self.smoothFFT = {}
+
+    self.colorDetail = 64
+    self.starDetail = 40
+    
+    self.colorList = {
+        active = 1,
+        list = {
+            {Color(83,88,120),Color(157,176,206),Color(184,216,227),Color(254,225,221),Color(233,194,197),Color(206,160,170)},
+            {Color(255,0,255),Color(0,255,255),Color(255,255,0),Color(0,255,0)},
+            {Color(163,99,97),Color(211,162,157),Color(232,178,152),Color(238,204,140),Color(189,209,197),Color(158,171,162)},
+            {Color(38,70,83),Color(40,114,113),Color(42,157,142),Color(233,196,107),Color(243,162,97),Color(230,111,81)},
+            {Color(169,72,57),Color(210,190,172),Color(252,252,228),Color(156,208,164),Color(67,183,140)}
+        }
+    }
+
+    self.colorGradient = math.generate_gradient(self.colorList.list[self.colorList.active],self.colorDetail) // https://github.com/NekerSqu4w/my-starfall-library/blob/main/better_render.lua#L246-L257
+    self.gradientDraw = false
+
+    render.createRenderTarget("myvisualizer.thestar.gradient")
+
+    self.lastLowFreq = 0
+    self.allowColorChange = true
+    self.nextLowFreqCheck = timer.curtime()
+
+    return self
+end
+
+function thestar:update(dt)
+end
+
+function thestar:renderScreen(x,y,scrW,scrH)
+    render.setColor(Color(255,255,255))
+
+    local fft = self.currentAudio.bassObj:getFFT(4)
+
+    local lowfreq = 0
+    for i=1, 15 do
+        self.smoothFFT[i] = math.lerp(timer.frametime() * 15,self.smoothFFT[i] or 0,fft[i] or 0)
+        lowfreq = lowfreq + self.smoothFFT[i]
+    end
+    lowfreq = lowfreq / 15
+
+    if timer.curtime() > self.nextLowFreqCheck then
+        if lowfreq-self.lastLowFreq > 0.02 then
+            if self.allowColorChange then
+                self.colorList.active = self.colorList.active + 1
+                if self.colorList.active > #self.colorList.list then self.colorList.active = 1 end
+    
+                self.colorGradient = math.generate_gradient(self.colorList.list[self.colorList.active],self.colorDetail)
+                self.gradientDraw = false
+                self.allowColorChange = false
+            end
+        else
+            self.allowColorChange = true
+        end
+        self.lastLowFreq = lowfreq
+        self.nextLowFreqCheck = timer.curtime() + 1/30
+    end
+
+    //background
+    if self.gradientDraw == false then
+        render.selectRenderTarget("myvisualizer.thestar.gradient")
+
+        local barScl = 1024 / #self.colorGradient
+        for i=0, #self.colorGradient - 1 do
+            render.setColor(self.colorGradient[i+1])
+            render.drawRect(0,i * barScl,1024,barScl)
+        end
+
+        render.selectRenderTarget()
+
+        self.gradientDraw = true
+    end
+    
+
+    render.setColor(Color(255,255,255))
+    render.setRenderTargetTexture("myvisualizer.thestar.gradient")
+    render.drawTexturedRect(x,y,scrW,scrH)
+    render.setRenderTargetTexture()
+
+    // this will react to low frequency
+    local STAR_DIST = self.starDetail / 10
+    local starSize = scrH/2 - 50
+    for i=0, self.starDetail - 1 do
+        local useCId = math.floor(math.remap(i,0,self.starDetail-1,1,#self.colorGradient))
+        render.setColor(self.colorGradient[useCId])
+        render.star(x+scrW/2,y+scrH/2,starSize - i * STAR_DIST + lowfreq * (starSize + i * STAR_DIST),timer.curtime() * 0.3)
+    end
+end
+
+function thestar:renderHUD(x,y,scrW,scrH)
+end
+
+//executed only when switch to another visualizer
+//can be usefull to remove render target
+// note: this function are executed before replacing the current visualizer
+function thestar:on_visualizer_switch()
+    render.destroyRenderTarget("myvisualizer.thestar.gradient")
+end
+
+//
+function thestar:on_song_change()
+end
+
+return thestar
