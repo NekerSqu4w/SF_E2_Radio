@@ -169,6 +169,12 @@
                         "cover": "%B%/B3nte & B3VA - Boombox (Official Audio).jpeg"
                     },
                     {
+                        "title": "4D [Monstercat Release]",
+                        "author": "Monstercat Uncaged",
+                        "link": "%M%/Bad Computer & Ryan Coss - 4D [Monstercat Release].mp3",
+                        "cover": "%B%/Bad Computer & Ryan Coss - 4D [Monstercat Release].jpeg"
+                    },
+                    {
                         "title": "Contemplation",
                         "author": "Basically BoomBoom",
                         "link": "%M%/bass-boosted-gigi-dagostino-luca-noise-contemplation.mp3",
@@ -211,10 +217,22 @@
                         "cover": "%B%/BEATSMASH - Eclypse.jpeg"
                     },
                     {
+                        "title": "broken world (Official Audio)",
+                        "author": "blackbearVEVO",
+                        "link": "%M%/blackbear - broken world (Official Audio).mp3",
+                        "cover": "%B%/blackbear - broken world (Official Audio).jpeg"
+                    },
+                    {
                         "title": "fashion week (it's different remix)",
                         "author": "Trap Nation",
                         "link": "%M%/blackbear - fashion week (it_s different remix).mp3",
                         "cover": "%B%/blackbear - fashion week (it_s different remix).jpeg"
+                    },
+                    {
+                        "title": "painkiller (Official Audio)",
+                        "author": "blackbearVEVO",
+                        "link": "%M%/blackbear - painkiller (Official Audio).mp3",
+                        "cover": "%B%/blackbear - painkiller (Official Audio).jpeg"
                     },
                     {
                         "title": "gfy (Official Video)",
@@ -283,6 +301,12 @@
                         "cover": "%B%/Cher - Believe [Official Music Video].jpeg"
                     },
                     {
+                        "title": "Redbone (Official Audio)",
+                        "author": "ChildishGambinoVEVO",
+                        "link": "%M%/Childish Gambino - Redbone (Official Audio).mp3",
+                        "cover": "%B%/Childish Gambino - Redbone (Official Audio).jpeg"
+                    },
+                    {
                         "title": "Turn Off The Lights",
                         "author": "ChillYourMind",
                         "link": "%M%/Chris Lake feat Alexis Roberts - Turn Off The Lights.mp3",
@@ -293,6 +317,18 @@
                         "author": "Coldplay",
                         "link": "%M%/Coldplay - Clocks (Official Video).mp3",
                         "cover": "%B%/Coldplay - Clocks (Official Video).jpeg"
+                    },
+                    {
+                        "title": "Higher Power (Official Video)",
+                        "author": "Coldplay",
+                        "link": "%M%/Coldplay - Higher Power (Official Video).mp3",
+                        "cover": "%B%/Coldplay - Higher Power (Official Video).jpeg"
+                    },
+                    {
+                        "title": "My Universe (Official Video)",
+                        "author": "Coldplay",
+                        "link": "%M%/Coldplay X BTS - My Universe (Official Video).mp3",
+                        "cover": "%B%/Coldplay X BTS - My Universe (Official Video).jpeg"
                     },
                     {
                         "title": "Come Alive (feat. Anna Moore)",
