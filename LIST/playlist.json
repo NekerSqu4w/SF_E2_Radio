@@ -4,17 +4,14 @@
     },
     "container": {
         "no_background": [
-            "https://raw.githubusercontent.com/NekerSqu4w/SF_E2_Radio/main/file/defaultBackground/cloudy sky anime.jpg",
-            "https://raw.githubusercontent.com/NekerSqu4w/SF_E2_Radio/main/file/defaultBackground/fire dragon.png",
-            "https://raw.githubusercontent.com/NekerSqu4w/SF_E2_Radio/main/file/defaultBackground/galaxy.png",
-            "https://raw.githubusercontent.com/NekerSqu4w/SF_E2_Radio/main/file/defaultBackground/gas mask fantasy.jpg",
+            "https://raw.githubusercontent.com/NekerSqu4w/SF_E2_Radio/main/file/defaultBackground/galaxy.jpg",
             "https://raw.githubusercontent.com/NekerSqu4w/SF_E2_Radio/main/file/defaultBackground/madeon.jpg",
-            "https://raw.githubusercontent.com/NekerSqu4w/SF_E2_Radio/main/file/defaultBackground/mirador.png",
+            "https://raw.githubusercontent.com/NekerSqu4w/SF_E2_Radio/main/file/defaultBackground/mirador.jpg",
             "https://raw.githubusercontent.com/NekerSqu4w/SF_E2_Radio/main/file/defaultBackground/red sunset and tree.jpg",
             "https://raw.githubusercontent.com/NekerSqu4w/SF_E2_Radio/main/file/defaultBackground/red sunset.jpg",
             "https://raw.githubusercontent.com/NekerSqu4w/SF_E2_Radio/main/file/defaultBackground/red wire.jpg",
             "https://raw.githubusercontent.com/NekerSqu4w/SF_E2_Radio/main/file/defaultBackground/scenery clouds.jpg",
-            "https://raw.githubusercontent.com/NekerSqu4w/SF_E2_Radio/main/file/defaultBackground/synthwave.png"
+            "https://raw.githubusercontent.com/NekerSqu4w/SF_E2_Radio/main/file/defaultBackground/synthwave.jpg"
         ],
         "playlist": {
             "radio": {
@@ -84,6 +81,12 @@
                         "cover": "%B%/08utSGfQW8o.jpeg"
                     },
                     {
+                        "title": "Made 4U",
+                        "author": "SelloRekt / LA Dreams - Topic",
+                        "link": "%M%/1kdrgKp5QNc.mp3",
+                        "cover": "%B%/1kdrgKp5QNc.jpeg"
+                    },
+                    {
                         "title": "blackbear - painkiller (Official Audio)",
                         "author": "blackbearVEVO",
                         "link": "%M%/1XOqKpabbMQ.mp3",
@@ -118,6 +121,12 @@
                         "author": "Childish Gambino - Topic",
                         "link": "%M%/4a4zu5t83yY.mp3",
                         "cover": "%B%/4a4zu5t83yY.jpeg"
+                    },
+                    {
+                        "title": "04:42 Still Free - Haven Original Soundtrack by Danger",
+                        "author": "G4F Records",
+                        "link": "%M%/4i9hpysvjnU.mp3",
+                        "cover": "%B%/4i9hpysvjnU.jpeg"
                     },
                     {
                         "title": "forget me",
@@ -306,6 +315,12 @@
                         "cover": "%B%/ccbBEhh7OOI.jpeg"
                     },
                     {
+                        "title": "Tell It",
+                        "author": "SelloRekt / LA Dreams - Topic",
+                        "link": "%M%/cEJmxCags2Y.mp3",
+                        "cover": "%B%/cEJmxCags2Y.jpeg"
+                    },
+                    {
                         "title": "my ex's best friend",
                         "author": "Machine Gun Kelly - Topic",
                         "link": "%M%/cHZb0Sq5KOA.mp3",
@@ -364,6 +379,12 @@
                         "author": "Majestic Casual",
                         "link": "%M%/eANEHemygN0.mp3",
                         "cover": "%B%/eANEHemygN0.jpeg"
+                    },
+                    {
+                        "title": "See It in Your Eyes",
+                        "author": "SelloRekt / LA Dreams - Topic",
+                        "link": "%M%/EbZnJCqDUfE.mp3",
+                        "cover": "%B%/EbZnJCqDUfE.jpeg"
                     },
                     {
                         "title": "Fahrenheit",
@@ -594,6 +615,12 @@
                         "cover": "%B%/KDTGnN7lgec.jpeg"
                     },
                     {
+                        "title": "Electrify",
+                        "author": "SelloRekt / LA Dreams - Topic",
+                        "link": "%M%/KN_v5zu6Dm0.mp3",
+                        "cover": "%B%/KN_v5zu6Dm0.jpeg"
+                    },
+                    {
                         "title": "more than life",
                         "author": "Machine Gun Kelly - Topic",
                         "link": "%M%/KsvyJeMM1VI.mp3",
@@ -732,6 +759,12 @@
                         "cover": "%B%/nCBASt507WA.jpeg"
                     },
                     {
+                        "title": "Automation",
+                        "author": "SelloRekt / LA Dreams - Topic",
+                        "link": "%M%/nmxJbqSeohM.mp3",
+                        "cover": "%B%/nmxJbqSeohM.jpeg"
+                    },
+                    {
                         "title": "DESERT STAR - Carissa (Lyrics)",
                         "author": "Prestige Vibes",
                         "link": "%M%/nq62nI9Zy3M.mp3",
@@ -784,6 +817,12 @@
                         "author": "Bad Computer - Topic",
                         "link": "%M%/PeL2Wr_BLEE.mp3",
                         "cover": "%B%/PeL2Wr_BLEE.jpeg"
+                    },
+                    {
+                        "title": "Sum 41 - Walking Disaster (Official Music Video)",
+                        "author": "Sum41VEVO",
+                        "link": "%M%/PHx-xqs3hO8.mp3",
+                        "cover": "%B%/PHx-xqs3hO8.jpeg"
                     },
                     {
                         "title": "RATHER BE ALONE",
@@ -856,6 +895,12 @@
                         "author": "The Midnight - Topic",
                         "link": "%M%/qNpW5DHsWlI.mp3",
                         "cover": "%B%/qNpW5DHsWlI.jpeg"
+                    },
+                    {
+                        "title": "bbno$ - it boy (official music video)",
+                        "author": "bbno$",
+                        "link": "%M%/QuvqzlxEO6g.mp3",
+                        "cover": "%B%/QuvqzlxEO6g.jpeg"
                     },
                     {
                         "title": "The Chainsmokers - If You're Serious (Official Lyric Video)",
@@ -1012,6 +1057,12 @@
                         "author": "DubRocca",
                         "link": "%M%/UeyCU7Mv-9Y.mp3",
                         "cover": "%B%/UeyCU7Mv-9Y.jpeg"
+                    },
+                    {
+                        "title": "Let's Party",
+                        "author": "SelloRekt / LA Dreams - Topic",
+                        "link": "%M%/UIzNaG0dG5E.mp3",
+                        "cover": "%B%/UIzNaG0dG5E.jpeg"
                     },
                     {
                         "title": "Aguava - If I",
