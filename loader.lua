@@ -31,7 +31,7 @@ local function load(use_own_playlist_url,exec)
         end
 
         local ld = json.decode(response)
-        if ld.metadata.version == "v1" then
+        if ld.metadata.version == 1 then
             --Reformat link
 
             local rewriteSpeed = 15 //number of link rewrite at once, high value can increase lag
