@@ -1,0 +1,1435 @@
+{
+    "metadata": {
+        "version": 1
+    },
+    "container": {
+        "no_background": [
+            "https://raw.githubusercontent.com/NekerSqu4w/SF_E2_Radio/main/file/defaultBackground/galaxy.jpg",
+            "https://raw.githubusercontent.com/NekerSqu4w/SF_E2_Radio/main/file/defaultBackground/madeon.jpg",
+            "https://raw.githubusercontent.com/NekerSqu4w/SF_E2_Radio/main/file/defaultBackground/mirador.jpg",
+            "https://raw.githubusercontent.com/NekerSqu4w/SF_E2_Radio/main/file/defaultBackground/red sunset and tree.jpg",
+            "https://raw.githubusercontent.com/NekerSqu4w/SF_E2_Radio/main/file/defaultBackground/red sunset.jpg",
+            "https://raw.githubusercontent.com/NekerSqu4w/SF_E2_Radio/main/file/defaultBackground/red wire.jpg",
+            "https://raw.githubusercontent.com/NekerSqu4w/SF_E2_Radio/main/file/defaultBackground/scenery clouds.jpg",
+            "https://raw.githubusercontent.com/NekerSqu4w/SF_E2_Radio/main/file/defaultBackground/synthwave.jpg"
+        ],
+        "playlist": {
+            "radio": {
+                "name": "Online Radio",
+                "list": [
+                    {
+                        "link": "http://radiomonaco.ice.infomaniak.ch/radiomonaco-128.mp3",
+                        "title": "Radio Monaco"
+                    },
+                    {
+                        "link": "https://play.sas-media.ru/play_256",
+                        "title": "Noisefm"
+                    },
+                    {
+                        "link": "http://hhuk.netmindz.net:8000/listen.pls",
+                        "title": "Hardhouse UK"
+                    },
+                    {
+                        "link": "https://stream.realhardstyle.nl",
+                        "title": "Real Hardstyle"
+                    },
+                    {
+                        "link": "http://trace.dnbradio.com:8000/dnbradio_darkstep.mp3",
+                        "title": "Lovednb FM"
+                    },
+                    {
+                        "link": "http://s1.onweb.gr:8800/stream?type=http&nocache=299454",
+                        "title": "StarFM 888"
+                    }
+                ]
+            },
+            "mp3": {
+                "name": "My Music",
+                "parent_link": {
+                    "link": "https://raw.githubusercontent.com/NekerSqu4w/SF_E2_Radio/main/file/music/",
+                    "cover": "https://raw.githubusercontent.com/NekerSqu4w/SF_E2_Radio/main/file/background/"
+                },
+                "list": [
+                    {
+                        "title": "Italo Brothers - Stamp On The Ground DOPEDROP Bootleg",
+                        "author": "Pokemon Temporada 1",
+                        "link": "-ac_zCVn3L8.mp3",
+                        "cover": "-ac_zCVn3L8.jpeg"
+                    },
+                    {
+                        "title": "3LAU feat. Yeah Boy - Is It Love (Official Lyric Video)",
+                        "author": "3LAU",
+                        "link": "-GSJUNMDw7w.mp3",
+                        "cover": "-GSJUNMDw7w.jpeg"
+                    },
+                    {
+                        "title": "Audio Dope - Unconditional (feat. Emilia Anastazja)",
+                        "author": "Majestic Casual",
+                        "link": "-jDRx7viCsA.mp3",
+                        "cover": "-jDRx7viCsA.jpeg"
+                    },
+                    {
+                        "title": "make up sex",
+                        "author": "Machine Gun Kelly - Topic",
+                        "link": "-kpC4fN7e4Q.mp3",
+                        "cover": "-kpC4fN7e4Q.jpeg"
+                    },
+                    {
+                        "title": "Another Life (feat. Alida)",
+                        "author": "Lucas & Steve - Topic",
+                        "link": "08utSGfQW8o.mp3",
+                        "cover": "08utSGfQW8o.jpeg"
+                    },
+                    {
+                        "title": "Made 4U",
+                        "author": "SelloRekt / LA Dreams",
+                        "bpm": 198,
+                        "link": "1kdrgKp5QNc.mp3",
+                        "cover": "1kdrgKp5QNc.jpeg"
+                    },
+                    {
+                        "title": "painkiller",
+                        "author": "blackbear",
+                        "bpm": 115,
+                        "link": "1XOqKpabbMQ.mp3",
+                        "cover": "1XOqKpabbMQ.jpeg"
+                    },
+                    {
+                        "title": "Daybreak",
+                        "author": "Immortal Girlfriend",
+                        "bpm": 82,
+                        "link": "3k74DY-KhvU.mp3",
+                        "cover": "3k74DY-KhvU.jpeg"
+                    },
+                    {
+                        "title": "Seventeen",
+                        "author": "The Midnight",
+                        "bpm": 126,
+                        "link": "3nsLWfgpJCc.mp3",
+                        "cover": "3nsLWfgpJCc.jpeg"
+                    },
+                    {
+                        "title": "I Remember U",
+                        "author": "Cartoon, Jéja feat. Jüri Pootsmann",
+                        "bpm": 174,
+                        "genre": "Electronic",
+                        "link": "3wjb3HtD32c.mp3",
+                        "cover": "3wjb3HtD32c.jpeg"
+                    },
+                    {
+                        "title": "My Universe",
+                        "author": "Coldplay X BTS",
+                        "bpm": 105,
+                        "link": "3YqPKLZF_WU.mp3",
+                        "cover": "3YqPKLZF_WU.jpeg"
+                    },
+                    {
+                        "title": "Redbone",
+                        "author": "Childish Gambino",
+                        "bpm": 160,
+                        "link": "4a4zu5t83yY.mp3",
+                        "cover": "4a4zu5t83yY.jpeg"
+                    },
+                    {
+                        "title": "Haven",
+                        "author": "Still Free",
+                        "bpm": 127,
+                        "link": "4i9hpysvjnU.mp3",
+                        "cover": "4i9hpysvjnU.jpeg"
+                    },
+                    {
+                        "title": "forget me",
+                        "author": "Twin Ngor",
+                        "link": "4QHQVWixZG8.mp3",
+                        "cover": "4QHQVWixZG8.jpeg"
+                    },
+                    {
+                        "title": "dead inside",
+                        "author": "blackbear",
+                        "bpm": 148,
+                        "link": "5DzKZnoB1ec.mp3",
+                        "cover": "5DzKZnoB1ec.jpeg"
+                    },
+                    {
+                        "title": "Dreams (2004 Remaster)",
+                        "author": "Fleetwood Mac",
+                        "bpm": 120,
+                        "link": "5oWyMakvQew.mp3",
+                        "cover": "5oWyMakvQew.jpeg"
+                    },
+                    {
+                        "title": "Street Hawk",
+                        "author": "Neon Nox",
+                        "link": "6gU9jpCMFOc.mp3",
+                        "cover": "6gU9jpCMFOc.jpeg"
+                    },
+                    {
+                        "title": "Lost Tribe",
+                        "author": "Orax",
+                        "link": "6pSOo4jXrlo.mp3",
+                        "cover": "6pSOo4jXrlo.jpeg"
+                    },
+                    {
+                        "title": "Redondo x MALARKEY x Galluxy - Never Stop (Official Audio)",
+                        "author": "Spinnin' Records",
+                        "link": "6R9g1dmw1uc.mp3",
+                        "cover": "6R9g1dmw1uc.jpeg"
+                    },
+                    {
+                        "title": "Des Rocs - Used to the Darkness (Audio)",
+                        "author": "Des Rocs",
+                        "link": "7MrRi-2nokM.mp3",
+                        "cover": "7MrRi-2nokM.jpeg"
+                    },
+                    {
+                        "title": "LAADS - Bad Girl | House | NCS - Copyright Free Music",
+                        "author": "NoCopyrightSounds",
+                        "genre": "House",
+                        "link": "86GVdFyPVi4.mp3",
+                        "cover": "86GVdFyPVi4.jpeg"
+                    },
+                    {
+                        "title": "Clocks",
+                        "author": "Coldplay - Topic",
+                        "link": "8Xv_Hg8o1fw.mp3",
+                        "cover": "8Xv_Hg8o1fw.jpeg"
+                    },
+                    {
+                        "title": "Everything Goes On",
+                        "author": "Porter Robinson - Topic",
+                        "link": "8YWX3mRQZ88.mp3",
+                        "cover": "8YWX3mRQZ88.jpeg"
+                    },
+                    {
+                        "title": "Play My Jam",
+                        "author": "TooManyLeftHands",
+                        "bpm": 124,
+                        "link": "91R62-m0C4E.mp3",
+                        "cover": "91R62-m0C4E.jpeg"
+                    },
+                    {
+                        "title": "maybe",
+                        "author": "Machine Gun Kelly - Topic",
+                        "link": "9eJmdsZO6jk.mp3",
+                        "cover": "9eJmdsZO6jk.jpeg"
+                    },
+                    {
+                        "title": "Summer 91 (Looking Back)",
+                        "author": "Noizu - Topic",
+                        "link": "9MR4ofhf004.mp3",
+                        "cover": "9MR4ofhf004.jpeg"
+                    },
+                    {
+                        "title": "All These Nights",
+                        "author": "Tom Grennan",
+                        "bpm": 160,
+                        "link": "9P21jhcEMOI.mp3",
+                        "cover": "9P21jhcEMOI.jpeg"
+                    },
+                    {
+                        "title": "Hippie Dreams (DJ THT & Ced Tecknoboy Radio Edit)",
+                        "author": "Andrew Spencer - Topic",
+                        "link": "A1rclnLem3s.mp3",
+                        "cover": "A1rclnLem3s.jpeg"
+                    },
+                    {
+                        "title": "Higher Power",
+                        "author": "Coldplay - Topic",
+                        "link": "A3nJxEbi7Uk.mp3",
+                        "cover": "A3nJxEbi7Uk.jpeg"
+                    },
+                    {
+                        "title": "drunk face",
+                        "author": "Machine Gun Kelly - Topic",
+                        "link": "Ae20mQtGuTE.mp3",
+                        "cover": "Ae20mQtGuTE.jpeg"
+                    },
+                    {
+                        "title": "Jim Yosef - Ghost (ft. Scarlett) [Official Lyric Video]",
+                        "author": "Jim Yosef",
+                        "link": "aHg9_uytGCQ.mp3",
+                        "cover": "aHg9_uytGCQ.jpeg"
+                    },
+                    {
+                        "title": "5FDP - Hard to See (Official Music Video)",
+                        "author": "SpinefarmRec",
+                        "link": "aK-MbWpUZyI.mp3",
+                        "cover": "aK-MbWpUZyI.jpeg"
+                    },
+                    {
+                        "title": "Stranger Love",
+                        "author": "Ollie Wride - Topic",
+                        "link": "aK20ZE7GaIw.mp3",
+                        "cover": "aK20ZE7GaIw.jpeg"
+                    },
+                    {
+                        "title": "kiss kiss",
+                        "author": "Machine Gun Kelly - Topic",
+                        "link": "aO5q0EA6WUc.mp3",
+                        "cover": "aO5q0EA6WUc.jpeg"
+                    },
+                    {
+                        "title": "DREAMERS - The Last Love Song (Visualizer Video)",
+                        "author": "dreamersVEVO",
+                        "link": "aPAcC_FMX74.mp3",
+                        "cover": "aPAcC_FMX74.jpeg"
+                    },
+                    {
+                        "title": "44phantom - don't sleep, repeat (Official Video) ft. Machine Gun Kelly",
+                        "author": "44phantomVEVO",
+                        "link": "Aqnw2FMCOXw.mp3",
+                        "cover": "Aqnw2FMCOXw.jpeg"
+                    },
+                    {
+                        "title": "Heads Will Roll",
+                        "author": "YeahYeahYeahs",
+                        "bpm": 132,
+                        "link": "auzfTPp4moA.mp3",
+                        "cover": "auzfTPp4moA.jpeg"
+                    },
+                    {
+                        "title": "love roulette",
+                        "author": "Dazegxd",
+                        "bpm": 126,
+                        "link": "AVGNay892cI.mp3",
+                        "cover": "AVGNay892cI.jpeg"
+                    },
+                    {
+                        "title": "No No No",
+                        "author": "TheFatRat",
+                        "bpm": 148,
+                        "link": "bbpCoO5a7wA.mp3",
+                        "cover": "bbpCoO5a7wA.jpeg"
+                    },
+                    {
+                        "title": "Disclosure - White Noise ft. AlunaGeorge",
+                        "author": "DisclosureVEVO",
+                        "link": "bkk2H3Ztrfk.mp3",
+                        "cover": "bkk2H3Ztrfk.jpeg"
+                    },
+                    {
+                        "title": "David Guetta - Lovers On The Sun (Official Video) ft Sam Martin",
+                        "author": "David Guetta",
+                        "link": "BPiW0tkWfeg.mp3",
+                        "cover": "BPiW0tkWfeg.jpeg"
+                    },
+                    {
+                        "title": "Sum 41 - Pieces (Official Music Video)",
+                        "author": "Sum41VEVO",
+                        "link": "By7ctqcWxyM.mp3",
+                        "cover": "By7ctqcWxyM.jpeg"
+                    },
+                    {
+                        "title": "Overdrive",
+                        "author": "Far Out - Topic",
+                        "link": "c3mGkmqatV8.mp3",
+                        "cover": "c3mGkmqatV8.jpeg"
+                    },
+                    {
+                        "title": "Dabin - Feel Like feat. CAPPA (Official Lyric Video)",
+                        "author": "DABIN",
+                        "link": "c7GvxXKFEzU.mp3",
+                        "cover": "c7GvxXKFEzU.jpeg"
+                    },
+                    {
+                        "title": "Freedom",
+                        "author": "Orax - Topic",
+                        "link": "ccbBEhh7OOI.mp3",
+                        "cover": "ccbBEhh7OOI.jpeg"
+                    },
+                    {
+                        "title": "Tell It",
+                        "author": "SelloRekt / LA Dreams - Topic",
+                        "link": "cEJmxCags2Y.mp3",
+                        "cover": "cEJmxCags2Y.jpeg"
+                    },
+                    {
+                        "title": "my ex's best friend",
+                        "author": "Machine Gun Kelly - Topic",
+                        "link": "cHZb0Sq5KOA.mp3",
+                        "cover": "cHZb0Sq5KOA.jpeg"
+                    },
+                    {
+                        "title": "VASSY x Bingo Players x Disco Fries - Pieces (Official Music Video)",
+                        "author": "Spinnin' Records",
+                        "link": "CkgotzOBUKA.mp3",
+                        "cover": "CkgotzOBUKA.jpeg"
+                    },
+                    {
+                        "title": "Tokyo (Popeska Remix)",
+                        "author": "Annaland",
+                        "bpm": 172,
+                        "genre": "Electronic",
+                        "link": "CRNg1OEuH_M.mp3",
+                        "cover": "CRNg1OEuH_M.jpeg"
+                    },
+                    {
+                        "title": "Ayra Starr - Rush (Official Music Video)",
+                        "author": "AyraStarrVEVO",
+                        "link": "crtQSTYWtqE.mp3",
+                        "cover": "crtQSTYWtqE.jpeg"
+                    },
+                    {
+                        "title": "Dead Inside",
+                        "author": "Younger Hunger",
+                        "bpm": 120,
+                        "link": "Cw1RUeO3990.mp3",
+                        "cover": "Cw1RUeO3990.jpeg"
+                    },
+                    {
+                        "title": "Its Alright",
+                        "author": "The Funshiners - Topic",
+                        "link": "dDNhNaxUhfE.mp3",
+                        "cover": "dDNhNaxUhfE.jpeg"
+                    },
+                    {
+                        "title": "Paris",
+                        "author": "The Chainsmokers - Topic",
+                        "link": "Dfiw7EmRTC4.mp3",
+                        "cover": "Dfiw7EmRTC4.jpeg"
+                    },
+                    {
+                        "title": "ROY KNOX - Memory Box | Dubstep | NCS - Copyright Free Music",
+                        "author": "NoCopyrightSounds",
+                        "link": "DFyIA76BvD0.mp3",
+                        "cover": "DFyIA76BvD0.jpeg"
+                    },
+                    {
+                        "title": "Follow",
+                        "author": "T-Mass",
+                        "bpm": 145,
+                        "link": "DsIyDGUMXjU.mp3",
+                        "cover": "DsIyDGUMXjU.jpeg"
+                    },
+                    {
+                        "title": "JVLY - swim",
+                        "author": "Majestic Casual",
+                        "link": "eANEHemygN0.mp3",
+                        "cover": "eANEHemygN0.jpeg"
+                    },
+                    {
+                        "title": "See It in Your Eyes",
+                        "author": "SelloRekt / LA Dreams - Topic",
+                        "link": "EbZnJCqDUfE.mp3",
+                        "cover": "EbZnJCqDUfE.jpeg"
+                    },
+                    {
+                        "title": "Fahrenheit",
+                        "author": "Neon Nox - Topic",
+                        "link": "EIQ6wLUeXN8.mp3",
+                        "cover": "EIQ6wLUeXN8.jpeg"
+                    },
+                    {
+                        "title": "Homesick (feat. SOUNDR)",
+                        "author": "MitiS - Topic",
+                        "link": "F2eRmK3TbXI.mp3",
+                        "cover": "F2eRmK3TbXI.jpeg"
+                    },
+                    {
+                        "title": "California Gurls",
+                        "author": "Katy Perry ft. Snoop Dogg",
+                        "bpm": 125,
+                        "link": "F57P9C4SAW4.mp3",
+                        "cover": "F57P9C4SAW4.jpeg"
+                    },
+                    {
+                        "title": "Asketa & Natan Chaim - More | Future House | NCS - Copyright Free Music",
+                        "author": "NoCopyrightSounds",
+                        "link": "FmzR8tslno4.mp3",
+                        "cover": "FmzR8tslno4.jpeg"
+                    },
+                    {
+                        "title": "Avicii - Heaven (Tribute Video)",
+                        "author": "AviciiOfficialVEVO",
+                        "link": "fqzhtvLWefA.mp3",
+                        "cover": "fqzhtvLWefA.jpeg"
+                    },
+                    {
+                        "title": "New Beginning",
+                        "author": "Far Out",
+                        "bpm": 140,
+                        "link": "frX8kNaPeKU.mp3",
+                        "cover": "frX8kNaPeKU.jpeg"
+                    },
+                    {
+                        "title": "The Last Man on Earth",
+                        "author": "Neon Nox - Topic",
+                        "link": "g0ow3rX7yKY.mp3",
+                        "cover": "g0ow3rX7yKY.jpeg"
+                    },
+                    {
+                        "title": "Holding On",
+                        "author": "Yota",
+                        "bpm": 115,
+                        "link": "GdIv0H-NQDM.mp3",
+                        "cover": "GdIv0H-NQDM.jpeg"
+                    },
+                    {
+                        "title": "United We Dance (Radio Edit)",
+                        "author": "Vicetone",
+                        "bpm": 126,
+                        "link": "GesfGbx3R0Y.mp3",
+                        "cover": "GesfGbx3R0Y.jpeg"
+                    },
+                    {
+                        "title": "Ace Buchannon - Come Alive (feat. Anna Moore)",
+                        "author": "Ace Buchannon",
+                        "link": "GmTgD_9rGO8.mp3",
+                        "cover": "GmTgD_9rGO8.jpeg"
+                    },
+                    {
+                        "title": "PIKASONIC - Asuka",
+                        "author": "Diversity",
+                        "link": "gPE3XQVHMuA.mp3",
+                        "cover": "gPE3XQVHMuA.jpeg"
+                    },
+                    {
+                        "title": "concert for aliens",
+                        "author": "Machine Gun Kelly - Topic",
+                        "link": "GyD-V8srY5U.mp3",
+                        "cover": "GyD-V8srY5U.jpeg"
+                    },
+                    {
+                        "title": "Hippie Dreams (MoveTown Remix)",
+                        "author": "Andrew Spencer - Topic",
+                        "link": "GZmH5-Lv6vI.mp3",
+                        "cover": "GZmH5-Lv6vI.jpeg"
+                    },
+                    {
+                        "title": "PRIZM - All the Way",
+                        "author": "Retrowave Cinema",
+                        "link": "G_oXBETet-k.mp3",
+                        "cover": "G_oXBETet-k.jpeg"
+                    },
+                    {
+                        "title": "blackbear - broken world (Official Audio)",
+                        "author": "blackbearVEVO",
+                        "link": "HcWlfORDIno.mp3",
+                        "cover": "HcWlfORDIno.jpeg"
+                    },
+                    {
+                        "title": "Falling Up",
+                        "author": "Stray Kids",
+                        "bpm": 162,
+                        "link": "HF7cDT9LFsE.mp3",
+                        "cover": "HF7cDT9LFsE.jpeg"
+                    },
+                    {
+                        "title": "GAMBO - You",
+                        "author": "MrSuicideSheep",
+                        "link": "hGCT_MjVVbc.mp3",
+                        "cover": "hGCT_MjVVbc.jpeg"
+                    },
+                    {
+                        "title": "Lauv  - fuck, im lonely (with Anne-Marie)",
+                        "author": "MrSuicideSheep",
+                        "link": "hLX2Tg-8-hQ.mp3",
+                        "cover": "hLX2Tg-8-hQ.jpeg"
+                    },
+                    {
+                        "title": "Gecko (Overdrive) (Radio Edit)",
+                        "author": "Oliver Heldens - Topic",
+                        "link": "HmyWJVCPGoc.mp3",
+                        "cover": "HmyWJVCPGoc.jpeg"
+                    },
+                    {
+                        "title": "Hiding In The Blue",
+                        "author": "TheFatRat",
+                        "bpm": 75,
+                        "link": "Hxn_vhb4EBc.mp3",
+                        "cover": "Hxn_vhb4EBc.jpeg"
+                    },
+                    {
+                        "title": "Bone Dry",
+                        "author": "Tristam",
+                        "bpm": 160,
+                        "link": "i7F2CgO25vg.mp3",
+                        "cover": "i7F2CgO25vg.jpeg"
+                    },
+                    {
+                        "title": "Risky Fulfillment",
+                        "author": "Neon Nox - Topic",
+                        "link": "iTSl81-qDtY.mp3",
+                        "cover": "iTSl81-qDtY.jpeg"
+                    },
+                    {
+                        "title": "Trying Too Hard",
+                        "author": "Over Easy - Topic",
+                        "link": "iXBRdbWED9A.mp3",
+                        "cover": "iXBRdbWED9A.jpeg"
+                    },
+                    {
+                        "title": "Clarity",
+                        "author": "Zedd ft. Foxes",
+                        "bpm": 128,
+                        "link": "IxxstCcJlsc.mp3",
+                        "cover": "IxxstCcJlsc.jpeg"
+                    },
+                    {
+                        "title": "Rabbit In The Headlights",
+                        "author": "Michael Oakley - Topic",
+                        "link": "j5nuMovMzew.mp3",
+                        "cover": "j5nuMovMzew.jpeg"
+                    },
+                    {
+                        "title": "Worth Fighting For",
+                        "author": "Rico & Miella - Topic",
+                        "link": "J7J-6At4G70.mp3",
+                        "cover": "J7J-6At4G70.jpeg"
+                    },
+                    {
+                        "title": "Limelight",
+                        "author": "Yota",
+                        "bpm": 125,
+                        "link": "JA1rE0ezLvI.mp3",
+                        "cover": "JA1rE0ezLvI.jpeg"
+                    },
+                    {
+                        "title": "False Alarm",
+                        "author": "The Weeknd",
+                        "bpm": 174,
+                        "link": "jBhbgZYz7pI.mp3",
+                        "cover": "jBhbgZYz7pI.jpeg"
+                    },
+                    {
+                        "title": "It Ain't Right",
+                        "author": "Shane Codd - Topic",
+                        "link": "jHP19m8G_Y0.mp3",
+                        "cover": "jHP19m8G_Y0.jpeg"
+                    },
+                    {
+                        "title": "8 bit mentality",
+                        "author": "stage7",
+                        "link": "jjVgsZ-3-L0.mp3",
+                        "cover": "jjVgsZ-3-L0.jpeg"
+                    },
+                    {
+                        "title": "fashion week (it's different remix)",
+                        "author": "blackbear",
+                        "bpm": 137,
+                        "link": "JmSIQd6_dpg.mp3",
+                        "cover": "JmSIQd6_dpg.jpeg"
+                    },
+                    {
+                        "title": "NICOLOSI - Wasted Time",
+                        "author": "MrSuicideSheep",
+                        "link": "JNcv7IxyNSg.mp3",
+                        "cover": "JNcv7IxyNSg.jpeg"
+                    },
+                    {
+                        "title": "Bunny X & SelloRekt / LA Dreams - Breaking Away",
+                        "author": "Retrowave Cinema",
+                        "link": "jX0mygqgd04.mp3",
+                        "cover": "jX0mygqgd04.jpeg"
+                    },
+                    {
+                        "title": "Close To The Sun",
+                        "author": "TheFatRat",
+                        "bpm": 89,
+                        "link": "JXkySkXDHgM.mp3",
+                        "cover": "JXkySkXDHgM.jpeg"
+                    },
+                    {
+                        "title": "Me & You Together Song",
+                        "author": "The 1975 - Topic",
+                        "link": "k-d24Ep4NSQ.mp3",
+                        "cover": "k-d24Ep4NSQ.jpeg"
+                    },
+                    {
+                        "title": "blink-182 - What's My Age Again? (Official Music Video)",
+                        "author": "blink182VEVO",
+                        "link": "K7l5ZeVVoCA.mp3",
+                        "cover": "K7l5ZeVVoCA.jpeg"
+                    },
+                    {
+                        "title": "America Online",
+                        "author": "The Midnight",
+                        "bpm": 102,
+                        "link": "K9lHKyMizp8.mp3",
+                        "cover": "K9lHKyMizp8.jpeg"
+                    },
+                    {
+                        "title": "Disco Lines - BABY GIRL (Extended Airport Mix)",
+                        "author": "Disco Lines",
+                        "link": "KBl7Hs_UlI8.mp3",
+                        "cover": "KBl7Hs_UlI8.jpeg"
+                    },
+                    {
+                        "title": "Payback",
+                        "author": "Neon Nox - Topic",
+                        "link": "kdkhSKNbfPg.mp3",
+                        "cover": "kdkhSKNbfPg.jpeg"
+                    },
+                    {
+                        "title": "Ephixa - Dreamstate [Future house]",
+                        "author": "DjEphixa",
+                        "link": "KDTGnN7lgec.mp3",
+                        "cover": "KDTGnN7lgec.jpeg"
+                    },
+                    {
+                        "title": "Electrify",
+                        "author": "SelloRekt / LA Dreams - Topic",
+                        "link": "KN_v5zu6Dm0.mp3",
+                        "cover": "KN_v5zu6Dm0.jpeg"
+                    },
+                    {
+                        "title": "more than life",
+                        "author": "Machine Gun Kelly - Topic",
+                        "link": "KsvyJeMM1VI.mp3",
+                        "cover": "KsvyJeMM1VI.jpeg"
+                    },
+                    {
+                        "title": "Joris Delacroix & Nancy - Take Your Time (Live Version)",
+                        "author": "MagicSound",
+                        "link": "kuhNAdj0SR0.mp3",
+                        "cover": "kuhNAdj0SR0.jpeg"
+                    },
+                    {
+                        "title": "Trip",
+                        "author": "Siine - Topic",
+                        "link": "kwsnw7JIzQY.mp3",
+                        "cover": "kwsnw7JIzQY.jpeg"
+                    },
+                    {
+                        "title": "Lucid Dream",
+                        "author": "Owl City - Topic",
+                        "link": "l8PC8HCR6zw.mp3",
+                        "cover": "l8PC8HCR6zw.jpeg"
+                    },
+                    {
+                        "title": "Nightcall",
+                        "author": "Kavinsky - Topic",
+                        "link": "LfgNorryffc.mp3",
+                        "cover": "LfgNorryffc.jpeg"
+                    },
+                    {
+                        "title": "Alice Deejay - Better Off Alone (Official Video)",
+                        "author": "Alice Deejay",
+                        "link": "Lgs9QUtWc3M.mp3",
+                        "cover": "Lgs9QUtWc3M.jpeg"
+                    },
+                    {
+                        "title": "Unknown Brain & Hoober - Phenomenon (ft. Dax & VinDon) | Hype | NCS - Copyright Free Music",
+                        "author": "NoCopyrightSounds",
+                        "link": "LO9vChXMBp8.mp3",
+                        "cover": "LO9vChXMBp8.jpeg"
+                    },
+                    {
+                        "title": "Beyond The Skies",
+                        "author": "EmiSphere - Topic",
+                        "link": "LqqdrD4ciDE.mp3",
+                        "cover": "LqqdrD4ciDE.jpeg"
+                    },
+                    {
+                        "title": "We Got That Cool",
+                        "author": "Yves V ft. Afrojack & Icona Pop",
+                        "bpm": 124,
+                        "link": "lQS4rCMm544.mp3",
+                        "cover": "lQS4rCMm544.jpeg"
+                    },
+                    {
+                        "title": "All I See (Darius Remix)",
+                        "author": "Bondax - Topic",
+                        "link": "LRjmPZUusE4.mp3",
+                        "cover": "LRjmPZUusE4.jpeg"
+                    },
+                    {
+                        "title": "No Money",
+                        "author": "Galantis - Topic",
+                        "link": "LsCHjlYw2oM.mp3",
+                        "cover": "LsCHjlYw2oM.jpeg"
+                    },
+                    {
+                        "title": "Phoenix",
+                        "author": "Netrum - Topic",
+                        "link": "lTjRqQwyKEE.mp3",
+                        "cover": "lTjRqQwyKEE.jpeg"
+                    },
+                    {
+                        "title": "Carillon",
+                        "author": "Magic Box",
+                        "bpm": 137,
+                        "link": "M1Tca7BtH5I.mp3",
+                        "cover": "M1Tca7BtH5I.jpeg"
+                    },
+                    {
+                        "title": "EDX feat. Amba Shepherd - Off The Grid (Extended Club Mix)",
+                        "author": "house calls",
+                        "link": "m35EnTTIErg.mp3",
+                        "cover": "m35EnTTIErg.jpeg"
+                    },
+                    {
+                        "title": "all I know",
+                        "author": "Machine Gun Kelly - Topic",
+                        "link": "m4viJpmm0QY.mp3",
+                        "cover": "m4viJpmm0QY.jpeg"
+                    },
+                    {
+                        "title": "Draper ft. Laura Brehm - Pressure",
+                        "author": "Laura Brehm",
+                        "link": "mDsrdYBwKNY.mp3",
+                        "cover": "mDsrdYBwKNY.jpeg"
+                    },
+                    {
+                        "title": "R3HAB x MOTi - Up All Night ft. Fiora (Official Video)",
+                        "author": "R3HAB",
+                        "link": "MeaLc5gIuYw.mp3",
+                        "cover": "MeaLc5gIuYw.jpeg"
+                    },
+                    {
+                        "title": "Bondax - Gold (Snakehips Bootleg)",
+                        "author": "Majestic Casual",
+                        "link": "mFnqEo9367s.mp3",
+                        "cover": "mFnqEo9367s.jpeg"
+                    },
+                    {
+                        "title": "Damaui - Lighthouse (Original Mix)",
+                        "author": "Zero Claim Records",
+                        "link": "MHMYe2mjGeY.mp3",
+                        "cover": "MHMYe2mjGeY.jpeg"
+                    },
+                    {
+                        "title": "why are you here",
+                        "author": "Machine Gun Kelly - Topic",
+                        "link": "MiYjOh9qYrM.mp3",
+                        "cover": "MiYjOh9qYrM.jpeg"
+                    },
+                    {
+                        "title": "KILLA - Retro Love | Hype | NCS - Copyright Free Music",
+                        "author": "NoCopyrightSounds",
+                        "link": "mSEIigOpJmM.mp3",
+                        "cover": "mSEIigOpJmM.jpeg"
+                    },
+                    {
+                        "title": "Sick Boy",
+                        "author": "The Chainsmokers - Topic",
+                        "link": "n4yeoHFu7AM.mp3",
+                        "cover": "n4yeoHFu7AM.jpeg"
+                    },
+                    {
+                        "title": "Bryan Adams - Run To You",
+                        "author": "BryanAdamsVEVO",
+                        "link": "nCBASt507WA.mp3",
+                        "cover": "nCBASt507WA.jpeg"
+                    },
+                    {
+                        "title": "Automation",
+                        "author": "SelloRekt / LA Dreams - Topic",
+                        "link": "nmxJbqSeohM.mp3",
+                        "cover": "nmxJbqSeohM.jpeg"
+                    },
+                    {
+                        "title": "DESERT STAR - Carissa (Lyrics)",
+                        "author": "Prestige Vibes",
+                        "link": "nq62nI9Zy3M.mp3",
+                        "cover": "nq62nI9Zy3M.jpeg"
+                    },
+                    {
+                        "title": "8 Rounds",
+                        "author": "Zaug",
+                        "bpm": 90,
+                        "link": "nXgbkJxMyrg.mp3",
+                        "cover": "nXgbkJxMyrg.jpeg"
+                    },
+                    {
+                        "title": "Cher - Believe (Official Music Video) [4K Remaster]",
+                        "author": "Cher",
+                        "link": "nZXRV4MezEw.mp3",
+                        "cover": "nZXRV4MezEw.jpeg"
+                    },
+                    {
+                        "title": "1984",
+                        "author": "Mauve",
+                        "bpm": 106,
+                        "link": "O7tfCnV41S8.mp3",
+                        "cover": "O7tfCnV41S8.jpeg"
+                    },
+                    {
+                        "title": "I Feel Love (Extended Mix)",
+                        "author": "CRW - Topic",
+                        "link": "OdSypMtLzMs.mp3",
+                        "cover": "OdSypMtLzMs.jpeg"
+                    },
+                    {
+                        "title": "Summertime Friends",
+                        "author": "The Chainsmokers - Topic",
+                        "link": "OKza5Hi0s5w.mp3",
+                        "cover": "OKza5Hi0s5w.jpeg"
+                    },
+                    {
+                        "title": "♪ MDK - Jelly Castle [FREE DOWNLOAD] ♪",
+                        "author": "MDK",
+                        "link": "oMoYbINoShc.mp3",
+                        "cover": "oMoYbINoShc.jpeg"
+                    },
+                    {
+                        "title": "Wild Child",
+                        "author": "WEKEED",
+                        "bpm": 127,
+                        "link": "PBEr1kE95iI.mp3",
+                        "cover": "PBEr1kE95iI.jpeg"
+                    },
+                    {
+                        "title": "4D",
+                        "author": "Bad Computer - Topic",
+                        "link": "PeL2Wr_BLEE.mp3",
+                        "cover": "PeL2Wr_BLEE.jpeg"
+                    },
+                    {
+                        "title": "Sum 41 - Walking Disaster (Official Music Video)",
+                        "author": "Sum41VEVO",
+                        "link": "PHx-xqs3hO8.mp3",
+                        "cover": "PHx-xqs3hO8.jpeg"
+                    },
+                    {
+                        "title": "RATHER BE ALONE",
+                        "author": "STRLGHT - Topic",
+                        "link": "pR_Z8rCc7kE.mp3",
+                        "cover": "pR_Z8rCc7kE.jpeg"
+                    },
+                    {
+                        "title": "Futurecop! - I'm Enough [Cosmos]",
+                        "author": "Retrowave Cinema",
+                        "link": "PSv4RG9VDKY.mp3",
+                        "cover": "PSv4RG9VDKY.jpeg"
+                    },
+                    {
+                        "title": "nothing inside",
+                        "author": "Machine Gun Kelly - Topic",
+                        "link": "PUB-ljnDF9I.mp3",
+                        "cover": "PUB-ljnDF9I.jpeg"
+                    },
+                    {
+                        "title": "Now, Now - MJ [Official Audio]",
+                        "author": "Now, Now",
+                        "link": "pXBsrw__Ohs.mp3",
+                        "cover": "pXBsrw__Ohs.jpeg"
+                    },
+                    {
+                        "title": "I’ll Make It Up To You",
+                        "author": "Imagine Dragons - Topic",
+                        "link": "q6KvD4kZv94.mp3",
+                        "cover": "q6KvD4kZv94.jpeg"
+                    },
+                    {
+                        "title": "Via Stellarum",
+                        "author": "o b i o - Topic",
+                        "link": "Q6ukGB6VkGA.mp3",
+                        "cover": "Q6ukGB6VkGA.jpeg"
+                    },
+                    {
+                        "title": "Best Day of My Life",
+                        "author": "Tom Odell",
+                        "bpm": 118,
+                        "link": "Q8kpPZzCuHs.mp3",
+                        "cover": "Q8kpPZzCuHs.jpeg"
+                    },
+                    {
+                        "title": "Once In A While (feat. Alina Renae)",
+                        "author": "Corticus - Topic",
+                        "link": "q9ECR_7jW48.mp3",
+                        "cover": "q9ECR_7jW48.jpeg"
+                    },
+                    {
+                        "title": "Ceci cela",
+                        "author": "Youv Dee",
+                        "bpm": 148,
+                        "link": "Qcs6cLFJrk0.mp3",
+                        "cover": "Qcs6cLFJrk0.jpeg"
+                    },
+                    {
+                        "title": "Jason",
+                        "author": "The Midnight",
+                        "bpm": 162,
+                        "link": "qIz-9CHVQUc.mp3",
+                        "cover": "qIz-9CHVQUc.jpeg"
+                    },
+                    {
+                        "title": "love race",
+                        "author": "Machine Gun Kelly - Topic",
+                        "link": "QkvNLdtkQcE.mp3",
+                        "cover": "QkvNLdtkQcE.jpeg"
+                    },
+                    {
+                        "title": "Last Train",
+                        "author": "The Midnight",
+                        "bpm": 110,
+                        "link": "qNpW5DHsWlI.mp3",
+                        "cover": "qNpW5DHsWlI.jpeg"
+                    },
+                    {
+                        "title": "bbno$ - it boy (official music video)",
+                        "author": "bbno$",
+                        "link": "QuvqzlxEO6g.mp3",
+                        "cover": "QuvqzlxEO6g.jpeg"
+                    },
+                    {
+                        "title": "The Chainsmokers - If You're Serious (Official Lyric Video)",
+                        "author": "ChainsmokersVEVO",
+                        "link": "qxmDBSXyvsU.mp3",
+                        "cover": "qxmDBSXyvsU.jpeg"
+                    },
+                    {
+                        "title": "Darius - Hot Hands",
+                        "author": "Darius",
+                        "link": "qZvQiOxddT8.mp3",
+                        "cover": "qZvQiOxddT8.jpeg"
+                    },
+                    {
+                        "title": "DESERT STAR - Empty Sky [Monstercat Release]",
+                        "author": "Monstercat Instinct",
+                        "link": "rJSPEN4gKzk.mp3",
+                        "cover": "rJSPEN4gKzk.jpeg"
+                    },
+                    {
+                        "title": "47Ter - Si j'avais feat. La Fouine (clip officiel)",
+                        "author": "47Ter",
+                        "link": "RjUUaxuXBsI.mp3",
+                        "cover": "RjUUaxuXBsI.jpeg"
+                    },
+                    {
+                        "title": "bloody valentine",
+                        "author": "Machine Gun Kelly - Topic",
+                        "link": "RKwpWqOrSA8.mp3",
+                        "cover": "RKwpWqOrSA8.jpeg"
+                    },
+                    {
+                        "title": "HARLEE - Reset [Joel Corry Remix]",
+                        "author": "Joel Corry",
+                        "link": "rlpYlud4U0A.mp3",
+                        "cover": "rlpYlud4U0A.jpeg"
+                    },
+                    {
+                        "title": "Vengaboys - Boom Boom Boom Boom!!",
+                        "author": "Prezioso x Alyon & Mylian Hardstyle Bootleg",
+                        "link": "RPyEc1kzaK8.mp3",
+                        "cover": "RPyEc1kzaK8.jpeg"
+                    },
+                    {
+                        "title": "Cascade Nights",
+                        "author": "Hello Meteor - Topic",
+                        "link": "RRLRwBAdb44.mp3",
+                        "cover": "RRLRwBAdb44.jpeg"
+                    },
+                    {
+                        "title": "I Know (Radio Edit)",
+                        "author": "Shift K3Y - Topic",
+                        "link": "RUlhqMbL-jk.mp3",
+                        "cover": "RUlhqMbL-jk.jpeg"
+                    },
+                    {
+                        "title": "blackbear - i dont love me (Official Audio)",
+                        "author": "blackbearVEVO",
+                        "link": "RztyIwyV8XY.mp3",
+                        "cover": "RztyIwyV8XY.jpeg"
+                    },
+                    {
+                        "title": "Kenya Grace - Strangers (Official Lyric Video)",
+                        "author": "Kenya Grace",
+                        "link": "S2TaAcwC_zI.mp3",
+                        "cover": "S2TaAcwC_zI.jpeg"
+                    },
+                    {
+                        "title": "When We Were Young",
+                        "author": "Magic Dance - Topic",
+                        "link": "S82jhowprn4.mp3",
+                        "cover": "S82jhowprn4.jpeg"
+                    },
+                    {
+                        "title": "Turn off the Lights",
+                        "author": "Chris Lake - Topic",
+                        "link": "SD6sBGfHDtE.mp3",
+                        "cover": "SD6sBGfHDtE.jpeg"
+                    },
+                    {
+                        "title": "Ocean (Sunset Version)",
+                        "author": "Orax - Topic",
+                        "link": "SOoD1oPr47I.mp3",
+                        "cover": "SOoD1oPr47I.jpeg"
+                    },
+                    {
+                        "title": "Strange Talk - Cast Away",
+                        "author": "StrangeTalkVEVO",
+                        "link": "SxDLd0bhhKk.mp3",
+                        "cover": "SxDLd0bhhKk.jpeg"
+                    },
+                    {
+                        "title": "MAYDAY",
+                        "author": "TheFatRat",
+                        "bpm": 150,
+                        "link": "szDsuIRCPn0.mp3",
+                        "cover": "szDsuIRCPn0.jpeg"
+                    },
+                    {
+                        "title": "Joel Corry - Sorry [Official Video]",
+                        "author": "Joel Corry",
+                        "link": "TjstYyrD8d8.mp3",
+                        "cover": "TjstYyrD8d8.jpeg"
+                    },
+                    {
+                        "title": "Labrinth - Formula",
+                        "author": "BASSTON, STROBE Techno Remix",
+                        "link": "Tqlo-3Udvv4.mp3",
+                        "cover": "Tqlo-3Udvv4.jpeg"
+                    },
+                    {
+                        "title": "Jim Yosef & Laura Brehm - Into the Sky (Official Lyric Video)",
+                        "author": "Laura Brehm",
+                        "link": "TSJZ-2Xjwck.mp3",
+                        "cover": "TSJZ-2Xjwck.jpeg"
+                    },
+                    {
+                        "title": "Timecop1983 - Moments in Time",
+                        "author": "NewRetroWave",
+                        "link": "TSlcnyCMHk8.mp3",
+                        "cover": "TSlcnyCMHk8.jpeg"
+                    },
+                    {
+                        "title": "Circles",
+                        "author": "machineheart - Topic",
+                        "link": "U3SWpLB1BlU.mp3",
+                        "cover": "U3SWpLB1BlU.jpeg"
+                    },
+                    {
+                        "title": "B3nte & B3VA - Boombox (Official Audio)",
+                        "author": "Spinnin' Records",
+                        "link": "u6RB9OR-7cE.mp3",
+                        "cover": "u6RB9OR-7cE.jpeg"
+                    },
+                    {
+                        "title": "Avicii - SOS (Fan Memories Video) ft. Aloe Blacc",
+                        "author": "AviciiOfficialVEVO",
+                        "link": "u8tdT5pAE34.mp3",
+                        "cover": "u8tdT5pAE34.jpeg"
+                    },
+                    {
+                        "title": "Candy",
+                        "author": "Machine Gun Kelly",
+                        "link": "uACMiLrsnJc.mp3",
+                        "cover": "uACMiLrsnJc.jpeg"
+                    },
+                    {
+                        "title": "Snoop Dogg feat. The Doors - Riders on the Storm",
+                        "author": "Rebel Music Studios",
+                        "link": "ubWL8VAPoYw.mp3",
+                        "cover": "ubWL8VAPoYw.jpeg"
+                    },
+                    {
+                        "title": "Purple Disco Machine, Sophie and the Giants - Hypnotized (Official Video)",
+                        "author": "pdmVEVO",
+                        "link": "UbYQErtM9Zk.mp3",
+                        "cover": "UbYQErtM9Zk.jpeg"
+                    },
+                    {
+                        "title": "DubRocca - Heart And Soul",
+                        "author": "DubRocca",
+                        "link": "UeyCU7Mv-9Y.mp3",
+                        "cover": "UeyCU7Mv-9Y.jpeg"
+                    },
+                    {
+                        "title": "Let's Party",
+                        "author": "SelloRekt / LA Dreams - Topic",
+                        "link": "UIzNaG0dG5E.mp3",
+                        "cover": "UIzNaG0dG5E.jpeg"
+                    },
+                    {
+                        "title": "Aguava - If I",
+                        "author": "Majestic Casual",
+                        "link": "UP8C0CWpfDM.mp3",
+                        "cover": "UP8C0CWpfDM.jpeg"
+                    },
+                    {
+                        "title": "[Glitch Hop or 110BPM] - Tristam - Till It's Over [Monstercat Release]",
+                        "author": "Monstercat Uncaged",
+                        "link": "usXhiWE2Uc0.mp3",
+                        "cover": "usXhiWE2Uc0.jpeg"
+                    },
+                    {
+                        "title": "Avicii - The Nights",
+                        "author": "AviciiOfficialVEVO",
+                        "link": "UtF6Jej8yb4.mp3",
+                        "cover": "UtF6Jej8yb4.jpeg"
+                    },
+                    {
+                        "title": "The G - Wanderers (feat. Michelle B)",
+                        "author": "NewRetroWave",
+                        "link": "uzmwRMJI1Qw.mp3",
+                        "cover": "uzmwRMJI1Qw.jpeg"
+                    },
+                    {
+                        "title": "Bones",
+                        "author": "Imagine Dragons - Topic",
+                        "link": "V2SVRJ6dcE4.mp3",
+                        "cover": "V2SVRJ6dcE4.jpeg"
+                    },
+                    {
+                        "title": "Avicii - Broken Arrows",
+                        "author": "AviciiOfficialVEVO",
+                        "link": "V6iKSUoUN48.mp3",
+                        "cover": "V6iKSUoUN48.jpeg"
+                    },
+                    {
+                        "title": "Nightrider",
+                        "author": "Neon Nox - Topic",
+                        "link": "VayvHsroyLQ.mp3",
+                        "cover": "VayvHsroyLQ.jpeg"
+                    },
+                    {
+                        "title": "Lost & Found",
+                        "author": "The Midnight",
+                        "bpm": 158,
+                        "link": "vDNG5AkNfcs.mp3",
+                        "cover": "vDNG5AkNfcs.jpeg"
+                    },
+                    {
+                        "title": "Anna Yvette - Red Line [NCS Release] - Synthwave",
+                        "author": "Anna Yvette",
+                        "link": "VjVznU_kPHU.mp3",
+                        "cover": "VjVznU_kPHU.jpeg"
+                    },
+                    {
+                        "title": "WTF",
+                        "author": "Sasha Alex Sloan - Topic",
+                        "link": "vLuavhWgf5Q.mp3",
+                        "cover": "vLuavhWgf5Q.jpeg"
+                    },
+                    {
+                        "title": "Dead End",
+                        "author": "Neon Nox - Topic",
+                        "link": "vYnnaWVEln4.mp3",
+                        "cover": "vYnnaWVEln4.jpeg"
+                    },
+                    {
+                        "title": "Charlie Puth - Light Switch [Official Music Video]",
+                        "author": "Charlie Puth",
+                        "link": "WFsAon_TWPQ.mp3",
+                        "cover": "WFsAon_TWPQ.jpeg"
+                    },
+                    {
+                        "title": "Sugar Plumbin'",
+                        "author": "Various Artists",
+                        "link": "Wg42WIkXn-w.mp3",
+                        "cover": "Wg42WIkXn-w.jpeg"
+                    },
+                    {
+                        "title": "She Change My Life",
+                        "author": "Sickbboyy - Topic",
+                        "link": "wkRPGfpWnjE.mp3",
+                        "cover": "wkRPGfpWnjE.jpeg"
+                    },
+                    {
+                        "title": "WRLD - Hang Up (feat. Savoi) [Monstercat Release]",
+                        "author": "Monstercat Instinct",
+                        "link": "WpPpuqieuSg.mp3",
+                        "cover": "WpPpuqieuSg.jpeg"
+                    },
+                    {
+                        "title": "DREAMERS - Black & White (Visualizer Video)",
+                        "author": "dreamersVEVO",
+                        "link": "WSf90MxoI7s.mp3",
+                        "cover": "WSf90MxoI7s.jpeg"
+                    },
+                    {
+                        "title": "Jethro Heston, Cardboard Foxes - Cut Me Loose (ft. Max Marshall)",
+                        "author": "Jethro Heston",
+                        "link": "WTI3PgwUquI.mp3",
+                        "cover": "WTI3PgwUquI.jpeg"
+                    },
+                    {
+                        "title": "Tollef - Capsized [NCS Release]",
+                        "author": "NoCopyrightSounds",
+                        "link": "WVuLOk_djws.mp3",
+                        "cover": "WVuLOk_djws.jpeg"
+                    },
+                    {
+                        "title": "Temptation (feat. Poppy Baskcomb)",
+                        "author": "Jess Bays - Topic",
+                        "link": "WYggirzN_ic.mp3",
+                        "cover": "WYggirzN_ic.jpeg"
+                    },
+                    {
+                        "title": "Boface - Heart Out (ft. Sean) ♪",
+                        "author": "StarlingEDM",
+                        "link": "WZedN1IcMO0.mp3",
+                        "cover": "WZedN1IcMO0.jpeg"
+                    },
+                    {
+                        "title": "Shivers",
+                        "author": "Netrum - Topic",
+                        "link": "x06E5p5dR_A.mp3",
+                        "cover": "x06E5p5dR_A.jpeg"
+                    },
+                    {
+                        "title": "3LAU - Walk Away (feat. Luna Aura) (Hibell Remix)",
+                        "author": "3LAU",
+                        "link": "X0vPG2FzOrY.mp3",
+                        "cover": "X0vPG2FzOrY.jpeg"
+                    },
+                    {
+                        "title": "Rise Up",
+                        "author": "Imagine Dragons - Topic",
+                        "link": "x12CWu3V0lg.mp3",
+                        "cover": "x12CWu3V0lg.jpeg"
+                    },
+                    {
+                        "title": "All These Thoughts",
+                        "author": "NEFFEX - Topic",
+                        "link": "xCAzjIsRh_I.mp3",
+                        "cover": "xCAzjIsRh_I.jpeg"
+                    },
+                    {
+                        "title": "blackbear, Machine Gun Kelly - gfy (Official Video)",
+                        "author": "blackbearVEVO",
+                        "link": "XDnw808NKXY.mp3",
+                        "cover": "XDnw808NKXY.jpeg"
+                    },
+                    {
+                        "title": "I Remember",
+                        "author": "Tristam",
+                        "bpm": 110,
+                        "link": "xgKe-8fPYaI.mp3",
+                        "cover": "xgKe-8fPYaI.jpeg"
+                    },
+                    {
+                        "title": "mgk & Trippie Redd - hiding in the hills (Official Audio)",
+                        "author": "mgk",
+                        "link": "xLcMu1HgBg4.mp3",
+                        "cover": "xLcMu1HgBg4.jpeg"
+                    },
+                    {
+                        "title": "Da Tweekaz & DJane HouseKat - LA DI DA (Official Hardstyle Video)",
+                        "author": "Dirty Workz",
+                        "link": "XlIHwO1Jed8.mp3",
+                        "cover": "XlIHwO1Jed8.jpeg"
+                    },
+                    {
+                        "title": "The Final Showdown",
+                        "author": "Neon Nox - Topic",
+                        "link": "xLuJWm9apk4.mp3",
+                        "cover": "xLuJWm9apk4.jpeg"
+                    },
+                    {
+                        "title": "mgk & Trippie Redd - beauty (Official Music Video)",
+                        "author": "mgk",
+                        "link": "Y5a59wE3JYU.mp3",
+                        "cover": "Y5a59wE3JYU.jpeg"
+                    },
+                    {
+                        "title": "French 79 - Hometown [Official Video]",
+                        "author": "French 79",
+                        "link": "yAv5pLO37mE.mp3",
+                        "cover": "yAv5pLO37mE.jpeg"
+                    },
+                    {
+                        "title": "Eclypse",
+                        "author": "BEATSMASH",
+                        "bpm": 150,
+                        "link": "yQ45WARWTEQ.mp3",
+                        "cover": "yQ45WARWTEQ.jpeg"
+                    },
+                    {
+                        "title": "Filatov & Karas - Don't Be So Shy (Extreme Mix Remix)",
+                        "author": "Extreme Mix",
+                        "link": "Z1hymU7Xak0.mp3",
+                        "cover": "Z1hymU7Xak0.jpeg"
+                    },
+                    {
+                        "title": "Robert Parker - '85 Again (feat. Miss K)",
+                        "author": "NewRetroWave",
+                        "link": "Z1oB2EDu5XA.mp3",
+                        "cover": "Z1oB2EDu5XA.jpeg"
+                    },
+                    {
+                        "title": "Loop",
+                        "author": "Martin Garrix - Topic",
+                        "link": "Z44CUqITyqQ.mp3",
+                        "cover": "Z44CUqITyqQ.jpeg"
+                    },
+                    {
+                        "title": "Livin Without Maybes (feat. Gor Sujyan)",
+                        "author": "Lost Capital - Topic",
+                        "link": "z5bjjVltgSw.mp3",
+                        "cover": "z5bjjVltgSw.jpeg"
+                    },
+                    {
+                        "title": "At 1980 - Still in Love",
+                        "author": "NewRetroWave",
+                        "link": "Zjh5amvgMNQ.mp3",
+                        "cover": "Zjh5amvgMNQ.jpeg"
+                    },
+                    {
+                        "title": "3rd Prototype - Dancefloor | Future House | NCS - Copyright Free Music",
+                        "author": "NoCopyrightSounds",
+                        "link": "ZLohS_HScwc.mp3",
+                        "cover": "ZLohS_HScwc.jpeg"
+                    },
+                    {
+                        "title": "Light It Up",
+                        "author": "Robin Hustin - Topic",
+                        "link": "ZMPyRz_Gs74.mp3",
+                        "cover": "ZMPyRz_Gs74.jpeg"
+                    },
+                    {
+                        "title": "I Think I'm OKAY",
+                        "author": "Machine Gun Kelly - Topic",
+                        "link": "zozdDYOateQ.mp3",
+                        "cover": "zozdDYOateQ.jpeg"
+                    },
+                    {
+                        "title": "John Newman - Waiting For A Lifetime (Official Lyric Video)",
+                        "author": "John Newman",
+                        "link": "zS5NucSJqVY.mp3",
+                        "cover": "zS5NucSJqVY.jpeg"
+                    },
+                    {
+                        "title": "Anna Yvette - Shooting Star [Forza Horizon 4 Pulse] - Synthwave, Retrowave, Synthpop",
+                        "author": "Anna Yvette",
+                        "link": "ZXgHcdLM7lM.mp3",
+                        "cover": "ZXgHcdLM7lM.jpeg"
+                    },
+                    {
+                        "title": "Disciples - On My Mind (Official Video)",
+                        "author": "Disciples",
+                        "link": "z_1WcUAcbgQ.mp3",
+                        "cover": "z_1WcUAcbgQ.jpeg"
+                    },
+                    {
+                        "title": "Forget Somebody",
+                        "author": "Tom Gregory",
+                        "bpm": 152,
+                        "link": "_2NEEaZbs9Y.mp3",
+                        "cover": "_2NEEaZbs9Y.jpeg"
+                    },
+                    {
+                        "title": "Grave",
+                        "author": "Stellar",
+                        "bpm": 88,
+                        "link": "_nFLJ-6S3e4.mp3",
+                        "cover": "_nFLJ-6S3e4.jpeg"
+                    },
+                    {
+                        "title": "Levels",
+                        "author": "Avicii",
+                        "bpm": 126,
+                        "link": "_ovdm2yX4MA.mp3",
+                        "cover": "_ovdm2yX4MA.jpeg"
+                    },
+                    {
+                        "title": "Mauvais",
+                        "author": "Lefa",
+                        "bpm": 170,
+                        "link": "_uaOBFBIQy8.mp3",
+                        "cover": "_uaOBFBIQy8.jpeg"
+                    },
+                    {
+                        "title": "Body Back",
+                        "author": "Gryffin ft. Maia Wright",
+                        "bpm": 123,
+                        "link": "_X--xYexBdI.mp3",
+                        "cover": "_X--xYexBdI.jpeg"
+                    }
+                ]
+            }
+        }
+    }
+}
