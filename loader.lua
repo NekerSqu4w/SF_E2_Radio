@@ -25,6 +25,7 @@ local function load(use_own_playlist_url,exec)
         local ld = json.decode(response)
         if ld.metadata.version == 1 then
             exec(ld,{error=false,"No error occured"})
+            return
         end
 
         exec({},{error=true,"Invalid playlist version"})
