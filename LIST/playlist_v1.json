@@ -75,6 +75,14 @@
                         "cover": "-kpC4fN7e4Q.jpeg"
                     },
                     {
+                        "title": "Migraine",
+                        "author": "Ellis ft. Anna Yvette",
+                        "bpm": 126,
+                        "genre": "Future House",
+                        "link": "-M60_YUvA5o.mp3",
+                        "cover": "-M60_YUvA5o.jpeg"
+                    },
+                    {
                         "title": "Another Life (feat. Alida)",
                         "author": "Lucas & Steve - Topic",
                         "link": "08utSGfQW8o.mp3",
@@ -182,8 +190,9 @@
                         "cover": "7MrRi-2nokM.jpeg"
                     },
                     {
-                        "title": "LAADS - Bad Girl | House | NCS - Copyright Free Music",
-                        "author": "NoCopyrightSounds",
+                        "title": "Bad Girl",
+                        "author": "LAADS",
+                        "bpm": 132,
                         "genre": "House",
                         "link": "86GVdFyPVi4.mp3",
                         "cover": "86GVdFyPVi4.jpeg"
@@ -206,6 +215,13 @@
                         "bpm": 124,
                         "link": "91R62-m0C4E.mp3",
                         "cover": "91R62-m0C4E.jpeg"
+                    },
+                    {
+                        "title": "The Riddle",
+                        "author": "Gigi D'Agostino",
+                        "bpm": 127,
+                        "link": "9DXMDzqA-UI.mp3",
+                        "cover": "9DXMDzqA-UI.jpeg"
                     },
                     {
                         "title": "maybe",
@@ -598,6 +614,13 @@
                         "cover": "jHP19m8G_Y0.jpeg"
                     },
                     {
+                        "title": "Wannabe (Spice Girls Cover)",
+                        "author": "why mona",
+                        "bpm": 85,
+                        "link": "jj2GfsB2EYs.mp3",
+                        "cover": "jj2GfsB2EYs.jpeg"
+                    },
+                    {
                         "title": "8 bit mentality",
                         "author": "stage7",
                         "link": "jjVgsZ-3-L0.mp3",
@@ -640,6 +663,13 @@
                         "author": "blink182VEVO",
                         "link": "K7l5ZeVVoCA.mp3",
                         "cover": "K7l5ZeVVoCA.jpeg"
+                    },
+                    {
+                        "title": "Had Some Drinks",
+                        "author": "Two Feet",
+                        "bpm": 85,
+                        "link": "k7mkdb5y3As.mp3",
+                        "cover": "k7mkdb5y3As.jpeg"
                     },
                     {
                         "title": "America Online",
@@ -861,6 +891,13 @@
                         "author": "MDK",
                         "link": "oMoYbINoShc.mp3",
                         "cover": "oMoYbINoShc.jpeg"
+                    },
+                    {
+                        "title": "Silence Of Reality",
+                        "author": "Serhat Durmus",
+                        "bpm": 196,
+                        "link": "OptiVbKlGto.mp3",
+                        "cover": "OptiVbKlGto.jpeg"
                     },
                     {
                         "title": "Wild Child",
@@ -1236,50 +1273,58 @@
                         "cover": "WTI3PgwUquI.jpeg"
                     },
                     {
-                        "title": "Tollef - Capsized [NCS Release]",
-                        "author": "NoCopyrightSounds",
+                        "title": "Capsized",
+                        "author": "Tollef",
+                        "bpm": 124,
                         "link": "WVuLOk_djws.mp3",
                         "cover": "WVuLOk_djws.jpeg"
                     },
                     {
-                        "title": "Temptation (feat. Poppy Baskcomb)",
-                        "author": "Jess Bays - Topic",
+                        "title": "Temptation",
+                        "author": "Jess Bays fr. Poppy Baskcomb",
+                        "bpm": 125,
                         "link": "WYggirzN_ic.mp3",
                         "cover": "WYggirzN_ic.jpeg"
                     },
                     {
-                        "title": "Boface - Heart Out (ft. Sean) ♪",
-                        "author": "StarlingEDM",
+                        "title": "Heart Out ♪",
+                        "author": "Boface ft. Sean",
+                        "bpm": 126,
                         "link": "WZedN1IcMO0.mp3",
                         "cover": "WZedN1IcMO0.jpeg"
                     },
                     {
                         "title": "Shivers",
-                        "author": "Netrum - Topic",
+                        "author": "Netrum",
+                        "bpm": 161,
                         "link": "x06E5p5dR_A.mp3",
                         "cover": "x06E5p5dR_A.jpeg"
                     },
                     {
-                        "title": "3LAU - Walk Away (feat. Luna Aura) (Hibell Remix)",
-                        "author": "3LAU",
+                        "title": "Walk Away (Hibell Remix)",
+                        "author": "3LAU fr. Luna Aura",
+                        "bpm": 105,
                         "link": "X0vPG2FzOrY.mp3",
                         "cover": "X0vPG2FzOrY.jpeg"
                     },
                     {
                         "title": "Rise Up",
-                        "author": "Imagine Dragons - Topic",
+                        "author": "Imagine Dragons",
+                        "bpm": 94,
                         "link": "x12CWu3V0lg.mp3",
                         "cover": "x12CWu3V0lg.jpeg"
                     },
                     {
                         "title": "All These Thoughts",
-                        "author": "NEFFEX - Topic",
+                        "author": "NEFFEX",
+                        "bpm": 100,
                         "link": "xCAzjIsRh_I.mp3",
                         "cover": "xCAzjIsRh_I.jpeg"
                     },
                     {
-                        "title": "blackbear, Machine Gun Kelly - gfy (Official Video)",
-                        "author": "blackbearVEVO",
+                        "title": "gfy",
+                        "author": "blackbear fr. Machine Gun Kelly",
+                        "bpm": 121,
                         "link": "XDnw808NKXY.mp3",
                         "cover": "XDnw808NKXY.jpeg"
                     },
@@ -1291,8 +1336,9 @@
                         "cover": "xgKe-8fPYaI.jpeg"
                     },
                     {
-                        "title": "mgk & Trippie Redd - hiding in the hills (Official Audio)",
-                        "author": "mgk",
+                        "title": "hiding in the hills",
+                        "author": "mgk & Trippie Redd",
+                        "bpm": 150,
                         "link": "xLcMu1HgBg4.mp3",
                         "cover": "xLcMu1HgBg4.jpeg"
                     },
@@ -1304,19 +1350,22 @@
                     },
                     {
                         "title": "The Final Showdown",
-                        "author": "Neon Nox - Topic",
+                        "author": "Neon Nox",
+                        "bpm": 100,
                         "link": "xLuJWm9apk4.mp3",
                         "cover": "xLuJWm9apk4.jpeg"
                     },
                     {
-                        "title": "mgk & Trippie Redd - beauty (Official Music Video)",
-                        "author": "mgk",
+                        "title": "beauty",
+                        "author": "mgk & Trippie Redd",
+                        "bpm": 140,
                         "link": "Y5a59wE3JYU.mp3",
                         "cover": "Y5a59wE3JYU.jpeg"
                     },
                     {
-                        "title": "French 79 - Hometown [Official Video]",
+                        "title": "Hometown",
                         "author": "French 79",
+                        "bpm": 118,
                         "link": "yAv5pLO37mE.mp3",
                         "cover": "yAv5pLO37mE.jpeg"
                     },
@@ -1334,62 +1383,74 @@
                         "cover": "Z1hymU7Xak0.jpeg"
                     },
                     {
-                        "title": "Robert Parker - '85 Again (feat. Miss K)",
-                        "author": "NewRetroWave",
+                        "title": "'85 Again",
+                        "author": "Robert Parker fr. Miss K",
+                        "bpm": 125,
                         "link": "Z1oB2EDu5XA.mp3",
                         "cover": "Z1oB2EDu5XA.jpeg"
                     },
                     {
                         "title": "Loop",
-                        "author": "Martin Garrix - Topic",
+                        "author": "Martin Garrix",
+                        "bpm": 125,
                         "link": "Z44CUqITyqQ.mp3",
                         "cover": "Z44CUqITyqQ.jpeg"
                     },
                     {
-                        "title": "Livin Without Maybes (feat. Gor Sujyan)",
-                        "author": "Lost Capital - Topic",
+                        "title": "Livin Without Maybes",
+                        "author": "Lost Capital fr. Gor Sujyan",
+                        "bpm": 121,
                         "link": "z5bjjVltgSw.mp3",
                         "cover": "z5bjjVltgSw.jpeg"
                     },
                     {
-                        "title": "At 1980 - Still in Love",
-                        "author": "NewRetroWave",
+                        "title": "Still in Love",
+                        "author": "At 1980",
+                        "bpm": 120,
                         "link": "Zjh5amvgMNQ.mp3",
                         "cover": "Zjh5amvgMNQ.jpeg"
                     },
                     {
-                        "title": "3rd Prototype - Dancefloor | Future House | NCS - Copyright Free Music",
-                        "author": "NoCopyrightSounds",
+                        "title": "Dancefloor",
+                        "author": "3rd Prototype",
+                        "bpm": 126,
+                        "genre": "Future House",
                         "link": "ZLohS_HScwc.mp3",
                         "cover": "ZLohS_HScwc.jpeg"
                     },
                     {
                         "title": "Light It Up",
-                        "author": "Robin Hustin - Topic",
+                        "author": "Robin Hustin",
+                        "bpm": 128,
                         "link": "ZMPyRz_Gs74.mp3",
                         "cover": "ZMPyRz_Gs74.jpeg"
                     },
                     {
                         "title": "I Think I'm OKAY",
-                        "author": "Machine Gun Kelly - Topic",
+                        "author": "Machine Gun Kelly fr. YUNGBLUD & Travis Barker",
+                        "bpm": 120,
                         "link": "zozdDYOateQ.mp3",
                         "cover": "zozdDYOateQ.jpeg"
                     },
                     {
-                        "title": "John Newman - Waiting For A Lifetime (Official Lyric Video)",
+                        "title": "Waiting For A Lifetime",
                         "author": "John Newman",
+                        "bpm": 123,
                         "link": "zS5NucSJqVY.mp3",
                         "cover": "zS5NucSJqVY.jpeg"
                     },
                     {
-                        "title": "Anna Yvette - Shooting Star [Forza Horizon 4 Pulse] - Synthwave, Retrowave, Synthpop",
+                        "title": "Shooting Star",
                         "author": "Anna Yvette",
+                        "bpm": 125,
+                        "genre": "Synthwave, Retrowave, Synthpop",
                         "link": "ZXgHcdLM7lM.mp3",
                         "cover": "ZXgHcdLM7lM.jpeg"
                     },
                     {
-                        "title": "Disciples - On My Mind (Official Video)",
+                        "title": "On My Mind",
                         "author": "Disciples",
+                        "bpm": 122,
                         "link": "z_1WcUAcbgQ.mp3",
                         "cover": "z_1WcUAcbgQ.jpeg"
                     },
